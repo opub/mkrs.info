@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MKRS Info</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/95ab854ccd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <h2>MKRS Info</h2>
+    <div id="controls">
+        Filter: <input type="text" id="search">
+        Siblings: <input type="checkbox" id="siblings">
+    </div>
+    <div id="loader">
+        <i class="fa-solid fa-cog fa-spin"></i>
+    </div>
+    <div id="container" style="display: none;">
+        <table id="results">
+            <thead id="header"></thead>
+            <tbody id="rows"></tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
