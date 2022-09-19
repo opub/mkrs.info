@@ -1,4 +1,4 @@
-const count = 5;
+const maxRows = 500;
 const columns = ['Rank', 'Name', 'Sibling', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
 
 let data = [];
@@ -25,7 +25,7 @@ function populateTable() {
     // filter results
     const filter = document.getElementById('search').value.toUpperCase();
     const sibling = document.getElementById('siblings').checked;
-    const filtered = data.filter(m => {
+    let filtered = data.filter(m => {
         if (sibling && m.sibling.length === 0) {
             return false;
         } else if (filter.length > 0) {
@@ -41,6 +41,11 @@ function populateTable() {
         }
         return true;
     });
+    let truncated = false;
+    if(filtered.length > maxRows) {
+        filtered = filtered.slice(0, maxRows);
+        truncated = true;
+    }
 
     // render results
     const rows = document.createElement('tbody');
@@ -60,6 +65,12 @@ function populateTable() {
                 cell.style.backgroundColor = '#f8eb67';
             }
         }
+    }
+    if(truncated || filtered.length === 0) {
+        const row = rows.insertRow(-1);
+        const cell = row.insertCell(0);
+        cell.colSpan = columns.length;
+        cell.innerHTML = truncated ? 'Change filter or sort to display additional results.' : 'No matching results found.';
     }
     const table = document.getElementById('results');
     table.appendChild(rows);
