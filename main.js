@@ -8,15 +8,44 @@ let data = [];
         .then((response) => response.json())
         .then((json) => {
             data = json;
-            setTimeout(populateTable, 10);
+            updateTable();
         });
 })();
 
+function updateTable() {
+    loading(true);
+    setTimeout(populateTable, 10);
+}
+
 function populateTable() {
-    document.getElementById('rows').remove();
+    if (document.getElementById('rows')) {
+        document.getElementById('rows').remove();
+    }
+
+    // filter results
+    const filter = document.getElementById('search').value.toUpperCase();
+    const sibling = document.getElementById('siblings').checked;
+    const filtered = data.filter(m => {
+        if (sibling && m.sibling.length === 0) {
+            return false;
+        } else if (filter.length > 0) {
+            for (let a in m) {
+                if (m[a]) {
+                    const text = `${m[a]}`.toUpperCase();
+                    if (text.indexOf(filter) > -1) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+        return true;
+    });
+
+    // render results
     const rows = document.createElement('tbody');
     rows.id = 'rows';
-    for (let item of data) {
+    for (let item of filtered) {
         const row = rows.insertRow(-1);
         for (let i = 0; i < columns.length; i++) {
             const cell = row.insertCell(i);
@@ -27,42 +56,14 @@ function populateTable() {
             } else {
                 cell.innerHTML = item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()];
             }
+            if (filter.length > 0 && cell.textContent.toUpperCase().indexOf(filter) > -1) {
+                cell.style.backgroundColor = '#f8eb67';
+            }
         }
     }
     const table = document.getElementById('results');
     table.appendChild(rows);
-    filterTable();
     loading(false);
-}
-
-function filterTable() {
-    const filter = document.getElementById('search').value.toUpperCase();
-    const sibling = document.getElementById('siblings').checked;
-    const table = document.getElementById('rows');
-    const rows = table.getElementsByTagName('tr');
-    let flag = false;
-    let even = false;
-
-    for (let row of rows) {
-        let cells = row.getElementsByTagName('td');
-        for (let cell of cells) {
-            if (cell.textContent.toUpperCase().indexOf(filter) > -1) {
-                cell.style.backgroundColor = filter ? '#f8eb67' : '';
-                flag = true;
-            } else {
-                cell.style.backgroundColor = '';
-            }
-        }
-        if (sibling && flag) {
-            flag = cells[2].textContent.length > 0;
-        }
-        row.style.display = flag ? '' : 'none';
-        if (flag) {
-            row.className = even ? 'zebra' : '';
-            even = !even;
-        }
-        flag = false;
-    }
 }
 
 function loading(active) {
@@ -112,7 +113,6 @@ function clearArrow() {
 }
 
 function toggleArrow(event) {
-    loading(true);
     let element = event.target;
     let caret, field, reverse;
     if (element.tagName === 'I') {
@@ -136,8 +136,8 @@ function toggleArrow(event) {
     }
 
     data.sort(sortBy(field, reverse));
-    setTimeout(populateTable, 10);
+    updateTable();
 }
 
-document.getElementById('search').addEventListener('keyup', filterTable);
-document.getElementById('siblings').addEventListener('click', filterTable);
+document.getElementById('search').addEventListener('keyup', updateTable);
+document.getElementById('siblings').addEventListener('click', updateTable);
