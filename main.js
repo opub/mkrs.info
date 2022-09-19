@@ -47,7 +47,7 @@ function filterTable() {
         let cells = row.getElementsByTagName('td');
         for (let cell of cells) {
             if (cell.textContent.toUpperCase().indexOf(filter) > -1) {
-                cell.style.backgroundColor = filter ? '#ffff99' : '';
+                cell.style.backgroundColor = filter ? '#f8eb67' : '';
                 flag = true;
             } else {
                 cell.style.backgroundColor = '';
