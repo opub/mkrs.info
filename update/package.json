@@ -1,0 +1,14 @@
+{
+    "name": "mkrs.info",
+    "version": "1.0.0",
+    "description": "Update logic for MKRS.info JSON data",
+    "main": "index.js",
+    "author": "Ted O'Connor",
+    "license": "MIT",
+    "dependencies": {
+        "@metaplex/js": "^4.12.0",
+        "@solana/web3.js": "^1.50.1",
+        "axios": "^0.27.2",
+        "axios-request-throttle": "^1.0.0"
+    }
+}

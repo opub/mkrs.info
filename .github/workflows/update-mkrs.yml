@@ -1,0 +1,43 @@
+name: Update MKRS
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+
+jobs:
+  Update-MKRS-Stats:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Trigger = ${{ github.event_name }}"
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - run: cd update
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+      
+      - name: Install Packages
+        run: npm install
+      
+      - name: Run Program
+        run: node index.js
+      
+      - name: Check Updates
+        id: git-check
+        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+
+      - name: Commit Updates
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "updated $(date)"
+          git push
+
+      - run: echo "Status = ${{ job.status }}"
