@@ -14,18 +14,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - run: cd update
-
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
       
       - name: Install Packages
-        run: npm install
+        run: |
+          cd update
+          npm install
       
       - name: Run Program
-        run: node index.js
+        run: |
+          cd update
+          node index.js
       
       - name: Check Updates
         id: git-check
