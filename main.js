@@ -62,7 +62,7 @@ function populateTable() {
             } else if (columns[i] === 'Owner') {
                 cell.innerHTML = mask(item.owner);
             } else {
-                cell.innerHTML = item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()];
+                cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
             }
             if (filter.length > 0 && cell.textContent.toUpperCase().indexOf(filter) > -1) {
                 cell.style.backgroundColor = '#f8eb67';
@@ -200,6 +200,10 @@ function getTraits(nft) {
 
 function mask(address) {
     return address ? `${address.substring(0, 5)}...${address.substring(40)}` : '';
+}
+
+function pretty(value) {
+    return value ? value : '';
 }
 
 function hideDetails() {
