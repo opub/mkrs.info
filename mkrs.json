@@ -582,7 +582,8 @@
     "Teardrop": "None",
     "DNA Split": "Taped Mono",
     "Hair": "Ramona Pink",
-    "price": ""
+    "price": 7,
+    "ownerAlt": "listed"
   },
   {
     "mint": "EkonjnZHC2hURb1GsBpnbhSh23kp2wfr4SrVoV86ribZ",
@@ -4655,7 +4656,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Buns Blue",
-    "price": ""
+    "price": 3,
+    "ownerAlt": "listed"
   },
   {
     "mint": "5yorELTeH4TjpAZ2sBxMxBqtcXeihTWiBhxJQEDtRASD",
@@ -31179,7 +31181,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Bob Blue",
-    "price": ""
+    "price": "",
+    "ownerAlt": "listed"
   },
   {
     "mint": "8v5XvgeEEHu6fNviYWHQaBk6iHURm8FPQ9NS1vzrUXAw",
@@ -41682,7 +41685,8 @@
     "Teardrop": "Something In My Eye Clear Teardrop",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": "",
+    "ownerAlt": "listed"
   },
   {
     "mint": "FwCytjxfbFijiCnVskFtrTinWS4YA18eQUmN7DUThGTg",
@@ -62660,7 +62664,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 3.5,
+    "ownerAlt": "listed"
   },
   {
     "mint": "8X4LrhcbSngivn49epAw5s4npWSWbfJ6gsoQNZhvTRBY",
@@ -77021,7 +77026,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.5,
+    "ownerAlt": "listed"
   },
   {
     "mint": "3bfdQyF98xanyNimy8VWJ7MwttrsYRouW2gtXP3Dy2qE",
@@ -109421,7 +109427,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": "",
+    "ownerAlt": "listed"
   },
   {
     "mint": "ywhxexLXe9t5K8jjmWhQC618Vn8vHEKX2psFtbzMT3u",
