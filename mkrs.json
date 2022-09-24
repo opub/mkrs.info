@@ -9158,7 +9158,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Side Shave Yellow",
-    "price": ""
+    "price": 10,
+    "ownerAlt": "listed"
   },
   {
     "mint": "C7MfQA8qjrtuNk657Z3qr6X6gAHU5gtvMZWgmkk9fM6S",
@@ -29191,7 +29192,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Based Sand",
-    "price": ""
+    "price": 1.4,
+    "ownerAlt": "listed"
   },
   {
     "mint": "JgSqtqFqTYnwrAT9Cc2fxRnAMsmYwoyMhNHETr8ggXP",
@@ -33609,7 +33611,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Buns Sand",
-    "price": ""
+    "price": 1.27,
+    "ownerAlt": "listed"
   },
   {
     "mint": "86y2XGbjnJSEnu2mN4Mp1H67Fy53bb3EdB2xctfk9ZaZ",
@@ -53913,7 +53916,7 @@
     "name": "MKRS #3259",
     "image": "https://bafybeidf4vcwxiyx2z6fff5i2ca2rrtdweek2zehvo24xe422k6sg5ndmu.ipfs.nftstorage.link/3259.jpeg?ext=jpeg",
     "rank": 2647,
-    "owner": "BkF2bLsYxbzgFU7NnRGV2RpTbw3AY9RxSu9RU9xwseyY",
+    "owner": "6B4saq2DyB9aZrhvAoxHAi3gcaMzSQE4t8dzViZyyr6C",
     "owns": 2,
     "sibling": "",
     "siblings": [],
@@ -115223,7 +115226,7 @@
     "name": "MKRS #0006",
     "image": "https://bafybeie3nuj25dcuebpofaxfoorsz6h35dgxm533uqmg7dqdoft7vd2i3e.ipfs.nftstorage.link/6.jpeg?ext=jpeg",
     "rank": 5630,
-    "owner": "BkF2bLsYxbzgFU7NnRGV2RpTbw3AY9RxSu9RU9xwseyY",
+    "owner": "6B4saq2DyB9aZrhvAoxHAi3gcaMzSQE4t8dzViZyyr6C",
     "owns": 2,
     "sibling": "",
     "siblings": [],
