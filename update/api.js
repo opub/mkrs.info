@@ -1,4 +1,4 @@
-const { get, sleep, progress, clear } = require('./common/util');
+const { get, sleep } = require('./common/util');
 const { Connection, PublicKey } = require('@solana/web3.js');
 const { programs } = require('@metaplex/js');
 const { metadata: { Metadata } } = programs;
@@ -78,9 +78,7 @@ exports.getOwners = async function (fast, mints) {
                     }
                 }
                 while (loading)
-                progress(i / mints.length);
             }
-            clear();
             return owners;
         }
     }
