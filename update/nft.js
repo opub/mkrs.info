@@ -132,7 +132,6 @@ function signature(nft) {
         mint: undefined,
         name: undefined,
         image: undefined,
-        details: undefined,
         rank: undefined,
         owner: undefined,
         ownerAlt: undefined,

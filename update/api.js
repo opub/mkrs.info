@@ -15,7 +15,7 @@ let lastRequest = 0;
 
 // get both onchain and offchain metadata for each nft
 exports.getMetadata = async function (mint) {
-    let name, image, details, attributes;
+    let name, image, attributes;
     try {
         const pda = await Metadata.getPDA(mint);
         const onchain = (await Metadata.load(connect(), pda)).data;
@@ -30,7 +30,6 @@ exports.getMetadata = async function (mint) {
                 attributes = offchain.attributes;
             }
         }
-        details = `https://magiceden.io/item-details/${mint}?name=${encodeURI(name)}`;
     }
     catch (e) {
         console.log('getMetadata', e);
@@ -39,7 +38,6 @@ exports.getMetadata = async function (mint) {
         mint,
         name,
         image,
-        details,
         ...attributes
     };
 }

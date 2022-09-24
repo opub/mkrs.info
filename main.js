@@ -1,6 +1,6 @@
 const maxRows = 500;
-const columns = ['Rank', 'Name', 'Sibling', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
-const traits = ['Owner', 'Siblings', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
+const columns = ['Rank', 'Name', 'Sibling', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
+const traits = ['Owner', 'Siblings', 'Price', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
 
 let data = [];
 (function () {
@@ -26,8 +26,9 @@ function populateTable() {
     // filter results
     const filter = get('search').value.toUpperCase();
     const sibling = get('siblings').checked;
+    const listed = get('listed').checked;
     let filtered = data.filter(m => {
-        if (sibling && m.sibling.length === 0) {
+        if (sibling && m.sibling.length === 0 || listed && !m.price) {
             return false;
         } else if (filter.length > 0) {
             for (let a in m) {
@@ -57,9 +58,7 @@ function populateTable() {
         row.addEventListener('click', showDetails);
         for (let i = 0; i < columns.length; i++) {
             const cell = row.insertCell(i);
-            if (columns[i] === 'Name') {
-                cell.innerHTML = `<a href="${item.details}" target="_blank">${item.name}</a>`;
-            } else if (columns[i] === 'Owner') {
+            if (columns[i] === 'Owner') {
                 cell.innerHTML = mask(item.owner);
             } else {
                 cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
@@ -177,23 +176,24 @@ function getTraits(nft) {
     let html = '';
     for (let trait of traits) {
         let value = nft[trait] ? nft[trait] : nft[trait.toLowerCase()];
-        if (value) {
-            if (trait === 'Owner') {
-                value = `<a href="https://magiceden.io/u/${value}" title="${value}" target="_blank">${mask(value)}${nft.ownerAlt ? ' (' + nft.ownerAlt + ')' : ''}</a>`;
-            } else if (trait === 'Siblings') {
-                if (value.length === 0) {
-                    value = 'None</div><br><div>';
-                } else {
-                    let links = '';
-                    for (let sib of value) {
-                        const twin = data.find(item => item.mint === sib);
-                        links += `<a href="javascript:showDetails('${twin.mint}')">${twin.name}</a> `;
-                    }
-                    value = links + '</div><br><div>';
+        if (trait === 'Owner') {
+            value = `<a href="https://magiceden.io/u/${value}" title="${value}" target="_blank">${mask(value)}${nft.ownerAlt ? ' (' + nft.ownerAlt + ')' : ''}</a>`;
+        } else if (trait === 'Siblings') {
+            if (value.length === 0) {
+                value = 'None';
+            } else {
+                let links = '';
+                for (let sib of value) {
+                    const twin = data.find(item => item.mint === sib);
+                    links += `<a href="javascript:showDetails('${twin.mint}')">${twin.name}</a> `;
                 }
+                value = links;
             }
-            html += `<div class="trait"><span class="title">${trait}: </span>${value}</div>`;
+        } else if (trait === 'Price') {
+            value = value ? `${value} SOL` : 'Not Listed';
+            value = `<a href="https://magiceden.io/item-details/${nft.mint}?name=${encodeURI(nft.name)}" title="${value}" target="_blank">${value}</a></div><br><div>`;
         }
+        html += `<div class="trait"><span class="title">${trait}: </span>${value}</div>`;
     }
     return html;
 }
@@ -220,6 +220,7 @@ function get(id) {
 
 get('search').addEventListener('keyup', updateTable);
 get('siblings').addEventListener('click', updateTable);
+get('listed').addEventListener('click', updateTable);
 
 document.addEventListener('click', hideDetails, true);
 document.addEventListener('keydown', (event) => {
