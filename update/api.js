@@ -32,7 +32,7 @@ exports.getMetadata = async function (mint) {
         nft.details = `https://magiceden.io/item-details/${mint}?name=${encodeURI(nft.name)}`;
     }
     catch (e) {
-        console.error('getMetadata', e);
+        console.log('getMetadata', e);
     }
     return nft;
 }
@@ -48,7 +48,7 @@ exports.getRanks = async function () {
         }
     }
     catch (e) {
-        console.error('getRanks', e);
+        console.log('getRanks', e);
     }
     return new Map(ranks.map(item => [item.mint, item.rank]));
 }
@@ -83,7 +83,7 @@ exports.getOwners = async function (fast, mints) {
         }
     }
     catch (e) {
-        console.error('getOwners', e);
+        console.log('getOwners', e);
     }
     return {};
 }
@@ -97,7 +97,7 @@ async function requestError(err) {
         console.log('WARN', resp.statusText, resp.config.url);
         return true;
     } else {
-        console.error('ERROR', JSON.stringify(err, null, 2));
+        console.log('ERROR', JSON.stringify(err, null, 2));
         return false;
     }
 }
