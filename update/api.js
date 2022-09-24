@@ -4,6 +4,7 @@ const { programs } = require('@metaplex/js');
 const { metadata: { Metadata } } = programs;
 
 const collection = 'mkrs';
+const magicEden = 'https://api-mainnet.magiceden.dev/v2';
 const howrare = 'https://api.howrare.is/v0.1';
 const clusterURL = 'https://ssc-dao.genesysgo.net/';
 const commitment = 'confirmed';
@@ -14,27 +15,56 @@ let lastRequest = 0;
 
 // get both onchain and offchain metadata for each nft
 exports.getMetadata = async function (mint) {
-    const nft = { mint };
+    let name, image, details, attributes;
     try {
         const pda = await Metadata.getPDA(mint);
         const onchain = (await Metadata.load(connect(), pda)).data;
         if (onchain) {
-            nft.name = onchain.name;
+            name = onchain.name;
             const offchain = (await get(onchain.data.uri)).data;
             if (offchain) {
-                if (!nft.name) {
-                    nft.name = offchain.name;
+                if (!name) {
+                    name = offchain.name;
                 }
-                nft.image = offchain.image;
-                nft.attributes = offchain.attributes;
+                image = offchain.image;
+                attributes = offchain.attributes;
             }
         }
-        nft.details = `https://magiceden.io/item-details/${mint}?name=${encodeURI(nft.name)}`;
+        details = `https://magiceden.io/item-details/${mint}?name=${encodeURI(name)}`;
     }
     catch (e) {
         console.log('getMetadata', e);
     }
-    return nft;
+    return {
+        mint,
+        name,
+        image,
+        details,
+        ...attributes
+    };
+}
+
+// get current MagicEden listing prices for all items in collection
+exports.getPrices = async function () {
+    const prices = [];
+    const limit = 20;
+    let loading = true;
+    let offset = 0;
+    do {
+        try {
+            const url = `${magicEden}/collections/${collection}/listings?offset=${offset}&limit=${limit}`;
+            const { data } = await get(url);
+            loading = (data && data.length == limit);
+            offset += limit;
+            prices.push(...data);
+        }
+        catch (e) {
+            loading = await requestError(e);
+        }
+    }
+    while (loading)
+
+    return new Map(prices.map(item => [item.tokenMint, { price: item.price, seller: item.seller }]));
 }
 
 // get HowRare rarity ranks for all items in collection
