@@ -582,7 +582,7 @@
     "Teardrop": "None",
     "DNA Split": "Taped Mono",
     "Hair": "Ramona Pink",
-    "price": 7,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -1063,7 +1063,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Buns Grey",
-    "price": 18,
+    "price": "",
     "owner": "5Kj7efSy7jtZdXhdd8dsRxDohCB1m1JRo1KkRkpMQLC6",
     "owns": 2
   },
@@ -2439,7 +2439,7 @@
     "Teardrop": "Not Crying Clear Teardrop",
     "DNA Split": "None",
     "Hair": "Side Shave Green",
-    "price": 15,
+    "price": "",
     "owner": "FN7MLhvbUhFUEdxSQ3WFhuUMPUUTDPNuWUmfBbq8xN2U",
     "owns": 1
   },
@@ -2908,7 +2908,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Pony Yellow",
-    "price": 7,
+    "price": "",
     "owner": "G2h8DfmkxQvkFTykP4oDhJHg7EQMK55mgkyQ5H5Dtn7Z",
     "owns": 1
   },
@@ -5918,7 +5918,7 @@
     "Teardrop": "Just a Sparkle",
     "DNA Split": "None",
     "Hair": "Pixie Sand",
-    "price": 7.5,
+    "price": "",
     "owner": "7yQLirDE25oFxUtmagjauAEAHgGGwDMW2xZZz2Ksp5AY",
     "owns": 1
   },
@@ -11225,7 +11225,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Buns Red",
-    "price": 6.66,
+    "price": "",
     "owner": "4xj3pThDgnChFEtB89xt9NuuE1QnuxmwygNdRgzUP1tf",
     "owns": 108
   },
@@ -15326,7 +15326,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Pony Red",
-    "price": 2.4,
+    "price": "",
     "owner": "gck9ZUfnZc1VwyC16kcD2c8e77T1aoJKhrHtBKXkjdw",
     "owns": 1
   },
@@ -19302,7 +19302,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Bob Green",
-    "price": 9,
+    "price": "",
     "owner": "6M26k99p76sm8c1GMR13SPxAmAmf2ihUpMnLAC1DWncd",
     "owns": 3
   },
@@ -19831,7 +19831,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Part Green",
-    "price": 6.5,
+    "price": "",
     "owner": "6M26k99p76sm8c1GMR13SPxAmAmf2ihUpMnLAC1DWncd",
     "owns": 3
   },
@@ -19852,7 +19852,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 10,
+    "price": "",
     "owner": "Ef4GXnPZHVcPYotnWVh2FkNdVEuLw9QZPX7nQ27R4Xvf",
     "owns": 3
   },
@@ -29192,7 +29192,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Based Sand",
-    "price": 1.4,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -33954,7 +33954,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Pony Sand",
-    "price": 5,
+    "price": "",
     "owner": "5KAwFNLcf4US4QrwfXvvA2CcbCLYNCagXz7AQ7EW1Baq",
     "owns": 4
   },
@@ -40990,7 +40990,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 4.75,
+    "price": "",
     "owner": "6M26k99p76sm8c1GMR13SPxAmAmf2ihUpMnLAC1DWncd",
     "owns": 3
   },
@@ -42865,7 +42865,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 11.11,
+    "price": "",
     "owner": "84UM3WgFQbrcxuAnyUvF6z6Whomaysy5qwoS4P2AVNdZ",
     "owns": 1
   },
@@ -48451,7 +48451,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 1.4,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -49007,7 +49007,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.5,
+    "price": "",
     "owner": "3XzMtVZxomQ5UR37xnWLZ2b9DWmXHX8RoZPsL4qvWmnj",
     "owns": 3
   },
@@ -49894,7 +49894,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 5,
+    "price": "",
     "owner": "5KAwFNLcf4US4QrwfXvvA2CcbCLYNCagXz7AQ7EW1Baq",
     "owns": 4
   },
@@ -53455,7 +53455,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 8,
+    "price": "",
     "owner": "7JcS4MGeueVtfDisNHYpF4GiaowMq5zWv64eVU9sAUXn",
     "owns": 10
   },
@@ -59326,7 +59326,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 1.64,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -60016,7 +60016,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 1.72,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -62478,7 +62478,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 6,
+    "price": "",
     "owner": "4Nz4NSzHLtWhtTXrMEkSw6cFfwiESNuGosHWFxRMCKpm",
     "owns": 6
   },
@@ -62662,7 +62662,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 3.5,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -69428,7 +69428,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.4,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -74354,7 +74354,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.1,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -76157,7 +76157,9 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.25,
+    "owner": "GC7tgpd3rndu9JyJqDZvbmkDQyeJkCEMSSoZ4gi3H69A",
+    "owns": 3
   },
   {
     "mint": "C94BPpmbhQBaXS3PqbC25MLvzUstXbcoHM2QdmeoeEzf",
@@ -77613,7 +77615,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 3,
+    "price": "",
     "owner": "8HWYooXfLRkzQP5XcobxtxHkRMsupJJ474v3AwvdGmjv",
     "owns": 3
   },
@@ -78426,7 +78428,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 11.5,
+    "price": "",
     "owner": "2s2u4GgoPAuzK8Z3sBSUs6Ne9FbeRuY8kPkbKsEaeFXF",
     "owns": 3
   },
@@ -82369,7 +82371,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 100,
+    "price": "",
     "owner": "3zdTzvNajpqG3M3w2egZkszePnEmrCkYonHP7vPTLKch",
     "owns": 1
   },
@@ -89299,7 +89301,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.5,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -92104,7 +92106,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 1.45,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -97396,7 +97398,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.7,
+    "price": "",
     "owner": "FvGxnkma13hEa6cMbWWPABybNUdTBSAhLD47VfWApMvf",
     "owns": 2
   },
@@ -97751,7 +97753,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 8,
+    "price": "",
     "owner": "7JcS4MGeueVtfDisNHYpF4GiaowMq5zWv64eVU9sAUXn",
     "owns": 10
   },
@@ -98120,7 +98122,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.75,
+    "price": "",
     "owner": "3XzMtVZxomQ5UR37xnWLZ2b9DWmXHX8RoZPsL4qvWmnj",
     "owns": 3
   },
@@ -99694,7 +99696,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 1.8878,
+    "price": "",
     "owner": "8BMD6zWyt1FZFfQTkJGCs7zisnZWzyUBQLsBMSvsmM96",
     "owns": 2
   },
@@ -112679,7 +112681,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 2.3,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -113448,7 +113450,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 4,
+    "price": "",
     "owner": "6wSKhgcUqKNg9VNppDvzcoiAJ7PHDaDTeDgpjAr4avDp",
     "owns": 2
   },
@@ -114361,7 +114363,7 @@
     "Hair": "None",
     "price": 2.25,
     "owner": "GC7tgpd3rndu9JyJqDZvbmkDQyeJkCEMSSoZ4gi3H69A",
-    "owns": 2
+    "owns": 3
   },
   {
     "mint": "BSqvLgCufaa1B6awK1r1JeMaobYRjXg7RmLf1Q8uhV2h",
@@ -116326,7 +116328,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 1.55,
+    "price": "",
     "ownerAlt": "listed"
   },
   {
@@ -117957,7 +117959,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 5,
+    "price": "",
     "owner": "CWX5Tg8CuYsovSaTXxZmHrkVnF21z857Zvg78hjZrQGJ",
     "owns": 2
   },
@@ -118227,7 +118229,7 @@
     "Hair": "None",
     "price": 2.25,
     "owner": "GC7tgpd3rndu9JyJqDZvbmkDQyeJkCEMSSoZ4gi3H69A",
-    "owns": 2
+    "owns": 3
   },
   {
     "mint": "6btFfi3wBKHfEhLV6hwEDCYDWdpMaJL1Tcj3QSsnUkJt",
