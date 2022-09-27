@@ -7738,7 +7738,7 @@
     "image": "https://bafybeifgiynqu3c4npqps6ymhnwvn3tfg5bij3vnvfs3l53gkg326add5q.ipfs.nftstorage.link/2452.jpeg?ext=jpeg",
     "rank": 382,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 6,
@@ -12586,7 +12586,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Side Shave White",
-    "price": ""
+    "price": 2.5,
+    "ownerAlt": "listed"
   },
   {
     "mint": "HuBgWw4w8TCix1qtuwnqV1zKwa68bKGtE9wp4eKT9ZUD",
@@ -12734,7 +12735,7 @@
     "image": "https://bafybeifdevs2dmit6ts2rron6gmdygppsxismurestlejgytpl2dee4gny.ipfs.nftstorage.link/319.jpeg?ext=jpeg",
     "rank": 628,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 6,
@@ -16387,7 +16388,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Part Blue",
-    "price": ""
+    "price": 6,
+    "ownerAlt": "listed"
   },
   {
     "mint": "6nXpCKNfaj8o7JVUtPHfgpJvoF45roNBLuca31KdSFTJ",
@@ -16609,7 +16611,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Bob Red",
-    "price": ""
+    "price": 3,
+    "ownerAlt": "listed"
   },
   {
     "mint": "2yhPMS9PZYSqSoRwpseUKc3VynisNk8JJVqoA7QRFm48",
@@ -16714,7 +16717,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 5,
+    "ownerAlt": "listed"
   },
   {
     "mint": "Ba5pzMv82Tux9BiKY8usMGALwUT8Uge5Uh89u5obmtmL",
@@ -24241,7 +24245,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "Buns White",
-    "price": ""
+    "price": 2.3,
+    "ownerAlt": "listed"
   },
   {
     "mint": "BmKGZLS9bwdS41oNkhMzCsfBFt1LJwEH1mtweDioRmhd",
@@ -27022,7 +27027,7 @@
     "image": "https://bafybeifuetwty4kovcr2h3pmpfqsvd3k5ah4nw2urskohv76jer4gtaoay.ipfs.nftstorage.link/6417.jpeg?ext=jpeg",
     "rank": 1330,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 6,
@@ -35851,7 +35856,8 @@
     "Teardrop": "None",
     "DNA Split": "Taped Caution Split",
     "Hair": "None",
-    "price": ""
+    "price": 2.5,
+    "ownerAlt": "listed"
   },
   {
     "mint": "21mHi9eGPa3asJq3MrfxvrguG1ARZiYh9UNGsaEatqnb",
@@ -37363,7 +37369,7 @@
     "image": "https://bafybeifw4xakpzkdu7mse3zvsjjbw4mkcfqa2y3nvnrceq2zpuxjuxjlxa.ipfs.nftstorage.link/7006.jpeg?ext=jpeg",
     "rank": 1839,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 6,
@@ -44974,7 +44980,7 @@
     "image": "https://bafybeifzbxezpydbtyq33orodbgwuhntjffyzdd6s26ojza6je4uplj4wy.ipfs.nftstorage.link/7645.jpeg?ext=jpeg",
     "rank": 2213,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 5,
@@ -45678,7 +45684,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.1,
+    "ownerAlt": "listed"
   },
   {
     "mint": "Hnm6oMs2UGLRhqrjGdJUqKR77gK5PPwJVLb8znpK6pM2",
@@ -48436,7 +48443,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.5,
+    "ownerAlt": "listed"
   },
   {
     "mint": "Ts43KNpVunJ9PiVxPh8onJeiyqDHmMQnvHeXbgMA9FM",
@@ -53220,7 +53228,6 @@
     "name": "MKRS #2329",
     "image": "https://bafybeih3id3me6c7bjxirwpiu2joz64gm4mtqo5oolx6ixzvsgcwvd6i4q.ipfs.nftstorage.link/2329.jpeg?ext=jpeg",
     "rank": 2614,
-    "ownerAlt": "listed",
     "sibling": "",
     "siblings": [],
     "Traits": 5,
@@ -53232,9 +53239,9 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": 3.5,
-    "owner": "Hh4dfo6qzRNptnmwne4cgNSBQQmWAVf6MxrGu9WGSTrX",
-    "owns": 1
+    "price": "",
+    "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
+    "owns": 10
   },
   {
     "mint": "BXmSUJ8w93p1V3oG9DvXa4c8vF3bsxoC58fR7auhMUjh",
@@ -54582,7 +54589,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": "",
+    "price": 3.5,
     "ownerAlt": "listed"
   },
   {
@@ -56882,7 +56889,7 @@
     "image": "https://bafybeiearmve2qoh3m6dl6d3xae5ggmr77sk754cju37xjdzf6d23f23bq.ipfs.nftstorage.link/1618.jpeg?ext=jpeg",
     "rank": 2793,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 5,
@@ -59377,7 +59384,7 @@
     "image": "https://bafybeiehrs7244ktda2yd5xrsyh5lxzf4lqg5hksdnf6pvxn4maby44ju4.ipfs.nftstorage.link/4430.jpeg?ext=jpeg",
     "rank": 2915,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 5,
@@ -68149,7 +68156,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.1,
+    "ownerAlt": "listed"
   },
   {
     "mint": "9FiJTGS4CZGyN6fEU4MAkEvzJikLUKrLKjs66XWWWkQx",
@@ -77660,7 +77668,7 @@
     "image": "https://bafybeicxcgk7nncyktr5czk7epxwcj43hcacart2kn6ed5ztltbaer3l64.ipfs.nftstorage.link/6343.jpeg?ext=jpeg",
     "rank": 3806,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 5,
@@ -83439,7 +83447,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": "",
+    "price": 2.6,
     "ownerAlt": "listed"
   },
   {
@@ -87954,7 +87962,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": "",
+    "price": 2.7,
     "ownerAlt": "listed"
   },
   {
@@ -96555,7 +96563,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.3,
+    "ownerAlt": "listed"
   },
   {
     "mint": "84yQm8BvJ5vhqyRdpBEPFqQd2JvMpQmZmYiQvpSxtLKw",
@@ -98165,7 +98174,7 @@
     "image": "https://bafybeihivjzyu5r5v55k5ae2ugkfwrmspay7fbpjohp53urnc7jgrgds5e.ipfs.nftstorage.link/3052.jpeg?ext=jpeg",
     "rank": 4804,
     "owner": "DZ8L2c3sMEYsZ2XsDr2P9DAdLEVfXXiJr2a4pbDo5Rkx",
-    "owns": 9,
+    "owns": 10,
     "sibling": "",
     "siblings": [],
     "Traits": 5,
@@ -106462,7 +106471,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.2,
+    "ownerAlt": "listed"
   },
   {
     "mint": "77XrRoTBNtFPRZHi1W4toRV52pcp2De4WMN7Y1qqFWyM",
@@ -111144,7 +111154,7 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": "",
+    "price": 2.6,
     "ownerAlt": "listed"
   },
   {
@@ -114905,7 +114915,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2.2,
+    "ownerAlt": "listed"
   },
   {
     "mint": "G1VMTdDXtVRCLg8fV4mVL5raTFgfJVJR3GDzpbnyTghT",
@@ -122502,7 +122513,8 @@
     "Teardrop": "None",
     "DNA Split": "None",
     "Hair": "None",
-    "price": ""
+    "price": 2,
+    "ownerAlt": "listed"
   },
   {
     "mint": "CrZj7S69nrWSTLV1hUmu86Ai7puBwJqNuGkA5AjYd4Km",
