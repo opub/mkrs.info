@@ -2,8 +2,11 @@ const fs = require('fs');
 const { getMetadata, getRanks, getPrices, getOwners } = require('./api');
 const { increment, progress, clear } = require('./common/util');
 const hashList = require('./data/hash-list.json');
-const listSize = hashList.length;
 
+// this should allow nft metadata updates at least daily
+const batchSize = hashList.length / 12;
+
+const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'metaUpdated'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
 const exchange = 'FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu';
 const magiceden = '1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix';
@@ -13,27 +16,73 @@ const cacheFile = '../mkrs.json';
 exports.loadNFTs = async function () {
     console.log('loading nfts');
 
-    const loaded = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
-    const nfts = loaded.filter(nft => nft.image);
-    const exists = new Map(nfts.map(object => [object.mint, object]));
-
-    // get metadata for each nft - this is slow so cache results
-    if (nfts.length != listSize) {
-        for (let i = 0; i < listSize; i++) {
-            if (!exists.has(hashList[i])) {
-                const nft = await getMetadata(hashList[i]);
-                nfts.push(nft);
-            }
-            progress(i / listSize);
-        }
-        clear();
-    }
+    const nfts = await loadMetadata();
+    countTraits(nfts);
     await loadRanks(nfts);
     await loadPrices(nfts);
     await loadOwners(nfts);
     findSiblings(nfts);
 
     return nfts;
+}
+
+async function loadMetadata() {
+    // determine which nfts to fetch metadata for
+    // this is really slow so avoid updating them all every time
+    const loaded = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
+    const nfts = new Map(loaded.map(nft => [nft.mint, nft]));
+    let fetch = hashList.filter(hash => {
+        const filtered = loaded.filter(nft => nft.mint === hash);
+        return filtered.length === 0;
+    });
+
+    if (fetch.length === 0) {
+        // none missing so just update a batch of them
+        loaded.sort((a, b) => {
+            const x = a.metaUpdated ? a.metaUpdated : 0;
+            const y = b.metaUpdated ? b.metaUpdated : 0;
+            return x - y;
+        });
+        fetch = loaded.map(nft => nft.mint).slice(0, batchSize);
+    }
+
+    for (let i = 0; i < fetch.length; i++) {
+        const nft = await getMetadata(fetch[i]);
+        nfts.set(fetch[i], nft);
+        progress(i / fetch.length);
+    }
+    clear();
+    return Array.from(nfts.values());
+}
+
+function countTraits(nfts) {
+    // collect all attribute trait types
+    const types = [];
+    nfts.forEach(nft => {
+        for (const trait in nft) {
+            if (!common.includes(trait) && !types.includes(trait)) {
+                types.push(trait);
+            }
+        }
+    });
+    // normalize traits with count
+    nfts.forEach(nft => {
+        nft.Traits = 0;
+        types.forEach(type => {
+            let added = false;
+            for (const trait in nft) {
+                if (type === trait) {
+                    if (nft[trait] != 'None') {
+                        nft.Traits++;
+                    }
+                    added = true;
+                }
+            }
+            if (!added) {
+                nft[type] = 'None';
+            }
+        });
+    });
 }
 
 // get official ranks from HowRare
@@ -106,39 +155,12 @@ function findSiblings(nfts) {
     nfts.forEach(nft => {
         const key = signature(nft);
         nft.siblings = siblings.get(key).filter(sib => sib != nft.mint);
-        switch (siblings.get(key).length) {
-            case 5:
-                nft.sibling = `quintuplet`;
-                break;
-            case 4:
-                nft.sibling = `quadruplet`;
-                break;
-            case 3:
-                nft.sibling = `triplet`;
-                break;
-            case 2:
-                nft.sibling = `twin`;
-                break;
-            default:
-                nft.sibling = '';
-        }
     });
 }
 
 // generates trait signature to determine siblings
 function signature(nft) {
-    const filtered = {
-        ...nft,
-        mint: undefined,
-        name: undefined,
-        image: undefined,
-        rank: undefined,
-        owner: undefined,
-        ownerAlt: undefined,
-        owns: undefined,
-        price: undefined,
-        sibling: undefined,
-        siblings: undefined
-    };
+    const filtered = { ...nft };
+    common.forEach(c => filtered[c] = undefined);
     return JSON.stringify(filtered);
 }

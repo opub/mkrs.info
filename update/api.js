@@ -1,4 +1,4 @@
-const { get, sleep } = require('./common/util');
+const { get, requestError, progress, clear } = require('./common/util');
 const { Connection, PublicKey } = require('@solana/web3.js');
 const { programs } = require('@metaplex/js');
 const { metadata: { Metadata } } = programs;
@@ -15,31 +15,45 @@ let lastRequest = 0;
 
 // get both onchain and offchain metadata for each nft
 exports.getMetadata = async function (mint) {
+    let loading = true;
     let name, image, attributes;
-    try {
-        const pda = await Metadata.getPDA(mint);
-        const onchain = (await Metadata.load(connect(), pda)).data;
-        if (onchain) {
-            name = onchain.name;
-            const offchain = (await get(onchain.data.uri)).data;
-            if (offchain) {
-                if (!name) {
-                    name = offchain.name;
+    do {
+        try {
+            const pda = await Metadata.getPDA(mint);
+            const { data: onchain } = await Metadata.load(connect(), pda);
+            if (onchain) {
+                name = onchain.name;
+                const { data: offchain } = await get(onchain.data.uri);
+                if (offchain) {
+                    if (!name) {
+                        name = offchain.name;
+                    }
+                    image = offchain.image;
+                    attributes = flattenAttributes(offchain.attributes);
                 }
-                image = offchain.image;
-                attributes = offchain.attributes;
             }
+            loading = false;
+        }
+        catch (e) {
+            loading = await requestError('getMetadata', e);
         }
     }
-    catch (e) {
-        console.log('getMetadata', e);
-    }
+    while (loading)
     return {
         mint,
         name,
         image,
+        metaUpdated: Date.now(),
         ...attributes
     };
+}
+
+function flattenAttributes(attributes) {
+    const attrs = [];
+    for (const trait of attributes) {
+        attrs[trait.trait_type] = trait.value;
+    }
+    return attrs;
 }
 
 // get current MagicEden listing prices for all items in collection
@@ -57,7 +71,7 @@ exports.getPrices = async function () {
             prices.push(...data);
         }
         catch (e) {
-            loading = await requestError(e);
+            loading = await requestError('getPrices', e);
         }
     }
     while (loading)
@@ -102,32 +116,21 @@ exports.getOwners = async function (fast, mints) {
                         owners[mint] = info.value.data.parsed.info.owner;
                     }
                     catch (e) {
-                        loading = await requestError(e);
+                        loading = await requestError('getOwners', e);
                     }
                 }
                 while (loading)
+                progress(i / mints.length);
             }
+            clear();
             return owners;
         }
     }
     catch (e) {
+        clear();
         console.log('getOwners', e);
     }
     return {};
-}
-
-// handle request error and wait to retry if 429 status
-async function requestError(err) {
-    const resp = err.response;
-    if (resp && resp.status === 429 && resp.config) {
-        // hitting the QPM limit so snooze a bit
-        await sleep(5000);
-        console.log('WARN', resp.statusText, resp.config.url);
-        return true;
-    } else {
-        console.log('ERROR', JSON.stringify(err, null, 2));
-        return false;
-    }
 }
 
 // blocking call to force request throttling

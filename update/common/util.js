@@ -5,12 +5,34 @@ const axiosThrottle = require('axios-request-throttle');
 const requestsPerSecond = 4;
 axiosThrottle.use(axios, { requestsPerSecond });
 
+const backoff = 500;
+let attempts = 0;
+
 exports.get = async function (url, options) {
     try {
-        return await axios.get(url, options);
+        const results = await axios.get(url, options);
+        attempts = 0;
+        return results;
     }
     catch (e) {
-        console.error('GET', url, e);
+        // console.error('GET', url, e);
+        throw e;
+    }
+}
+
+// handle request error and wait to retry if 408 or 429 status
+exports.requestError = async function (from, err) {
+    clear();
+    attempts++;
+    const resp = err.response;
+    if (resp && resp.config && (resp.status === 408 || resp.status === 429)) {
+        // hitting timeout or the QPM limit so snooze a bit
+        await sleep(attempts * backoff);
+        console.log('WARN', from, resp.statusText, resp.config.url);
+        return true;
+    } else {
+        console.log('ERROR', from, JSON.stringify(err, null, 2));
+        return false;
     }
 }
 
@@ -22,9 +44,10 @@ exports.increment = function (map, key) {
     }
 }
 
-exports.sleep = function (milliseconds) {
+function sleep(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
+exports.sleep = sleep;
 
 exports.progress = function (step) {
     const width = 50;
