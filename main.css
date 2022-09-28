@@ -85,14 +85,14 @@ li {
 #details {
     background-color: #ffffff;
     border-radius: 10px;
-    width: 440px;
-    height: 670px;
+    width: 430px;
+    height: 700px;
     box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -100,6 +100,16 @@ li {
     z-index: 200;
     transform: translate(-50%, -50%);
 }
+
+/* 
+@media only screen and (max-device-width: 600px) {
+    #details {
+        position: sticky;
+        top: 100px;
+        left: 30px;
+        transform: translate(0, 0);
+    }
+} */
 
 .trait {
     white-space: nowrap;
