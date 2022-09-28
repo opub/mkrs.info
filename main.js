@@ -45,7 +45,7 @@ function populateTable() {
     const sibling = get('siblings').checked;
     const listed = get('listed').checked;
     let filtered = data.filter(m => {
-        if (sibling && (!m.Twins || m.Twins.length === 0) || listed && !m.price) {
+        if (sibling && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
             return false;
         } else if (filter.length > 0) {
             for (let a in m) {
