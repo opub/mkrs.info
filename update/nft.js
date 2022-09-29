@@ -33,7 +33,7 @@ async function loadMetadata() {
     const nfts = new Map(loaded.map(nft => [nft.mint, nft]));
     let fetch = hashList.filter(hash => {
         const filtered = loaded.filter(nft => nft.mint === hash);
-        return filtered.length === 0;
+        return filtered.length === 0 || !filtered[0].image;
     });
 
     if (fetch.length === 0) {
