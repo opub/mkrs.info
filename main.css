@@ -41,6 +41,7 @@ li {
 }
 
 #title {
+    white-space: nowrap;
     padding: 10px;
     width: 200px;
     font-size: 32px;
@@ -54,6 +55,25 @@ li {
     position: absolute;
     top: 0;
     white-space: nowrap;
+}
+
+#twinlink,
+#tablelink {
+    font-size: 30px;
+    margin: 20px;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#twinlink {
+    color: #ff0000;
+}
+
+#tablelink {
+    color: #222222;
+    background-color: #ffff99;
 }
 
 .control {
@@ -179,4 +199,31 @@ td {
 
 .fa-sort {
     color: #555555;
+}
+
+.twins {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.sibling {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.twin {
+    font-size: 13px;
+    width: 170px;
+    height: 175px;
+    text-align: center;
+    display: inline-block;
+}
+
+.picture {
+    background-color: #ff0000;
+    width: 150px;
+    height: 150px;
+    padding: 0px;
 }
