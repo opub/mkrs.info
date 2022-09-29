@@ -38,8 +38,10 @@ function populateDisplay() {
     const container = get('container');
     for (const nft of data) {
         if (nft.image && lookup.has(nft.mint)) {
-            const row = document.createElement('div');
+            const line = document.createElement('div');
+            const row = document.createElement('span');
             row.className = 'twins';
+            line.appendChild(row);
 
             const title = document.createElement('div');
             title.className = 'sibling';
@@ -49,14 +51,20 @@ function populateDisplay() {
             const siblings = nft.siblings.map(x => lookup.get(x));
             siblings.push(nft);
             siblings.sort((a, b) => a.name.localeCompare(b.name));
+            const owner = nft.owner;
+            let complete = true;
             for (const twin of siblings) {
+                complete = complete && owner === twin.owner;
                 const holder = document.createElement('span');
                 holder.className = 'twin';
                 holder.innerHTML = `<a href="${twin.image}" title="${twin.name}" target="_blank"><img src="${twin.image}" loading="lazy" alt="${twin.name}" class="picture"></a><br>${twin.name}`;
                 row.appendChild(holder);
                 lookup.delete(twin.mint);
             }
-            container.appendChild(row);
+            if(complete) {
+                row.className = 'twins complete';
+            }
+            container.appendChild(line);
         }
     }
     loading(false);

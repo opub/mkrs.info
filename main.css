@@ -206,6 +206,8 @@ td {
     font-size: 15px;
     padding-left: 10px;
     padding-top: 10px;
+    padding-right: 10px;
+    display: inline-block;
 }
 
 .sibling {
@@ -226,4 +228,9 @@ td {
     width: 150px;
     height: 150px;
     padding: 0px;
+}
+
+.complete {
+    background-color: #ffff99;
+    border: 1px solid #222222;
 }
