@@ -44,6 +44,9 @@ function populateTable() {
     const filter = get('search').value.toUpperCase();
     const sibling = get('siblings').checked;
     const listed = get('listed').checked;
+
+    amplitude.getInstance().logEvent(`table populate - filter:${filter}, sibling:${sibling}, listed:${listed}`);
+
     let filtered = data.filter(m => {
         if (sibling && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
             return false;
@@ -138,6 +141,7 @@ function toggleArrow(event) {
         reverse = true;
     }
 
+    amplitude.getInstance().logEvent(`table sort - field:${field}, reverse:${reverse}`);
     data.sort(sortBy(field, reverse));
     updateTable();
 }
