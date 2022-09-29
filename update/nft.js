@@ -48,7 +48,10 @@ async function loadMetadata() {
 
     for (let i = 0; i < fetch.length; i++) {
         const nft = await getMetadata(fetch[i]);
-        nfts.set(fetch[i], nft);
+        if (nft.image) {
+            // use image as proxy for clean fetch and don't override existing when error
+            nfts.set(fetch[i], nft);
+        }
         progress(i / fetch.length);
     }
     clear();
