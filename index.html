@@ -44,21 +44,25 @@
 </head>
 
 <body>
-    <div id="title">MKRS Info</div>
-    <div id="controls">
-        <span class="control">Siblings: <input type="checkbox" id="siblings"></span>
-        <span class="control">Listed: <input type="checkbox" id="listed"></span>
-        <span class="control">Filter: <input type="text" id="search"></span>
-    </div>
-    <a href="twins.html" title="Twin View"><i id="twinlink" class="fa-solid fa-people-group"></i></a>
-    <div id="loader">
-        <i class="fa-solid fa-cog fa-spin"></i>
-    </div>
-    <div id="container" style="display: none;">
-        <table id="results">
-            <thead id="header"></thead>
-            <tbody id="rows"></tbody>
-        </table>
+    <div class="scroll">
+        <div id="banner">
+            <span id="title">MKRS Info</span>
+            <a href="twins.html" title="Twin View"><i id="twinlink" class="fa-solid fa-people-group"></i></a>    
+            <span id="controls">
+                <span class="control">Siblings: <input type="checkbox" id="siblings"></span>
+                <span class="control">Listed: <input type="checkbox" id="listed"></span>
+                <span class="control">Filter: <input type="text" id="search"></span>
+            </span>
+        </div>
+        <div id="loader">
+            <i class="fa-solid fa-cog fa-spin"></i>
+        </div>
+        <div id="container" style="display: none;">
+            <table id="results">
+                <thead id="header"></thead>
+                <tbody id="rows"></tbody>
+            </table>
+        </div>
     </div>
     <div id="details" style="display: none;">
         <h2 id="details-name"></h2>

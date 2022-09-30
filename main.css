@@ -6,7 +6,8 @@
 
 body,
 html {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     font-family: sans-serif;
     background-color: #eeeeee;
 }
@@ -40,31 +41,28 @@ li {
     list-style-type: none;
 }
 
-#title {
-    white-space: nowrap;
+#banner {
     padding: 10px;
-    width: 200px;
+}
+
+#title {
+    padding-top: 5px;
     font-size: 32px;
     font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 #controls {
-    padding: 20px;
-    margin-left: 200px;
-    float: right;
-    position: absolute;
-    top: 0;
+    left: calc(50% + 200px);
+    display: inline-block;
     white-space: nowrap;
 }
 
 #twinlink,
 #tablelink {
     font-size: 30px;
-    margin: 20px;
-    float: right;
-    position: fixed;
-    top: 0;
-    right: 0;
+    margin: 15px;
 }
 
 #twinlink {
@@ -102,18 +100,24 @@ li {
     transform: translate(-50%, -50%);
 }
 
+.scroll {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
 #details {
     background-color: #ffffff;
     border-radius: 10px;
     width: 430px;
-    height: 700px;
+    height: 720px;
     box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 15px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -121,15 +125,10 @@ li {
     transform: translate(-50%, -50%);
 }
 
-/* 
-@media only screen and (max-device-width: 600px) {
-    #details {
-        position: sticky;
-        top: 100px;
-        left: 30px;
-        transform: translate(0, 0);
-    }
-} */
+#details-traits {
+    max-height: 260px;
+    overflow: auto;
+}
 
 .trait {
     white-space: nowrap;
