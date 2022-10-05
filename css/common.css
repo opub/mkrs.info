@@ -121,13 +121,11 @@ li {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    text-align: center;
     z-index: 200;
     transform: translate(-50%, -50%);
 }
 
 #details-traits {
-    text-align: left;
     max-height: 260px;
     overflow: auto;
 }
