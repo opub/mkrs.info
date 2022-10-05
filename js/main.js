@@ -17,7 +17,6 @@
  */
 const maxRows = 500;
 const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Treats', 'Background'];
-const traits = ['Owner', 'Siblings', 'Price', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Treats', 'Twins', 'Background'];
 
 let data = [];
 (function () {
@@ -168,84 +167,6 @@ const sortBy = (field, reverse) => {
     };
 };
 
-function loading(active) {
-    get('loader').style.display = active ? 'block' : 'none';
-    get('container').style.display = 'block';
-}
-
-function showDetails(event) {
-    let mint;
-    if (typeof event === 'string') {
-        mint = event;
-    } else {
-        let target = event.target;
-        while (!target.dataset.id) {
-            target = target.parentElement;
-        }
-        mint = target.dataset.id;
-    }
-    const nft = data.find(item => item.mint === mint);
-    console.log('showing', nft);
-    get('details-name').innerHTML = `${nft.name} (Rank ${nft.rank})`;
-    get('details-image-link').href = nft.image;
-    get('details-image').src = nft.image;
-    get('details-traits').innerHTML = getTraits(nft);
-    get('details').style.display = 'block';
-}
-
-function getTraits(nft) {
-    let html = '';
-    for (let trait of traits) {
-        let value = nft[trait] ? nft[trait] : nft[trait.toLowerCase()];
-        if (trait === 'Owner') {
-            value = `<a href="https://magiceden.io/u/${value}" title="${value}" target="_blank">${mask(value)}${nft.ownerAlt ? ' (' + nft.ownerAlt + ')' : ''}</a>`;
-        } else if (trait === 'Siblings') {
-            if (value.length === 0) {
-                value = 'None';
-            } else {
-                let links = '';
-                for (let sib of value) {
-                    const twin = data.find(item => item.mint === sib);
-                    links += `<a href="javascript:showDetails('${twin.mint}')">${twin.name}</a> `;
-                }
-                value = links;
-            }
-        } else if (trait === 'Price') {
-            value = value ? `${value} SOL` : 'Not Listed';
-            value = `<a href="https://magiceden.io/item-details/${nft.mint}?name=${encodeURI(nft.name)}" title="${value}" target="_blank">${value}</a></div><br><div>`;
-        }
-        html += `<div class="trait"><span class="title">${trait}: </span>${value}</div>`;
-    }
-    return html;
-}
-
-function mask(address) {
-    return address ? `${address.substring(0, 5)}...${address.substring(40)}` : '';
-}
-
-function pretty(value) {
-    return value ? value : '';
-}
-
-function hideDetails() {
-    get('details').style.display = 'none';
-}
-
-function get(id) {
-    const elem = document.getElementById(id);
-    if (!elem) {
-        console.error('unable to find element with id', id);
-    }
-    return elem;
-}
-
 get('search').addEventListener('keyup', updateTable);
 get('siblings').addEventListener('click', updateTable);
 get('listed').addEventListener('click', updateTable);
-
-document.addEventListener('click', hideDetails, true);
-document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-        hideDetails();
-    }
-});

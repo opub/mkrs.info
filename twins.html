@@ -14,6 +14,7 @@
     <meta name="msapplication-TileColor" content="#ffff99">
     <meta name="msapplication-config" content="/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script src="./js/common.js"></script>
     <script src="https://kit.fontawesome.com/95ab854ccd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/common.css">
     <script type="text/javascript">
@@ -46,14 +47,22 @@
 </head>
 
 <body>
-    <div id="banner">
-        <span id="title">MKRS Info - Twins!</span>
-        <a href="/" title="Table View"><i id="tablelink" class="fa-solid fa-table-cells"></i></a>
+    <div class="scroll">
+        <div id="banner">
+            <span id="title">MKRS Info - Twins!</span>
+            <a href="/" title="Table View"><i id="tablelink" class="fa-solid fa-table-cells"></i></a>
+        </div>
+        <div id="loader">
+            <i class="fa-solid fa-cog fa-spin"></i>
+        </div>
+        <div id="container" style="display: none;"></div>
     </div>
-    <div id="loader">
-        <i class="fa-solid fa-cog fa-spin"></i>
+    <div id="details" style="display: none;">
+        <h2 id="details-name"></h2>
+        <i class="close fa-solid fa-xmark" onclick="hideDetails()"></i>
+        <a id="details-image-link" href="" target="_blank"><img id="details-image" src="" height="400" width="400"></a>
+        <div id="details-traits"></div>
     </div>
-    <div id="container" style="display: none;"></div>
     <script src="./js/twins.js"></script>
 </body>
 

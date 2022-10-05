@@ -56,12 +56,14 @@ function populateDisplay() {
             for (const twin of siblings) {
                 complete = complete && owner === twin.owner;
                 const holder = document.createElement('span');
+                holder.dataset.id = twin.mint;
+                holder.addEventListener('click', showDetails);
                 holder.className = 'twin';
-                holder.innerHTML = `<a href="${twin.image}" title="${twin.name}" target="_blank"><img src="${twin.image}" loading="lazy" alt="${twin.name}" class="picture"></a><br>${twin.name}`;
+                holder.innerHTML = `<img src="${twin.image}" loading="lazy" alt="${twin.name}" class="picture"><br>${twin.name}`;
                 row.appendChild(holder);
                 lookup.delete(twin.mint);
             }
-            if(complete) {
+            if (complete) {
                 row.className = 'twins complete';
             }
             container.appendChild(line);
@@ -70,15 +72,3 @@ function populateDisplay() {
     loading(false);
 }
 
-function loading(active) {
-    get('loader').style.display = active ? 'block' : 'none';
-    get('container').style.display = 'block';
-}
-
-function get(id) {
-    const elem = document.getElementById(id);
-    if (!elem) {
-        console.error('unable to find element with id', id);
-    }
-    return elem;
-}

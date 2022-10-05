@@ -5,7 +5,7 @@ const axiosThrottle = require('axios-request-throttle');
 const requestsPerSecond = 4;
 axiosThrottle.use(axios, { requestsPerSecond });
 
-const backoff = 500;
+const backoff = 1000;
 let attempts = 0;
 
 exports.get = async function (url, options) {
