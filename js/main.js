@@ -8,7 +8,7 @@
  * any later version.
  *
  * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of  MERCHANTABILITY or
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
  * more details.
  *
@@ -19,15 +19,21 @@ const maxRows = 500;
 const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Treats', 'Background'];
 
 let data = [];
-(function () {
+(function () { pageSetup() })();
+
+function pageSetup() {
+    // set prior filter values
+    get('search').value = localStorage.getItem('filter');
+    get('siblings').checked = localStorage.getItem('siblings') === 'true';
+    get('listed').checked = localStorage.getItem('listed') === 'true';
+
     populateHeader();
-    fetch('mkrs.json')
-        .then((response) => response.json())
+    fetch('mkrs.json').then((response) => response.json())
         .then((json) => {
             data = json;
             updateTable();
         });
-})();
+}
 
 function updateTable() {
     loading(true);
@@ -39,22 +45,29 @@ function populateTable() {
         get('rows').remove();
     }
 
-    // filter results
+    // get and persist values
     const filter = get('search').value.toUpperCase();
-    const sibling = get('siblings').checked;
+    const siblings = get('siblings').checked;
     const listed = get('listed').checked;
+    localStorage.setItem('filter', get('search').value);
+    localStorage.setItem('siblings', siblings);
+    localStorage.setItem('listed', listed);
 
-    amplitude.getInstance().logEvent(`table populate - filter:${filter}, sibling:${sibling}, listed:${listed}`);
+    amplitude.getInstance().logEvent(`table populate - filter:${filter}, siblings:${siblings}, listed:${listed}`);
 
+    // filter results
     let filtered = data.filter(m => {
-        if (sibling && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
+        if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
             return false;
         } else if (filter.length > 0) {
-            for (let a in m) {
-                if (m[a]) {
-                    const text = `${m[a]}`.toUpperCase();
-                    if (text.indexOf(filter) > -1) {
-                        return true;
+            const search = filter.split(' ');
+            for (const term of search) {
+                for (const a in m) {
+                    if (m[a]) {
+                        const text = `${m[a]}`.toUpperCase();
+                        if (term.length > 0 && text.indexOf(term) > -1) {
+                            return true;
+                        }
                     }
                 }
             }
@@ -82,8 +95,13 @@ function populateTable() {
             } else {
                 cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
             }
-            if (filter.length > 0 && cell.textContent.toUpperCase().indexOf(filter) > -1) {
-                cell.style.backgroundColor = '#f8eb67';
+            if (filter.length > 0) {
+                const search = filter.split(' ');
+                for (const term of search) {
+                    if (term.length > 0 && cell.textContent.toUpperCase().indexOf(term) > -1) {
+                        cell.style.backgroundColor = '#f8eb67';
+                    }
+                }
             }
         }
     }
