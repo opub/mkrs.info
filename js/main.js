@@ -18,21 +18,22 @@
 const maxRows = 500;
 const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Treats', 'Background'];
 
+let siblings = false, listed = false, filter = '';
+
 let data = [];
 (function () { pageSetup() })();
 
 function pageSetup() {
-    // set prior filter values
-    get('search').value = localStorage.getItem('filter');
-    get('siblings').checked = localStorage.getItem('siblings') === 'true';
-    get('listed').checked = localStorage.getItem('listed') === 'true';
+    // set filter values from hash or local storage
+    const hash = window.location.hash;
+    const state = hash.length > 1 ? hashToState(hash) : JSON.parse(localStorage.getItem('state'));
+    setState(state);
 
     populateHeader();
-    fetch('mkrs.json').then((response) => response.json())
-        .then((json) => {
-            data = json;
-            updateTable();
-        });
+    fetch('mkrs.json').then((resp) => resp.json()).then((json) => {
+        data = json;
+        updateTable();
+    });
 }
 
 function updateTable() {
@@ -41,26 +42,26 @@ function updateTable() {
 }
 
 function populateTable() {
+    // delete all table rows
     if (get('rows')) {
         get('rows').remove();
     }
 
-    // get and persist values
-    const filter = get('search').value.toUpperCase();
-    const siblings = get('siblings').checked;
-    const listed = get('listed').checked;
-    localStorage.setItem('filter', get('search').value);
-    localStorage.setItem('siblings', siblings);
-    localStorage.setItem('listed', listed);
+    // get and persist state values
+    siblings = get('siblings').checked;
+    listed = get('listed').checked;
+    filter = get('search').value;
+    const state = { siblings, listed, filter };
+    localStorage.setItem('state', JSON.stringify(state));
+    window.location.hash = stateToHash(state);
+    amplitude.getInstance().logEvent(`table populate - siblings:${siblings}, listed:${listed}, filter:${filter}`);
 
-    amplitude.getInstance().logEvent(`table populate - filter:${filter}, siblings:${siblings}, listed:${listed}`);
-
-    // filter results
+    // filter matching results
     let filtered = data.filter(m => {
         if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
             return false;
         } else if (filter.length > 0) {
-            const search = filter.split(' ');
+            const search = filter.toUpperCase().split(' ');
             for (const term of search) {
                 for (const a in m) {
                     if (m[a]) {
@@ -75,13 +76,15 @@ function populateTable() {
         }
         return true;
     });
+
+    // truncate results for page performance
     let truncated = false;
     if (filtered.length > maxRows) {
         filtered = filtered.slice(0, maxRows);
         truncated = true;
     }
 
-    // render results
+    // render results with cell highlighting
     const rows = document.createElement('tbody');
     rows.id = 'rows';
     for (let item of filtered) {
@@ -96,7 +99,7 @@ function populateTable() {
                 cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
             }
             if (filter.length > 0) {
-                const search = filter.split(' ');
+                const search = filter.toUpperCase().split(' ');
                 for (const term of search) {
                     if (term.length > 0 && cell.textContent.toUpperCase().indexOf(term) > -1) {
                         cell.style.backgroundColor = '#f8eb67';
@@ -105,12 +108,16 @@ function populateTable() {
             }
         }
     }
+
+    // add table footer message
     if (truncated || filtered.length === 0) {
         const row = rows.insertRow(-1);
         const cell = row.insertCell(0);
         cell.colSpan = columns.length;
         cell.innerHTML = truncated ? 'Change filter or sort to display additional results.' : 'No matching results found.';
     }
+
+    // add rows to table DOM
     const table = get('results');
     table.appendChild(rows);
     loading(false);
@@ -183,6 +190,54 @@ const sortBy = (field, reverse) => {
         }
         return reverse * ((x > y) - (y > x));
     };
+};
+
+function setState(state) {
+    let updated = false;
+    if (state && (siblings != state.siblings || listed != state.listed || filter != state.filter)) {
+        siblings = state.siblings;
+        listed = state.listed;
+        filter = state.filter;
+        get('siblings').checked = siblings;
+        get('listed').checked = listed;
+        get('search').value = filter;
+        updated = true;
+    }
+    return updated;
+}
+
+function stateToHash(state) {
+    const params = [];
+    if (state.siblings) {
+        params.push('s');
+    }
+    if (state.listed) {
+        params.push('l');
+    }
+    if (state.filter.trim().length > 0) {
+        params.push('f=' + encodeURIComponent(state.filter.trim()));
+    }
+    return params.join('&');
+}
+
+function hashToState(hash) {
+    hash = hash.startsWith('#') ? hash.substring(1) : hash;
+    const params = hash.split('&');
+    const state = {};
+    state.siblings = params.includes('s');
+    state.listed = params.includes('l');
+    if (params.length > 0 && params[params.length - 1].startsWith('f=')) {
+        state.filter = decodeURIComponent(params[params.length - 1].substring(2));
+    } else {
+        state.filter = '';
+    }
+    return state;
+}
+
+window.onpopstate = function (event) {
+    if (setState(hashToState(window.location.hash))) {
+        updateTable();
+    }
 };
 
 get('search').addEventListener('keyup', updateTable);
