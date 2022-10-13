@@ -16,7 +16,8 @@ let lastRequest = 0;
 // get both onchain and offchain metadata for each nft
 exports.getMetadata = async function (mint) {
     let loading = true;
-    let name, image, attributes;
+    let name, image;
+    let attributes = [];
     do {
         try {
             const pda = await Metadata.getPDA(mint);

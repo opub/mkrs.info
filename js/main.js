@@ -32,6 +32,9 @@ function pageSetup() {
     populateHeader();
     fetch('mkrs.json').then((resp) => resp.json()).then((json) => {
         data = json;
+        const first = new Date(data.reduce((min, nft) => min < nft.metaUpdated ? min : nft.metaUpdated)).toLocaleString();
+        const last = new Date(data.reduce((max, nft) => max > nft.metaUpdated ? max : nft.metaUpdated)).toLocaleString();
+        get('metadata').innerHTML = `Metadata last updated between ${first} and ${last}.`;
         updateTable();
     });
 }
@@ -78,6 +81,7 @@ function populateTable() {
     });
 
     // truncate results for page performance
+    let count = filtered.length;
     let truncated = false;
     if (filtered.length > maxRows) {
         filtered = filtered.slice(0, maxRows);
@@ -114,7 +118,7 @@ function populateTable() {
         const row = rows.insertRow(-1);
         const cell = row.insertCell(0);
         cell.colSpan = columns.length;
-        cell.innerHTML = truncated ? 'Change filter or sort to display additional results.' : 'No matching results found.';
+        cell.innerHTML = truncated ? `Showing ${filtered.length} of ${count} results. Change filter or sort to display additional results.` : 'No matching results found.';
     }
 
     // add rows to table DOM

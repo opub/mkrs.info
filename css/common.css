@@ -9,6 +9,7 @@ html {
     height: 100vh;
     width: 100vw;
     font-family: sans-serif;
+    color: #222222;
     background-color: #eeeeee;
 }
 
@@ -233,4 +234,10 @@ td {
 .complete {
     background-color: #ffff99;
     border: 1px solid #222222;
+}
+
+#metadata {
+    padding: 10px;
+    font-size: 14px;
+    font-style: italic;
 }

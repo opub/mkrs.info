@@ -31,7 +31,7 @@ exports.requestError = async function (from, err) {
         console.log('WARN', from, resp.statusText, resp.config.url);
         return true;
     } else {
-        console.log('ERROR', from, JSON.stringify(err, null, 2));
+        console.log('ERROR', from, err.name, err.message, err.stack);
         return false;
     }
 }
@@ -50,18 +50,22 @@ function sleep(milliseconds) {
 exports.sleep = sleep;
 
 exports.progress = function (step) {
-    const width = 50;
-    const left = Math.ceil(width * step);
-    const fill = "■".repeat(left);
-    const empty = "□".repeat(width - left);
-    const pct = Math.ceil(step * 100);
-    clear();
-    process.stdout.write(`${fill}${empty} ${pct}%`)
+    if (!process.env.CI) {
+        const width = 50;
+        const left = Math.ceil(width * step);
+        const fill = "■".repeat(left);
+        const empty = "□".repeat(width - left);
+        const pct = Math.ceil(step * 100);
+        clear();
+        process.stdout.write(`${fill}${empty} ${pct}%`);
+    }
 };
 
 function clear() {
-    readline.clearLine(process.stdout, 0);
-    readline.cursorTo(process.stdout, 0);
+    if (!process.env.CI) {
+        readline.clearLine(process.stdout, 0);
+        readline.cursorTo(process.stdout, 0);
+    }
 };
 exports.clear = clear;
 
