@@ -16,8 +16,7 @@ let lastRequest = 0;
 // get both onchain and offchain metadata for each nft
 exports.getMetadata = async function (mint) {
     let loading = true;
-    let name, image;
-    let attributes = [];
+    let name, image, attributes;
     do {
         try {
             const pda = await Metadata.getPDA(mint);
@@ -40,7 +39,7 @@ exports.getMetadata = async function (mint) {
         }
     }
     while (loading)
-    return attributes && attributes.length > 0 ? {
+    return attributes ? {
         mint,
         name,
         image,
@@ -50,13 +49,13 @@ exports.getMetadata = async function (mint) {
 }
 
 function flattenAttributes(attributes) {
-    const attrs = [];
     if (attributes && attributes.length) {
+        const attrs = [];
         for (const trait of attributes) {
             attrs[trait.trait_type] = trait.value;
         }
+        return attrs;
     }
-    return attrs;
 }
 
 // get current MagicEden listing prices for all items in collection
