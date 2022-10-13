@@ -36,14 +36,14 @@ async function loadMetadata() {
         return filtered.length === 0 || !filtered[0].image;
     });
 
-    if (fetch.length === 0) {
+    if (fetch.length < batchSize) {
         // none missing so just update a batch of them
         loaded.sort((a, b) => {
             const x = a.metaUpdated ? a.metaUpdated : 0;
             const y = b.metaUpdated ? b.metaUpdated : 0;
             return x - y;
         });
-        fetch = loaded.map(nft => nft.mint).slice(0, batchSize);
+        fetch = fetch.concat(loaded.map(nft => nft.mint).slice(0, batchSize - fetch.length));
     }
 
     for (let i = 0; i < fetch.length; i++) {
