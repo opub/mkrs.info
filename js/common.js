@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License along with
  * this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-const traits = ['Owner', 'Siblings', 'Price', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Level', 'Mouth', 'Teardrop', 'Treats', 'Twins', 'Background'];
+const traits = ['Owner', 'Siblings', 'Price', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Treats', 'Twins', 'Background'];
 
 function loading(active) {
     get('loader').style.display = active ? 'block' : 'none';
