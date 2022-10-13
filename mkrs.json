@@ -196,7 +196,7 @@
     "rank": 9,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -373,7 +373,7 @@
     "rank": 17,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -616,7 +616,7 @@
     "rank": 28,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -991,7 +991,7 @@
     "rank": 45,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -1257,7 +1257,7 @@
     "rank": 57,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -1370,7 +1370,7 @@
     "rank": 62,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -1392,7 +1392,7 @@
     "rank": 63,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -1481,7 +1481,7 @@
     "rank": 67,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -1725,7 +1725,7 @@
     "rank": 78,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -1969,7 +1969,7 @@
     "rank": 89,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -1991,7 +1991,7 @@
     "rank": 90,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -2080,7 +2080,7 @@
     "rank": 94,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -2523,7 +2523,6 @@
     "rank": 114,
     "price": 15,
     "owner": "AN8inrPdMGgQvzna7TYt4C4vKhBhYy9JaYHbD5rwqQVQ",
-    "ownerAlt": "listed",
     "owns": 2,
     "siblings": []
   },
@@ -2680,7 +2679,8 @@
     "price": 15,
     "owner": "FN7MLhvbUhFUEdxSQ3WFhuUMPUUTDPNuWUmfBbq8xN2U",
     "owns": 1,
-    "siblings": []
+    "siblings": [],
+    "ownerAlt": "listed"
   },
   {
     "mint": "G6RGDKMsddusw7MvUkBjVmbGAajc6NCZDJeFNVT9iM5A",
@@ -2746,7 +2746,7 @@
     "rank": 124,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -3035,7 +3035,7 @@
     "rank": 137,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -3057,7 +3057,7 @@
     "rank": 138,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -3346,7 +3346,7 @@
     "rank": 151,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -3768,7 +3768,7 @@
     "rank": 170,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -3990,7 +3990,7 @@
     "rank": 180,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -4346,7 +4346,7 @@
     "rank": 196,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -4390,7 +4390,7 @@
     "rank": 198,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -4814,7 +4814,7 @@
     "rank": 217,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -5080,7 +5080,7 @@
     "rank": 229,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -5616,7 +5616,7 @@
     "rank": 253,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -5909,7 +5909,7 @@
     "rank": 266,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -5931,7 +5931,7 @@
     "rank": 267,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -6442,7 +6442,7 @@
     "rank": 290,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -6643,7 +6643,7 @@
     "rank": 299,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -7001,7 +7001,7 @@
     "rank": 315,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -7067,7 +7067,7 @@
     "rank": 318,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -7112,7 +7112,7 @@
     "rank": 320,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -7178,7 +7178,7 @@
     "rank": 323,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -7244,7 +7244,7 @@
     "rank": 326,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -7826,7 +7826,7 @@
     "rank": 352,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -7848,7 +7848,7 @@
     "rank": 353,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -7937,7 +7937,7 @@
     "rank": 357,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -8409,7 +8409,7 @@
     "rank": 378,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -8700,7 +8700,7 @@
     "rank": 391,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -8722,7 +8722,7 @@
     "rank": 392,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -8946,8 +8946,7 @@
     "price": 9,
     "owner": "B4P4miyudoJTSpiuchDJs4HvxhSvyStni49LtEVoYVM",
     "owns": 3,
-    "siblings": [],
-    "ownerAlt": "listed"
+    "siblings": []
   },
   {
     "mint": "BFpB7aJRCmUPsFJWRyb5qpf6jLjmaoKjAR5Luoea36Fr",
@@ -9125,7 +9124,7 @@
     "rank": 410,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -9214,7 +9213,7 @@
     "rank": 414,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -10042,7 +10041,8 @@
     "price": 10,
     "owner": "5xxZYKgcbS5ngfq6DiSwb5YbVCD6BauN41gec2PhQ9jr",
     "owns": 3,
-    "siblings": []
+    "siblings": [],
+    "ownerAlt": "listed"
   },
   {
     "mint": "C7MfQA8qjrtuNk657Z3qr6X6gAHU5gtvMZWgmkk9fM6S",
@@ -10130,7 +10130,8 @@
     "price": 5.7,
     "owner": "Ex39f71rGgRcU3LU41sop55PUm5EpwVZGbNVLq85pmsg",
     "owns": 1,
-    "siblings": []
+    "siblings": [],
+    "ownerAlt": "listed"
   },
   {
     "mint": "D8v2rv74mYY7u1Chvfr6YqreyTFhT743NHdqChgmaWhV",
@@ -11199,7 +11200,7 @@
     "rank": 503,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -11244,7 +11245,7 @@
     "rank": 505,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -11598,7 +11599,7 @@
     "rank": 521,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -11664,7 +11665,7 @@
     "rank": 524,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -11819,7 +11820,7 @@
     "rank": 531,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -12242,7 +12243,7 @@
     "rank": 550,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -12264,7 +12265,7 @@
     "rank": 551,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -12532,7 +12533,7 @@
     "rank": 563,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -13224,7 +13225,7 @@
     "rank": 594,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -14113,7 +14114,7 @@
     "rank": 634,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -14626,7 +14627,7 @@
     "rank": 657,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -14738,7 +14739,7 @@
     "rank": 662,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -14827,7 +14828,7 @@
     "rank": 666,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -14938,7 +14939,7 @@
     "rank": 671,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -15581,7 +15582,7 @@
     "rank": 700,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -15916,7 +15917,7 @@
     "rank": 715,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -15938,7 +15939,7 @@
     "rank": 716,
     "price": "",
     "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
+    "owns": 6,
     "siblings": []
   },
   {
@@ -16226,7 +16227,7 @@
     "rank": 729,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -16473,7 +16474,7 @@
     "rank": 740,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -16652,7 +16653,7 @@
     "rank": 748,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -17279,7 +17280,7 @@
     "rank": 776,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -17702,7 +17703,7 @@
     "rank": 795,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -18039,7 +18040,7 @@
     "rank": 810,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -18240,7 +18241,7 @@
     "rank": 819,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -18488,7 +18489,7 @@
     "rank": 830,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -18932,7 +18933,7 @@
     "rank": 850,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -18998,7 +18999,7 @@
     "rank": 853,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -20020,7 +20021,7 @@
     "rank": 899,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -20728,7 +20729,7 @@
     "rank": 931,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -21218,7 +21219,7 @@
     "rank": 953,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -21374,7 +21375,7 @@
     "rank": 960,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -21531,7 +21532,7 @@
     "rank": 967,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -21799,7 +21800,7 @@
     "rank": 979,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -22177,7 +22178,7 @@
     "rank": 996,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -22245,7 +22246,7 @@
     "rank": 999,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -22516,7 +22517,7 @@
     "rank": 1011,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -22739,7 +22740,7 @@
     "rank": 1021,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -23141,7 +23142,7 @@
     "rank": 1039,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -23252,7 +23253,7 @@
     "rank": 1044,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -23363,7 +23364,7 @@
     "rank": 1049,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -23633,7 +23634,7 @@
     "rank": 1061,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -23882,7 +23883,7 @@
     "rank": 1072,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -23993,7 +23994,6 @@
     "rank": 1077,
     "price": 2.4,
     "owner": "9fahkUnGgcy9fFpp7oQxHY2DWFzpZcrKYs29sk3sGrcv",
-    "ownerAlt": "listed",
     "owns": 2,
     "siblings": []
   },
@@ -24619,7 +24619,7 @@
     "rank": 1105,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -24998,7 +24998,7 @@
     "rank": 1122,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -25471,7 +25471,7 @@
     "rank": 1143,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -25716,7 +25716,7 @@
     "rank": 1154,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -26054,7 +26054,7 @@
     "rank": 1169,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -26796,7 +26796,7 @@
     "rank": 1202,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -27089,7 +27089,7 @@
     "rank": 1215,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -27959,7 +27959,7 @@
     "rank": 1254,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -28070,7 +28070,7 @@
     "rank": 1259,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -28405,7 +28405,7 @@
     "rank": 1274,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -28562,7 +28562,7 @@
     "rank": 1281,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -28876,7 +28876,7 @@
     "rank": 1295,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -29593,7 +29593,7 @@
     "rank": 1327,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -29705,7 +29705,7 @@
     "rank": 1332,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -29772,7 +29772,7 @@
     "rank": 1335,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -30378,7 +30378,7 @@
     "rank": 1362,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -30732,7 +30732,7 @@
     "rank": 1378,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -30821,7 +30821,7 @@
     "rank": 1382,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -30843,7 +30843,7 @@
     "rank": 1383,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -30977,7 +30977,6 @@
     "rank": 1389,
     "price": 5,
     "owner": "BEvQJMT3yc2uS24BgUq6tsRevaL4hsrz42b27AEkvSEo",
-    "ownerAlt": "listed",
     "owns": 1,
     "siblings": []
   },
@@ -31223,7 +31222,7 @@
     "rank": 1400,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -31510,7 +31509,7 @@
     "rank": 1413,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -31733,7 +31732,7 @@
     "rank": 1423,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -31778,7 +31777,7 @@
     "rank": 1425,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -32229,7 +32228,7 @@
     "rank": 1445,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -32542,7 +32541,7 @@
     "rank": 1459,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -32918,7 +32917,7 @@
     "rank": 1476,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -32962,7 +32961,7 @@
     "rank": 1478,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -33186,7 +33185,7 @@
     "rank": 1488,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -33208,7 +33207,7 @@
     "rank": 1489,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -33252,7 +33251,7 @@
     "rank": 1491,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -33473,7 +33472,7 @@
     "rank": 1501,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -34011,7 +34010,7 @@
     "rank": 1525,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -34301,7 +34300,7 @@
     "rank": 1538,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -34747,7 +34746,7 @@
     "rank": 1558,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -35261,7 +35260,7 @@
     "rank": 1581,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -35821,7 +35820,7 @@
     "rank": 1606,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -36606,7 +36605,7 @@
     "rank": 1641,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -36674,7 +36673,7 @@
     "rank": 1644,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -36741,7 +36740,7 @@
     "rank": 1647,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -37653,7 +37652,7 @@
     "rank": 1688,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -38167,7 +38166,7 @@
     "rank": 1711,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -38455,7 +38454,7 @@
     "rank": 1724,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -38988,7 +38987,7 @@
     "rank": 1748,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -39814,7 +39813,7 @@
     "rank": 1785,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -39948,7 +39947,7 @@
     "rank": 1791,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -40037,7 +40036,7 @@
     "rank": 1795,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -40309,7 +40308,7 @@
     "rank": 1807,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -40353,7 +40352,7 @@
     "rank": 1809,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -40771,9 +40770,8 @@
     "Twins": "None",
     "rank": 1828,
     "price": "",
-    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
-    "ownerAlt": "exchange",
-    "owns": 1126,
+    "owner": "3diDKaUjT1jAbfcN1hNHAiuRdSSc8JruKQbuDruq7n5j",
+    "owns": 1,
     "siblings": []
   },
   {
@@ -40951,7 +40949,7 @@
     "rank": 1836,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -42022,7 +42020,7 @@
     "rank": 1884,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -42450,7 +42448,7 @@
     "rank": 1903,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -42472,7 +42470,7 @@
     "rank": 1904,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -43142,7 +43140,7 @@
     "rank": 1934,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -43274,7 +43272,7 @@
     "rank": 1940,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -43296,7 +43294,7 @@
     "rank": 1941,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -44772,7 +44770,7 @@
     "rank": 2007,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -45378,7 +45376,7 @@
     "rank": 2034,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -45533,7 +45531,7 @@
     "rank": 2041,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -45985,7 +45983,7 @@
     "rank": 2061,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -46029,7 +46027,7 @@
     "rank": 2063,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -46343,7 +46341,7 @@
     "rank": 2077,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -46476,7 +46474,7 @@
     "rank": 2083,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -46587,7 +46585,7 @@
     "rank": 2088,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -47660,7 +47658,7 @@
     "rank": 2136,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -47883,7 +47881,7 @@
     "rank": 2146,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -47905,7 +47903,7 @@
     "rank": 2147,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -48171,7 +48169,7 @@
     "rank": 2159,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -48484,7 +48482,7 @@
     "rank": 2173,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -48842,7 +48840,7 @@
     "rank": 2189,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -49884,7 +49882,7 @@
     "rank": 2235,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "DQrygJMVpQpyn78d127fBF9gWr4ZmKjnMor6DTTQtQHt"
     ]
@@ -49931,7 +49929,7 @@
     "rank": 2237,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -50424,7 +50422,7 @@
     "rank": 2259,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -50468,7 +50466,7 @@
     "rank": 2261,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -50537,7 +50535,7 @@
     "rank": 2264,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "Cd1mx7EL7mmVszFxXh7aLeY1fiSPphrMuaPiyRetMdif"
     ]
@@ -51029,7 +51027,7 @@
     "rank": 2286,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -51951,7 +51949,7 @@
     "rank": 2327,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -52711,7 +52709,7 @@
     "rank": 2361,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -53385,7 +53383,7 @@
     "rank": 2391,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -53407,7 +53405,7 @@
     "rank": 2392,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -53839,7 +53837,7 @@
     "rank": 2411,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -53950,7 +53948,7 @@
     "rank": 2416,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -54288,7 +54286,7 @@
     "rank": 2431,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "EX3BzfzZ2KXmS8JfKnxF69T4NPc7d3RX1T7MMB1m8Jyu"
     ]
@@ -54696,7 +54694,7 @@
     "rank": 2449,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "GWEkhU5K6jdzoJU1idLaEjuZeUhm61wQ6uhj9t4L6LuJ",
       "9ASyCMANuBcDSHtD6xsBoUayE1KWD4F1ByKsHVRakF3K"
@@ -55354,7 +55352,7 @@
     "rank": 2478,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -55655,7 +55653,7 @@
     "rank": 2491,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -55723,7 +55721,7 @@
     "rank": 2494,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -55835,7 +55833,7 @@
     "rank": 2499,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -56305,7 +56303,7 @@
     "rank": 2520,
     "price": "",
     "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
+    "owns": 6,
     "siblings": []
   },
   {
@@ -56349,7 +56347,7 @@
     "rank": 2522,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -56393,7 +56391,7 @@
     "rank": 2524,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -56753,7 +56751,7 @@
     "rank": 2540,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -57743,7 +57741,7 @@
     "rank": 2584,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -58058,7 +58056,7 @@
     "rank": 2598,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -58571,7 +58569,7 @@
     "rank": 2621,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -58593,7 +58591,7 @@
     "rank": 2622,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "5zqu1hb26a3knYg3d3ZoiR7ReiiKJFYcm8ZpD8VnoqSt"
     ]
@@ -58687,7 +58685,7 @@
     "rank": 2626,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "CqpL14bkFAFqbpaDYHPafwc1eEXy2DCwkesP7LoYdsBA"
     ]
@@ -59094,7 +59092,7 @@
     "rank": 2644,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -59294,7 +59292,7 @@
     "rank": 2653,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -59316,7 +59314,7 @@
     "rank": 2654,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -59472,7 +59470,7 @@
     "rank": 2661,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -60210,7 +60208,7 @@
     "rank": 2694,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -60278,7 +60276,7 @@
     "rank": 2697,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -60322,7 +60320,7 @@
     "rank": 2699,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -60748,7 +60746,7 @@
     "rank": 2718,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -60974,7 +60972,7 @@
     "rank": 2728,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -60996,7 +60994,7 @@
     "rank": 2729,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -61130,7 +61128,7 @@
     "rank": 2735,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -61174,7 +61172,7 @@
     "rank": 2737,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -61533,7 +61531,7 @@
     "rank": 2753,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "2htFrDLBWgzAsP1YCSgze5KFVZQivjQQxMoPQGa36e5U"
     ]
@@ -61781,7 +61779,7 @@
     "rank": 2764,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -62009,7 +62007,7 @@
     "rank": 2774,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -62321,7 +62319,7 @@
     "rank": 2788,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -62410,7 +62408,7 @@
     "rank": 2792,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -63889,7 +63887,7 @@
     "rank": 2858,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -64112,7 +64110,7 @@
     "rank": 2868,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -64471,7 +64469,7 @@
     "rank": 2884,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -65214,7 +65212,7 @@
     "rank": 2917,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -65324,7 +65322,7 @@
     "rank": 2922,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -66308,7 +66306,7 @@
     "rank": 2966,
     "price": "",
     "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
+    "owns": 6,
     "siblings": []
   },
   {
@@ -66807,7 +66805,7 @@
     "rank": 2988,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -67100,7 +67098,7 @@
     "rank": 3001,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -67639,7 +67637,7 @@
     "rank": 3025,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -67818,7 +67816,7 @@
     "rank": 3033,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "B41Ew8Q4SzxYuHFQ2inZ8L8s3RzwfsGXJAddypXhP7EL"
     ]
@@ -68956,7 +68954,7 @@
     "rank": 3083,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -71205,7 +71203,7 @@
     "rank": 3183,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -71344,7 +71342,7 @@
     "rank": 3189,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -71637,7 +71635,7 @@
     "rank": 3202,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -71884,7 +71882,7 @@
     "rank": 3213,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -72374,7 +72372,7 @@
     "rank": 3235,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -72957,7 +72955,7 @@
     "rank": 3261,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -73316,7 +73314,7 @@
     "rank": 3277,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -73761,7 +73759,7 @@
     "rank": 3297,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -73808,7 +73806,7 @@
     "rank": 3299,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "9KVgiKjzYfqpdnpx4hyMLBgrLhgJ8gSfpJGziXcFo3Dh",
       "9dNUoNBTf2GraCwUNWMXgux6uLEdkyqx9ghmUB5z5ENv"
@@ -74014,7 +74012,7 @@
     "rank": 3308,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -74190,7 +74188,7 @@
     "rank": 3316,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -74730,7 +74728,7 @@
     "rank": 3340,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -74840,7 +74838,7 @@
     "rank": 3345,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -75752,7 +75750,7 @@
     "rank": 3386,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -75888,7 +75886,7 @@
     "rank": 3392,
     "price": "",
     "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
+    "owns": 6,
     "siblings": []
   },
   {
@@ -76316,7 +76314,7 @@
     "rank": 3411,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -76406,7 +76404,7 @@
     "rank": 3415,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -76629,7 +76627,7 @@
     "rank": 3425,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -76829,7 +76827,7 @@
     "rank": 3434,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -76919,7 +76917,8 @@
     "price": 4,
     "owner": "5LY1mRryAa9hSyGJvf2BUGEiCf1n2ibY81sFd2ERcwKM",
     "owns": 1,
-    "siblings": []
+    "siblings": [],
+    "ownerAlt": "listed"
   },
   {
     "mint": "3Q34ooZTHJdLc8AYyqQsakPoThXdWSPGQTKPrBHVzVeN",
@@ -77141,7 +77140,7 @@
     "rank": 3448,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -77611,7 +77610,7 @@
     "rank": 3469,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -78001,7 +78000,7 @@
     "rank": 3486,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -78345,7 +78344,7 @@
     "rank": 3501,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -78500,7 +78499,7 @@
     "rank": 3508,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -80081,7 +80080,7 @@
     "rank": 3578,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -80510,7 +80509,7 @@
     "rank": 3597,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "7W9VqJjLRCa2UaPDhYNwNgZxdZNYuK9o78Qx5NqiXpoP"
     ]
@@ -80759,7 +80758,7 @@
     "rank": 3608,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -80937,7 +80936,7 @@
     "rank": 3616,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -80984,7 +80983,7 @@
     "rank": 3618,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "3bfSb4hnDVcAqqom8zyznjiDhW7WrQpbgTAurZRS3As2",
       "6SNVS4a5VGDL2pezewEdP3s84o1XMeSjAEjHpHJX4qdF"
@@ -81035,7 +81034,7 @@
     "rank": 3620,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "FzsUWfZ6sKvtunt9cd5dsrcizMaqNbS1rFAEkCPuqgPo"
     ]
@@ -81646,7 +81645,7 @@
     "rank": 3647,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "3N7hCyu2LeSQSaofRksRizW48FeEd2ttgoamG7svDEJF"
     ]
@@ -81693,7 +81692,7 @@
     "rank": 3649,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -81873,7 +81872,7 @@
     "rank": 3657,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -82500,7 +82499,7 @@
     "rank": 3685,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -82902,7 +82901,7 @@
     "rank": 3703,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -82947,7 +82946,7 @@
     "rank": 3705,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -83215,7 +83214,7 @@
     "rank": 3717,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -83505,7 +83504,7 @@
     "rank": 3730,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -83757,7 +83756,7 @@
     "rank": 3741,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -83779,7 +83778,7 @@
     "rank": 3742,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "7XphVMupBEvM7fZn5JN4a2L3XZPRH7MTrQZUUEbCYfJc"
     ]
@@ -83891,7 +83890,7 @@
     "rank": 3747,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -84093,7 +84092,7 @@
     "rank": 3756,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -84161,7 +84160,7 @@
     "rank": 3759,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -84295,7 +84294,6 @@
     "rank": 3765,
     "price": 10,
     "owner": "9kGGEVP1YM2jYD5D6Y59oNdzLdcdcCZTPtJGuVLPdb85",
-    "ownerAlt": "listed",
     "owns": 1,
     "siblings": [
       "esQNXYACsDkAhsniGHF23x71sW2GVgEJB5PRtNiCVds"
@@ -84364,7 +84362,7 @@
     "rank": 3768,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -84836,7 +84834,7 @@
     "rank": 3789,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -85058,7 +85056,7 @@
     "rank": 3799,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -85904,7 +85902,7 @@
     "rank": 3837,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -86016,7 +86014,8 @@
     "price": 11.5,
     "owner": "2s2u4GgoPAuzK8Z3sBSUs6Ne9FbeRuY8kPkbKsEaeFXF",
     "owns": 3,
-    "siblings": []
+    "siblings": [],
+    "ownerAlt": "listed"
   },
   {
     "mint": "DiUbcsz15onUc63WVmWPPbsJ5amEmvezU1FgGDT6u4WA",
@@ -86554,7 +86553,7 @@
     "rank": 3866,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -86778,7 +86777,7 @@
     "rank": 3876,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -86844,7 +86843,7 @@
     "rank": 3879,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -86955,7 +86954,7 @@
     "rank": 3884,
     "price": "",
     "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
+    "owns": 6,
     "siblings": [
       "41SFGUywatV1Uo7W3reGYz6Lg8EC27WYDLpX47QYSdET"
     ]
@@ -87003,7 +87002,7 @@
     "rank": 3886,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -87091,7 +87090,7 @@
     "rank": 3890,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -87314,7 +87313,7 @@
     "rank": 3900,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -87781,7 +87780,7 @@
     "rank": 3921,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -88804,7 +88803,7 @@
     "rank": 3966,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -88939,7 +88938,7 @@
     "rank": 3972,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -89658,7 +89657,7 @@
     "rank": 4004,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "2cbukHSZkv9jaxgpTfo3ptvhksrUyBAjzZm4DUuKEV9f"
     ]
@@ -90108,7 +90107,7 @@
     "rank": 4024,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -90625,7 +90624,7 @@
     "rank": 4047,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -90809,7 +90808,7 @@
     "rank": 4055,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "5esVqZoTJq6zGKXRMYxuSkqXec93E2ycHQmUq36TSGV1",
       "2iNRJ32YFRdPCvsGpCYegW3zspMJuJL2EiERZwvFnpFN"
@@ -91152,7 +91151,7 @@
     "rank": 4070,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -91487,7 +91486,7 @@
     "rank": 4085,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -91932,7 +91931,7 @@
     "rank": 4105,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -91978,7 +91977,7 @@
     "rank": 4107,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "HxRh1abDJQLM2W8GJf5GkyENyKgT9JJh3V8mcPdi2PNu"
     ]
@@ -92489,7 +92488,7 @@
     "rank": 4130,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -92798,7 +92797,7 @@
     "rank": 4144,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -92953,7 +92952,7 @@
     "rank": 4151,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -93290,7 +93289,7 @@
     "rank": 4166,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -93779,7 +93778,7 @@
     "rank": 4188,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -93982,7 +93981,7 @@
     "rank": 4197,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -94665,7 +94664,7 @@
     "rank": 4227,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -94820,7 +94819,7 @@
     "rank": 4234,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "A8ZPw7TuzAbzKGctyk5ZRcrLaJywVvmWS9cfUR6c49Rj"
     ]
@@ -94890,7 +94889,7 @@
     "rank": 4237,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -95208,7 +95207,7 @@
     "rank": 4251,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -95432,7 +95431,7 @@
     "rank": 4261,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -95768,7 +95767,7 @@
     "rank": 4276,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -96574,7 +96573,7 @@
     "rank": 4312,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -97179,7 +97178,7 @@
     "rank": 4338,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -97316,7 +97315,7 @@
     "rank": 4344,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -97884,7 +97883,7 @@
     "rank": 4369,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -98041,7 +98040,7 @@
     "rank": 4376,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -98107,7 +98106,7 @@
     "rank": 4379,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -98200,7 +98199,7 @@
     "rank": 4383,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -98838,7 +98837,7 @@
     "rank": 4411,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -98882,7 +98881,7 @@
     "rank": 4413,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -99463,7 +99462,7 @@
     "rank": 4439,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -99974,7 +99973,7 @@
     "rank": 4462,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -100620,7 +100619,7 @@
     "rank": 4491,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -101135,7 +101134,10 @@
     "Twins": "None",
     "rank": 4514,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
+    "ownerAlt": "exchange",
+    "owns": 1126
   },
   {
     "mint": "zLWkpXRpYRDbBQNjoh6xjHScb4JMjXA7a767T6Lr2vj",
@@ -101340,7 +101342,7 @@
     "rank": 4523,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": [
       "DikraLvFjaavicecepidJtBicBsVyD7kNAdS3F6SBSa5"
     ]
@@ -101364,7 +101366,7 @@
     "rank": 4524,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "AGvRfxQYdD1UZa6JaJ3NyMhNVkJLKTeVuiJVmnffSYci",
       "7RcMgivPid51feJBi4SCXTvrePrbpgeY2hPBcT8mSzGE"
@@ -101391,7 +101393,10 @@
     "siblings": [
       "AGvRfxQYdD1UZa6JaJ3NyMhNVkJLKTeVuiJVmnffSYci",
       "7v4wuZWk38dByWRXPxMbLfXGDY17HwUHVrkW3k3Kn8cn"
-    ]
+    ],
+    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
+    "ownerAlt": "exchange",
+    "owns": 1126
   },
   {
     "mint": "gJyAQTyDZnTvPZ7n9HU3bhCph5hLMMkaHh4Wcp5Sn13",
@@ -101435,7 +101440,7 @@
     "rank": 4527,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -101570,7 +101575,7 @@
     "rank": 4533,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "HAG3C2AvSmzNkBNMU1ggU9Fata5bWmbGSzLGgHzUaUqT"
     ]
@@ -101836,7 +101841,10 @@
     "Twins": "None",
     "rank": 4544,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
+    "ownerAlt": "exchange",
+    "owns": 1126
   },
   {
     "mint": "HdW8exWjzY4yaHuCzssNX2ESXBqq4cByfsTM7ijtcJpt",
@@ -101924,7 +101932,10 @@
     "Twins": "None",
     "rank": 4548,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek",
+    "ownerAlt": "treasury",
+    "owns": 640
   },
   {
     "mint": "DFgXLDpP26mAoDjfyZzyKodv88CypwVkVR3vLQqScW4L",
@@ -102167,7 +102178,6 @@
     "rank": 4559,
     "price": 7,
     "owner": "8WgN6viDwhxLhbi8HQEbbiGMnZbhTWjHEfWNURHjdotK",
-    "ownerAlt": "listed",
     "owns": 3,
     "siblings": []
   },
@@ -102301,7 +102311,9 @@
     "Twins": "None",
     "rank": 4565,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "BBwYU7DGTjrQvWPTfqmQeR3ysR8cEVGXpdMiqwPSqYjc",
+    "owns": 108
   },
   {
     "mint": "3XqaNuSGv2pv4vU3RAE8qe83uARFhewpogKj8tyo4uC4",
@@ -102435,7 +102447,9 @@
     "Twins": "None",
     "rank": 4571,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "2dgxBv2vsoiLP7oA5xtgs34kskbmuXYoJ4AQKTAdLVKR",
+    "owns": 19
   },
   {
     "mint": "6vayggez5zGrvqBfe7a2tnXzAD25QdtbmiNQ5JA6KL6k",
@@ -102545,7 +102559,10 @@
     "Twins": "None",
     "rank": 4576,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
+    "ownerAlt": "exchange",
+    "owns": 1126
   },
   {
     "mint": "8Y2iPDJhadiXwLofFZhQAxbmedRQR3CZhtCRWrL5MaUz",
@@ -102723,7 +102740,7 @@
     "rank": 4584,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -102789,7 +102806,10 @@
     "Twins": "None",
     "rank": 4587,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
+    "ownerAlt": "exchange",
+    "owns": 1126
   },
   {
     "mint": "7kFA7UGyuVTmPAVLUCGTED9P4eTNN9hHmUcoN3d8x5vA",
@@ -102854,7 +102874,7 @@
     "rank": 4590,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -102964,7 +102984,7 @@
     "rank": 4595,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -103162,7 +103182,9 @@
     "Twins": "None",
     "rank": 4604,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "9UgtPr41VznEyTv789etMdDcmN3eN32maZzYdt6KAq37",
+    "owns": 4
   },
   {
     "mint": "2C189b724zS6KNDSvLL33BZUfgG7jf6A4PdYMq3vs3Zi",
@@ -103433,7 +103455,7 @@
     "rank": 4616,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "73kYg6Kdp9FE8ESYbSByGJ71FRXN9f2EpRsQPSxzCGeo"
     ]
@@ -103588,7 +103610,9 @@
     "Twins": "None",
     "rank": 4623,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
+    "owns": 26
   },
   {
     "mint": "CoS6EeqXM6FPQj49RwonXT724RqsuH9fVC3KG1w8veLA",
@@ -104362,7 +104386,9 @@
     "Twins": "None",
     "rank": 4657,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "8cbWWwqinVjPHocTNSn8EFdhbNEeUnuhf74n1SAXiWbG",
+    "owns": 131
   },
   {
     "mint": "5q2dd9FE7DCZYaDZatkxg7pV9EmmyqsGt3wXo3nLskFw",
@@ -104450,7 +104476,7 @@
     "rank": 4661,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -104784,7 +104810,7 @@
     "rank": 4676,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -104806,7 +104832,7 @@
     "rank": 4677,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -104828,7 +104854,7 @@
     "rank": 4678,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -105538,7 +105564,7 @@
     "rank": 4710,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -105764,7 +105790,7 @@
     "rank": 4720,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -105985,7 +106011,10 @@
     "Twins": "None",
     "rank": 4730,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek",
+    "ownerAlt": "treasury",
+    "owns": 640
   },
   {
     "mint": "GoBEAGvbdb7DjqBJVL82eRuLNSeeT5g6KUW7hH9rjxp6",
@@ -106094,7 +106123,10 @@
     "Twins": "None",
     "rank": 4735,
     "price": "",
-    "siblings": []
+    "siblings": [],
+    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
+    "ownerAlt": "exchange",
+    "owns": 1126
   },
   {
     "mint": "4bFh9k9AYkpsvJ5egsTGJvPj9BWvXhbAkmqQGcRJjX9t",
@@ -106449,7 +106481,7 @@
     "rank": 4751,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -106637,7 +106669,7 @@
     "mint": "Lpph3Wxk5YvFT2bmGNrWgUBGGUq8UgjV4Q967CmyyGZ",
     "name": "MKRS #0541",
     "image": "https://bafybeib4wmlgyvexax2yrxhxkpcagot4evy6ffztwiugmariqfg2zqudrq.ipfs.nftstorage.link/541.jpeg?ext=jpeg",
-    "metaUpdated": 1665533246560,
+    "metaUpdated": 1665647685173,
     "Background": "MKRS Background",
     "DNA": "Taped Mono",
     "Clothing": "White Vest on White T-Shirt",
@@ -106659,7 +106691,7 @@
     "mint": "7F16a2kzXny6p8ARAd2fcSEZhfmNHAuDQKmvP8LGHtq4",
     "name": "MKRS #5741",
     "image": "https://bafybeialws3trc3xihqvnsmhlqvqdk2ze3p3rddhxs52vgg2fy6b4xdqde.ipfs.nftstorage.link/5741.jpeg?ext=jpeg",
-    "metaUpdated": 1665533247446,
+    "metaUpdated": 1665647686606,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Yellow Crewneck",
@@ -106681,7 +106713,7 @@
     "mint": "HjsaAXnHnb2ZkU22jyiKADLQDBvnnEAYAfoEbzA4gfeQ",
     "name": "MKRS #6270",
     "image": "https://arweave.net/VGpPB_UOhX4c5xl8JM00N49wEjxMQPmz0Wx9kNxkF70",
-    "metaUpdated": 1665533247995,
+    "metaUpdated": 1665647686841,
     "Background": "MKRS Background",
     "DNA": "Taped Mono",
     "Clothing": "Pink Tank",
@@ -106705,7 +106737,7 @@
     "mint": "AzLZrkSWxP1knsLs9ZmCLoLzhSHRJQ1JZavx2ABzTYFQ",
     "name": "MKRS #5260",
     "image": "https://bafybeigsnop3nvxxkhrci6ndp35ycntnccakpmietnquf5d4urqghlmf2a.ipfs.nftstorage.link/5260.jpeg?ext=jpeg",
-    "metaUpdated": 1665533249050,
+    "metaUpdated": 1665647687530,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Light Grey Tank",
@@ -106728,7 +106760,7 @@
     "mint": "2S2gHbpn4RqAkxxNe9tidGAhvnRF9YHVCLWtZs1PKDwn",
     "name": "MKRS #2167",
     "image": "https://bafybeigjgxca6ckliyeut7v5zyh7fhdngmpoyg7rlbjc2f563x4tfvyd64.ipfs.nftstorage.link/2167.jpeg?ext=jpeg",
-    "metaUpdated": 1665533250090,
+    "metaUpdated": 1665647687747,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Red Puffer",
@@ -106750,7 +106782,7 @@
     "mint": "B2mmgN36q3J4ajpvSDrjHXRiyuFH5176u48Fpop9CbGA",
     "name": "MKRS #7703",
     "image": "https://bafybeia74tc4rff54nmfjrcm2m7vk3n6qykv4v6ywagt5k3lksi2ygsepq.ipfs.nftstorage.link/7703.jpeg?ext=jpeg",
-    "metaUpdated": 1665533292536,
+    "metaUpdated": 1665647688368,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Sand Vest on White Crewneck",
@@ -106772,7 +106804,7 @@
     "mint": "FFoVFJy6aCTvvkc9HRPNMJvN8uZh7rxU58YoFq57PGsD",
     "name": "MKRS #3518",
     "image": "https://bafybeidt53eed242xjvzncsnsrakr4im7x752djewlqx53io5clhpbje7y.ipfs.nftstorage.link/3518.jpeg?ext=jpeg",
-    "metaUpdated": 1665533293343,
+    "metaUpdated": 1665647688994,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Black T-Shirt",
@@ -106794,7 +106826,7 @@
     "mint": "3ppmnAbxktL6M3BWdBPXuqY9Hx9tipzT7pJ2tNfZNiec",
     "name": "MKRS #4821",
     "image": "https://bafybeighi66ecyjg5bemuvi7uy6ubka4lp77y2eq5elqbh64o7cpbnpgci.ipfs.nftstorage.link/4821.jpeg?ext=jpeg",
-    "metaUpdated": 1665533294119,
+    "metaUpdated": 1665647689729,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Light Grey Crewneck",
@@ -106817,7 +106849,7 @@
     "mint": "6WCRU6TuURN9jARbABg4pQ539cdQbvTnCs7r762pSvDM",
     "name": "MKRS #5219",
     "image": "https://bafybeielbqlt4thkf2vmx4kmn2kdnyp5rnnc5qptj5nqrrpi2422wq4s3m.ipfs.nftstorage.link/5219.jpeg?ext=jpeg",
-    "metaUpdated": 1665533294869,
+    "metaUpdated": 1665647710716,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Sand Overalls",
@@ -106840,7 +106872,7 @@
     "mint": "Hte9sjEQnZCsdqhPKiJzV1DDNeYrFtmgGsJ2iwQCQVAQ",
     "name": "MKRS #7419",
     "image": "https://bafybeidm7wf3imbw5qvpls5w44xc47ufttiufrx54km4ddy2kvyuxkbq3y.ipfs.nftstorage.link/7419.jpeg?ext=jpeg",
-    "metaUpdated": 1665533295730,
+    "metaUpdated": 1665647711735,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Black T-Shirt",
@@ -106862,7 +106894,7 @@
     "mint": "8GAYzRuy6etzzw85vGsB1XcUHnS9KW6KVwpoZ2MWKb6S",
     "name": "MKRS #3199",
     "image": "https://bafybeigcihp2qs7gublmaqa3ezyrtjyxfr2eujujxh2s3iy3dxwlxkrcn4.ipfs.nftstorage.link/3199.jpeg?ext=jpeg",
-    "metaUpdated": 1665533296478,
+    "metaUpdated": 1665647712468,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Yellow T-Shirt",
@@ -106885,7 +106917,7 @@
     "mint": "ChchUoud1hKkyyBocKEb7C365TP65gDhnqF1CGByCV32",
     "name": "MKRS #1816",
     "image": "https://bafybeiekvz7525quie7x7bsxulgt2d7ncdagw3gvpmdbjtbn7ay3z6rveu.ipfs.nftstorage.link/1816.jpeg?ext=jpeg",
-    "metaUpdated": 1665533297252,
+    "metaUpdated": 1665647713520,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "White Pit",
@@ -106907,7 +106939,7 @@
     "mint": "ACNdixe9737PJ8ASDCgZSn6hAUNPnjbVx54PE1wP6qMW",
     "name": "MKRS #0787",
     "image": "https://bafybeifew7xwgtseomjxmlznmytcqdbqeicduqwqlhwcp35o2lqfjz3lga.ipfs.nftstorage.link/787.jpeg?ext=jpeg",
-    "metaUpdated": 1665533298158,
+    "metaUpdated": 1665647714132,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Light Grey T-Shirt",
@@ -106930,7 +106962,7 @@
     "mint": "CAw3F2W7GyzXr3cJjv6fX6ukXyBP4FjASX9QShRu3DWj",
     "name": "MKRS #5298",
     "image": "https://bafybeicloqzr5z7z3yxc4agpqypcjqhysrkha6w5yokql2iurinaglzgim.ipfs.nftstorage.link/5298.jpeg?ext=jpeg",
-    "metaUpdated": 1665533298946,
+    "metaUpdated": 1665647714335,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Yellow Crewneck",
@@ -106952,7 +106984,7 @@
     "mint": "HbZp48pcgXBnZheMeNrvYWhnjuEHd3XMiq1VrfYV7bq2",
     "name": "MKRS #4074",
     "image": "https://bafybeigdockefowwx5u2jjg32wf2ut63v7xc75hm4k4ggbpvrxzjwlunxu.ipfs.nftstorage.link/4074.jpeg?ext=jpeg",
-    "metaUpdated": 1665533299730,
+    "metaUpdated": 1665647714622,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Light Grey T-Shirt",
@@ -106975,7 +107007,7 @@
     "mint": "J9b43zsoR688Crh6pGGEaW4tb8oCqttizYCHAiwHiFoG",
     "name": "MKRS #2132",
     "image": "https://bafybeiannjbl5k4fa32itehe5jkq6mwxmcqche7iswg6zjjbrwjexjo5di.ipfs.nftstorage.link/2132.jpeg?ext=jpeg",
-    "metaUpdated": 1665533300556,
+    "metaUpdated": 1665647715306,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Denim on Black Tank",
@@ -106998,7 +107030,7 @@
     "mint": "35wbweoGvp28MgNkB7gYfPBqeSiXxiRqHnUcxqd2anKN",
     "name": "MKRS #1864",
     "image": "https://bafybeiacmsrj7rmosl7owuhyhmlsetcgz4braz2uspvglsz2bmvk2ofw7m.ipfs.nftstorage.link/1864.jpeg?ext=jpeg",
-    "metaUpdated": 1665533301244,
+    "metaUpdated": 1665647716068,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Sand T-Shirt",
@@ -107020,7 +107052,7 @@
     "mint": "3yaXS21PTL9bCUzxoKBc49aVkNSVJtyb37WfyhxnjuGH",
     "name": "MKRS #0316",
     "image": "https://arweave.net/lw9MIONMbTUA-r_tv_Ts5KF3E3-djvsT0da3ex4DgRo",
-    "metaUpdated": 1665533301751,
+    "metaUpdated": 1665647716290,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "Light Grey Overalls",
@@ -107035,7 +107067,7 @@
     "rank": 4777,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "6nPmEdSzbpiPGvAz2VQKpqRQ8q7LKPRgJbaWPmstYyX7"
     ]
@@ -107044,7 +107076,7 @@
     "mint": "6nPmEdSzbpiPGvAz2VQKpqRQ8q7LKPRgJbaWPmstYyX7",
     "name": "MKRS #3412",
     "image": "https://arweave.net/DlTRqeYxEEmpnaKTfmFMEJK9h1Q5_NWJku9bDg-CEVA",
-    "metaUpdated": 1665533302322,
+    "metaUpdated": 1665647716695,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "Light Grey Overalls",
@@ -107068,7 +107100,7 @@
     "mint": "2Pg1HtRatr8d3sV4jZpNNpsqGGEm3YwiVbN8yXF7Qi4V",
     "name": "MKRS #1029",
     "image": "https://bafybeihdezbpxot6alijd4swm2mvf4qqrbjnrxrtlmxl3o6whfk7fyvjbq.ipfs.nftstorage.link/1029.jpeg?ext=jpeg",
-    "metaUpdated": 1665533303015,
+    "metaUpdated": 1665647716939,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Black Suit",
@@ -107090,7 +107122,7 @@
     "mint": "4mS6sbmFoxkTwCNpJhV53WXbpYNSEtcTZx9XRWASQLHa",
     "name": "MKRS #7392",
     "image": "https://bafybeicok2afql3bwzwfvat6k6v2danjxenf6jfhdta7gwh6xtjekoqdia.ipfs.nftstorage.link/7392.jpeg?ext=jpeg",
-    "metaUpdated": 1665533324022,
+    "metaUpdated": 1665647717875,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "Green Pit",
@@ -107112,7 +107144,7 @@
     "mint": "C6RgJnT1iiH83VE2V3XiDL4UbPkEh3orEmEHjLDLHTMU",
     "name": "MKRS #0919",
     "image": "https://arweave.net/h79t0-tRkejOk7m5UNHVV5-7kMN4cS8JU799cgfsH20",
-    "metaUpdated": 1665533324512,
+    "metaUpdated": 1665647718086,
     "Background": "MKRS Background",
     "DNA": "Taped Rainbow",
     "Clothing": "Sand Hoodie",
@@ -107137,7 +107169,7 @@
     "mint": "63zzx1zGC5RF7aiMZs247sU2DhR3iAZhkwGTNyoJReB5",
     "name": "MKRS #4981",
     "image": "https://arweave.net/1ROZrPjz6C__8hSpMsnBW7OFe2UjMeoiyuUyp2mUibc",
-    "metaUpdated": 1665533325005,
+    "metaUpdated": 1665647718330,
     "Background": "MKRS Background",
     "DNA": "Taped Rainbow",
     "Clothing": "Sand Hoodie",
@@ -107161,7 +107193,7 @@
     "mint": "EEtjZ8GsAv1TEpBjwN7RD5RXB9vM2vLcJKQPN3Z1k9uQ",
     "name": "MKRS #7457",
     "image": "https://bafybeibkhricr3dmsrr56lr2hwev7qzcrwz44eqydwlo2z3livkaltbqha.ipfs.nftstorage.link/7457.jpeg?ext=jpeg",
-    "metaUpdated": 1665533325721,
+    "metaUpdated": 1665647719305,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "White Pit",
@@ -107183,7 +107215,7 @@
     "mint": "6qF3WTcvH9UMpe4YgTwgNndk4s2bGm9M4tA97LV5YSgq",
     "name": "MKRS #3369",
     "image": "https://bafybeictygyyk46vejgf3h2v2vkadp6uwtif3i6yolowtfc7yo7fbsmffa.ipfs.nftstorage.link/3369.jpeg?ext=jpeg",
-    "metaUpdated": 1665533326502,
+    "metaUpdated": 1665647719890,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Pink Pit",
@@ -107206,7 +107238,7 @@
     "mint": "HFx7husZCPVXyfpbFeyF2ddqpAzvLkWaMpTGnfv22nS5",
     "name": "MKRS #0756",
     "image": "https://bafybeifokpp3sarirbkrqg7rohok2p3s26qcpqtzcol6aqwcywptujvsz4.ipfs.nftstorage.link/756.jpeg?ext=jpeg",
-    "metaUpdated": 1665533327355,
+    "metaUpdated": 1665647720862,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Red T-Shirt",
@@ -107229,7 +107261,7 @@
     "mint": "CMG6LQBpxzCiE7QUGxntudy73So8hF2zUcVDbQrsEehR",
     "name": "MKRS #7428",
     "image": "https://bafybeidm7wf3imbw5qvpls5w44xc47ufttiufrx54km4ddy2kvyuxkbq3y.ipfs.nftstorage.link/7428.jpeg?ext=jpeg",
-    "metaUpdated": 1665533328117,
+    "metaUpdated": 1665647721418,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Light Grey Hoodie",
@@ -107252,7 +107284,7 @@
     "mint": "4R2bBGf7s46j7hhBtLMcpx8VqgFcyCe6oC6hmJSgoQg3",
     "name": "MKRS #5122",
     "image": "https://bafybeicpjmac2vihyhlmvr7dy2petg5k2dsu6wyh77o34sl3je6aqm7z7a.ipfs.nftstorage.link/5122.jpeg?ext=jpeg",
-    "metaUpdated": 1665533328929,
+    "metaUpdated": 1665647722577,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "White Vest on White T-Shirt",
@@ -107274,7 +107306,7 @@
     "mint": "HysaxZkJeuMptgNedGexXv9NpVGoWty8zX1oR34mQGUk",
     "name": "MKRS #0589",
     "image": "https://bafybeidf5cjnxkqwvxdyvzqvv74p75jssa74dxgz3hsogeuawmnoqxfbde.ipfs.nftstorage.link/589.jpeg?ext=jpeg",
-    "metaUpdated": 1665533329726,
+    "metaUpdated": 1665647723196,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "White Holy T-Shirt",
@@ -107297,7 +107329,7 @@
     "mint": "CyJihnKgMPBcDQSvF35xYgGzHYizQDK7bqXv1rZsYXhm",
     "name": "MKRS #6072",
     "image": "https://bafybeihu4aspdxibucnzeyx7wtyzrocwfd7725g665tr4mw2l7622nbwea.ipfs.nftstorage.link/6072.jpeg?ext=jpeg",
-    "metaUpdated": 1665533330522,
+    "metaUpdated": 1665647723838,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Denim on Black Tank",
@@ -107319,7 +107351,7 @@
     "mint": "5fgVGT2caWJdXkN8tEqnVW6R7CQTxSzvD32AXVDJYRfM",
     "name": "MKRS #5775",
     "image": "https://bafybeifqwdh3tdyakznc66i6aoyiollsdaky4mwcbvuukwq5tl2iuuurfq.ipfs.nftstorage.link/5775.jpeg?ext=jpeg",
-    "metaUpdated": 1665533331379,
+    "metaUpdated": 1665647724890,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Yellow T-Shirt",
@@ -107341,7 +107373,7 @@
     "mint": "9YkCC1NKmYiqeWt494dvsGF42hqGYQQsUUwhAtRhLJch",
     "name": "MKRS #2871",
     "image": "https://bafybeietnn723e32cmbnucf4na6icg4qvln4eoyqqsdkbkahockpwfrlr4.ipfs.nftstorage.link/2871.jpeg?ext=jpeg",
-    "metaUpdated": 1665533332481,
+    "metaUpdated": 1665647725871,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Light Grey Puffer",
@@ -107363,7 +107395,7 @@
     "mint": "GYDuaPpThce42usrCJECv1R9GYUdycQTViPWqs5Wn1wM",
     "name": "MKRS #2591",
     "image": "https://bafybeib4uovrt6t4vdknvlzjlf2hnci3ypkqdfhfwd2eheyflkhh57mvaq.ipfs.nftstorage.link/2591.jpeg?ext=jpeg",
-    "metaUpdated": 1665544804365,
+    "metaUpdated": 1665647726042,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Black Overalls",
@@ -107377,15 +107409,13 @@
     "Twins": "None",
     "rank": 4792,
     "price": "",
-    "owner": "BBwYU7DGTjrQvWPTfqmQeR3ysR8cEVGXpdMiqwPSqYjc",
-    "owns": 108,
     "siblings": []
   },
   {
     "mint": "7snKwwv5puEy7jNUBGsfygGzRDyncALfrJoDvBiQKtik",
     "name": "MKRS #0767",
     "image": "https://bafybeifokpp3sarirbkrqg7rohok2p3s26qcpqtzcol6aqwcywptujvsz4.ipfs.nftstorage.link/767.jpeg?ext=jpeg",
-    "metaUpdated": 1665545227814,
+    "metaUpdated": 1665648047024,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Red Puffer",
@@ -107407,7 +107437,7 @@
     "mint": "7KmTYy66MGavDfkmqEhqhTFPRQMoKinqXHkdiaqu54hf",
     "name": "MKRS #2302",
     "image": "https://bafybeifk7ruxlulzq2qys3e7m2fluiyrsmnfwr4xb7ssh6c3x6bbbxd6oe.ipfs.nftstorage.link/2302.jpeg?ext=jpeg",
-    "metaUpdated": 1665544805151,
+    "metaUpdated": 1665647726788,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Blue Hoodie",
@@ -107429,7 +107459,7 @@
     "mint": "572dquyoSPABZqcp2mnrRHZwnttGhA55SqXFMfa3DtcE",
     "name": "MKRS #1398",
     "image": "https://bafybeibvrgvrdeg5zxa5zfbatmibu6h2khvzlutcbu4mtz7ncmq3ck43le.ipfs.nftstorage.link/1398.jpeg?ext=jpeg",
-    "metaUpdated": 1665544805943,
+    "metaUpdated": 1665647727525,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Sand Holy T-Shirt",
@@ -107451,7 +107481,7 @@
     "mint": "2vEDjP6NZ39tukAdXG8Y8zoqmZQcgDSjhyq2TvWJsdw8",
     "name": "MKRS #3100",
     "image": "https://arweave.net/IAfkcBvDwVzJ5LFp28OeVhWZfehb9P9-5fUI46DDV4U",
-    "metaUpdated": 1665544806493,
+    "metaUpdated": 1665647727877,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Blue T-Shirt",
@@ -107475,7 +107505,7 @@
     "mint": "ADxqRnAyjdDoMij9UUwMFHyBvU8S7D1aW1rRBTEEL5xn",
     "name": "MKRS #0617",
     "image": "https://bafybeic7g5th7qtis4qfzs2wqbp3ovldliu5rui5ljqhgqvveojyznqfbq.ipfs.nftstorage.link/617.jpeg?ext=jpeg",
-    "metaUpdated": 1665544807374,
+    "metaUpdated": 1665647728552,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Yellow Crewneck",
@@ -107497,7 +107527,7 @@
     "mint": "CQpoEVXS9CkpnAAkuJyRp2EwiTEC4JTsrRRFaYuBDZom",
     "name": "MKRS #1621",
     "image": "https://bafybeih2xiatpbzrhfdj4ilzqqkkteld46ewrwlkloq47ufnrfjiorxcwm.ipfs.nftstorage.link/1621.jpeg?ext=jpeg",
-    "metaUpdated": 1665544808450,
+    "metaUpdated": 1665647729193,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Black Overalls",
@@ -107519,7 +107549,7 @@
     "mint": "FR25edBiCpv4789RUQCiV8mABfcYRkv42sQzJtHKV44j",
     "name": "MKRS #0041",
     "image": "https://bafybeid4p2bbc7v7evqlhfor6ia72tsispwdatsany2oht7in7znuxmcha.ipfs.nftstorage.link/41.jpeg?ext=jpeg",
-    "metaUpdated": 1665544809346,
+    "metaUpdated": 1665647729840,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "White Overalls",
@@ -107542,7 +107572,7 @@
     "mint": "DgVmtR6byt3gBBKgWrJCN3BV8ppmqSyW3omNxA2Y6JPw",
     "name": "MKRS #0902",
     "image": "https://bafybeihlai2zrx4sfysbgtwe7b6mo4sys4e2ihxa3cmfwriyutkjmyvuf4.ipfs.nftstorage.link/902.jpeg?ext=jpeg",
-    "metaUpdated": 1665544810089,
+    "metaUpdated": 1665647730104,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "White Coveralls",
@@ -107565,7 +107595,7 @@
     "mint": "GQ6U71NY5bATrbSfPZnzV6zrgmtRyvnpT4FnHdy9kbu5",
     "name": "MKRS #7508",
     "image": "https://arweave.net/VI2EAGZJ5RXhOAJKvCo-WGriYFr79902CTyi40boSg0",
-    "metaUpdated": 1665544810700,
+    "metaUpdated": 1665647730370,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Blue T-Shirt",
@@ -107589,7 +107619,7 @@
     "mint": "Fps8GCmquZh8mSBGCMvHZv2yBBf8hjdPSUJVZPPgRChS",
     "name": "MKRS #4954",
     "image": "https://bafybeid7lhwr7fdxiq4gomfkooxwnawrkrabiyin2prs4ykwopjejxtjzu.ipfs.nftstorage.link/4954.jpeg?ext=jpeg",
-    "metaUpdated": 1665544811528,
+    "metaUpdated": 1665647730561,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Light Grey Crewneck",
@@ -107611,7 +107641,7 @@
     "mint": "Ejxc2ssUBhzYQdy2fGguz55VpB4R3FoV4JFQCut5RsmW",
     "name": "MKRS #3420",
     "image": "https://bafybeigfogazmfpj4g6ii5ziuew4vrdw23uo4li42x3s74q73mh3jqkgpq.ipfs.nftstorage.link/3420.jpeg?ext=jpeg",
-    "metaUpdated": 1665544832649,
+    "metaUpdated": 1665647731297,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Yellow Crewneck",
@@ -107633,7 +107663,7 @@
     "mint": "DuEXRDRtpod8Jc5dCjwtEUGLD9rLYtyGhvWLK5Ho2udh",
     "name": "MKRS #3052",
     "image": "https://bafybeihivjzyu5r5v55k5ae2ugkfwrmspay7fbpjohp53urnc7jgrgds5e.ipfs.nftstorage.link/3052.jpeg?ext=jpeg",
-    "metaUpdated": 1665544833774,
+    "metaUpdated": 1665647731993,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Pink Pit",
@@ -107655,7 +107685,7 @@
     "mint": "Dd4hN5KD36GhVTqqiB5VjKUCT4ag1Fq1S9ooqEtS58tc",
     "name": "MKRS #5132",
     "image": "https://bafybeid7simuoypifywiyhoy2o4czw4miabf6jh5wfpccqmyyggs2c7l4q.ipfs.nftstorage.link/5132.jpeg?ext=jpeg",
-    "metaUpdated": 1665544834563,
+    "metaUpdated": 1665647753206,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Black Overalls",
@@ -107678,7 +107708,7 @@
     "mint": "6eZyw2jaw4rVxCF8ACSQUgs3FuVruZqEK9xQ8MvtYccg",
     "name": "MKRS #3437",
     "image": "https://bafybeigfogazmfpj4g6ii5ziuew4vrdw23uo4li42x3s74q73mh3jqkgpq.ipfs.nftstorage.link/3437.jpeg?ext=jpeg",
-    "metaUpdated": 1665544835305,
+    "metaUpdated": 1665647753950,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Red Hoodie",
@@ -107700,7 +107730,7 @@
     "mint": "69DT2Dp8UeURKET9TUVf99UA7KiqHMAd3rxfDmckoECw",
     "name": "MKRS #5280",
     "image": "https://bafybeicloqzr5z7z3yxc4agpqypcjqhysrkha6w5yokql2iurinaglzgim.ipfs.nftstorage.link/5280.jpeg?ext=jpeg",
-    "metaUpdated": 1665544836067,
+    "metaUpdated": 1665647754192,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Light Grey Tank",
@@ -107722,7 +107752,7 @@
     "mint": "8gRaRKiBGvn1Vhuh9kotS8skLghN1MoMuvjLBdMuaYRg",
     "name": "MKRS #6118",
     "image": "https://bafybeigt6mzjp22pqih7o65zfwlktkiigkzz2iuky4wleui3pxeeq4to7u.ipfs.nftstorage.link/6118.jpeg?ext=jpeg",
-    "metaUpdated": 1665544836857,
+    "metaUpdated": 1665647754397,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Sand Holy T-Shirt",
@@ -107744,7 +107774,7 @@
     "mint": "BB5s25yNkbGP5agNfNbu6HnWajyYnxrFnxCBF2z3W7bN",
     "name": "MKRS #7648",
     "image": "https://bafybeifzbxezpydbtyq33orodbgwuhntjffyzdd6s26ojza6je4uplj4wy.ipfs.nftstorage.link/7648.jpeg?ext=jpeg",
-    "metaUpdated": 1665544837523,
+    "metaUpdated": 1665647755063,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Yellow T-Shirt",
@@ -107766,7 +107796,7 @@
     "mint": "6ssPsA2soqqPuMn68om2GFtrLo5YVXYWxPz9rmJp6Lb8",
     "name": "MKRS #5011",
     "image": "https://bafybeih472wzd3z6adkn6rcxjihuaaql4txe7amcpadqkuxl5ekahgquke.ipfs.nftstorage.link/5011.jpeg?ext=jpeg",
-    "metaUpdated": 1665544838488,
+    "metaUpdated": 1665647755994,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Sand Vest on White Crewneck",
@@ -107780,16 +107810,13 @@
     "Twins": "None",
     "rank": 4810,
     "price": "",
-    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
-    "ownerAlt": "exchange",
-    "owns": 1126,
     "siblings": []
   },
   {
     "mint": "EKWxjFp4yQhUH6vBz57g6ET9gt6STktZeJ1eLV1q4p6U",
     "name": "MKRS #1999",
     "image": "https://bafybeib4sfocjjb3lv6wchhk3e3vwnaa67vqmh454ih5rq455vrjfh3vey.ipfs.nftstorage.link/1999.jpeg?ext=jpeg",
-    "metaUpdated": 1665544839125,
+    "metaUpdated": 1665647756865,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Painted Tank",
@@ -107811,7 +107838,7 @@
     "mint": "4tDsfLCCikAWvde8D6nMPrzA2B8DmduEN3uSQLou3d2K",
     "name": "MKRS #2863",
     "image": "https://arweave.net/KCYys0b83C-EaLxt0YMKinf3byHBTiYuMekzAtHjxc0",
-    "metaUpdated": 1665544839377,
+    "metaUpdated": 1665647757213,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Denim on Black T-Shirt",
@@ -107825,8 +107852,6 @@
     "Treats": "None",
     "rank": 4812,
     "price": "",
-    "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
     "siblings": [
       "Eb3c4L2RXRwKAxmT9V112uAa841NFTud8ysiViz9AXTh"
     ]
@@ -107835,7 +107860,7 @@
     "mint": "GTCPRjP6MWkQaxd3WSEiiAZySP6iDXvVCo6UJ7CEBJK5",
     "name": "MKRS #2574",
     "image": "https://arweave.net/T4mFkM2bo8w2zAkFcKui3Ifp5Fy0oP605WrB_QQF_mM",
-    "metaUpdated": 1665544839902,
+    "metaUpdated": 1665647757494,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Sand Pit",
@@ -107860,7 +107885,7 @@
     "mint": "Eb3c4L2RXRwKAxmT9V112uAa841NFTud8ysiViz9AXTh",
     "name": "MKRS #5188",
     "image": "https://arweave.net/k0z_sIIMufJ29r9Zrlh2uxXCfjx8JtCZ9rn5VGraC5s",
-    "metaUpdated": 1665544840131,
+    "metaUpdated": 1665647757632,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Denim on Black T-Shirt",
@@ -107885,7 +107910,7 @@
     "mint": "HuT2Us64yR1kEDx4Vo5dgqWFYuUpF3VPus3a8BihP3PY",
     "name": "MKRS #1070",
     "image": "https://arweave.net/rDbFAFLNU3juB8slgjHfpI7o2rGSGqHSXF9iKS6AGjg",
-    "metaUpdated": 1665544840270,
+    "metaUpdated": 1665647758057,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Sand Pit",
@@ -107899,8 +107924,6 @@
     "Treats": "None",
     "rank": 4815,
     "price": "",
-    "owner": "9UgtPr41VznEyTv789etMdDcmN3eN32maZzYdt6KAq37",
-    "owns": 4,
     "siblings": [
       "GTCPRjP6MWkQaxd3WSEiiAZySP6iDXvVCo6UJ7CEBJK5"
     ]
@@ -107909,7 +107932,7 @@
     "mint": "38du7cuNJ2s57yv9XBrJGuxgwsEYU2o47ZgxNVQqewL4",
     "name": "MKRS #6107",
     "image": "https://bafybeigt6mzjp22pqih7o65zfwlktkiigkzz2iuky4wleui3pxeeq4to7u.ipfs.nftstorage.link/6107.jpeg?ext=jpeg",
-    "metaUpdated": 1665544861393,
+    "metaUpdated": 1665647759027,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "Yellow Hoodie",
@@ -107924,14 +107947,14 @@
     "rank": 4816,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
     "mint": "5AGvn8cQGeMAovUzWXbkFgQzDsXqVYPCC9Jfic6wHHCZ",
     "name": "MKRS #0056",
     "image": "https://bafybeid4p2bbc7v7evqlhfor6ia72tsispwdatsany2oht7in7znuxmcha.ipfs.nftstorage.link/56.jpeg?ext=jpeg",
-    "metaUpdated": 1665544862116,
+    "metaUpdated": 1665647759751,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Black Hoodie",
@@ -107945,16 +107968,13 @@
     "Twins": "None",
     "rank": 4817,
     "price": "",
-    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
-    "ownerAlt": "exchange",
-    "owns": 1126,
     "siblings": []
   },
   {
     "mint": "7dbPF9qbaPL1PuNS1XsN7fztXwhGe9Fi9srkK2UFSzBV",
     "name": "MKRS #4547",
     "image": "https://bafybeigqpbw4rxtqljq7iwc5d2h6lhtsd2q7ate6xsayozvxx735zdhada.ipfs.nftstorage.link/4547.jpeg?ext=jpeg",
-    "metaUpdated": 1665544863053,
+    "metaUpdated": 1665647760589,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Sand Coveralls",
@@ -107969,14 +107989,14 @@
     "rank": 4818,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
     "mint": "2R7nzCkRQ8FmD9L7E2aBLj4pYTyJ65bTVxJHwGb7c4Sq",
     "name": "MKRS #6754",
     "image": "https://bafybeigoc3kr35rrdhrw3qkptsw36m27zsuseauj67iwl3dovwvjreiiiq.ipfs.nftstorage.link/6754.jpeg?ext=jpeg",
-    "metaUpdated": 1665544863757,
+    "metaUpdated": 1665647761134,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Pink Hoodie",
@@ -107998,7 +108018,7 @@
     "mint": "Hk12ibswPTG9qLExP8MrzaT4nck64Cn5GFq4ttcU4Rtg",
     "name": "MKRS #2334",
     "image": "https://bafybeih3id3me6c7bjxirwpiu2joz64gm4mtqo5oolx6ixzvsgcwvd6i4q.ipfs.nftstorage.link/2334.jpeg?ext=jpeg",
-    "metaUpdated": 1665544864617,
+    "metaUpdated": 1665647762257,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Black Overalls",
@@ -108020,7 +108040,7 @@
     "mint": "2HABVvfyVfd1NSRFmvmpiwLbzXgqFiaHvjK8P2Yy42nD",
     "name": "MKRS #3620",
     "image": "https://bafybeifawjogp75afd3ldhs4s4ihaxy3dljgd6n326o6etdh2yvxi2ujlm.ipfs.nftstorage.link/3620.jpeg?ext=jpeg",
-    "metaUpdated": 1665544865407,
+    "metaUpdated": 1665647763375,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "Pink T-Shirt",
@@ -108043,7 +108063,7 @@
     "mint": "ChMH7pctEbD2GhC5j83K2HNskwCx2Bx2q18EivEMphbN",
     "name": "MKRS #4797",
     "image": "https://bafybeihhvmmnx4xgyc766uguprwl7nepo7gzrbc2nea4s3eagjup3e7ibq.ipfs.nftstorage.link/4797.jpeg?ext=jpeg",
-    "metaUpdated": 1665544866311,
+    "metaUpdated": 1665647763615,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Black T-Shirt",
@@ -108088,7 +108108,7 @@
     "mint": "4w6yfyKea4ZqDNUEWANVRhdy68nw2BPb26cGtUER7muj",
     "name": "MKRS #5627",
     "image": "https://bafybeiaen3ottkiaqqyz6zvudanypn2l7xlspbdz7m2enykltfd3hav7ey.ipfs.nftstorage.link/5627.jpeg?ext=jpeg",
-    "metaUpdated": 1665544868367,
+    "metaUpdated": 1665647805019,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Sand Holy T-Shirt",
@@ -108110,7 +108130,7 @@
     "mint": "BEBZBR2Zr3QuCNfCepFcQAgKcquajdpAMmpVLHuiFsEB",
     "name": "MKRS #6602",
     "image": "https://bafybeif5pl2najciamolmrv44hlk32vkipe52ed2qtlhla6yuodifm37x4.ipfs.nftstorage.link/6602.jpeg?ext=jpeg",
-    "metaUpdated": 1665544869263,
+    "metaUpdated": 1665647805668,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Yellow Overalls",
@@ -108124,16 +108144,13 @@
     "Twins": "None",
     "rank": 4825,
     "price": "",
-    "owner": "6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek",
-    "ownerAlt": "treasury",
-    "owns": 640,
     "siblings": []
   },
   {
     "mint": "35qnURkAw5TSyHps7wpCdrLRj1k7jLUm72z29tnzL3oN",
     "name": "MKRS #4315",
     "image": "https://arweave.net/ytB9XuKgmwJ6EsyTCPjtI9KQdlKvbMycqPOiOfSHsY4",
-    "metaUpdated": 1665544869354,
+    "metaUpdated": 1665647805939,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Red Pit",
@@ -108157,7 +108174,7 @@
     "mint": "2zhEByfBeWP6mY4fkQCFzUKFCHb5AH6dMwfydN7t1FzR",
     "name": "MKRS #6253",
     "image": "https://arweave.net/XRx2AgjnSfg2SZLjcJ8Wn5KEkXhtpwTeELVGMY81WBk",
-    "metaUpdated": 1665544869579,
+    "metaUpdated": 1665647806076,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Red Pit",
@@ -108181,7 +108198,7 @@
     "mint": "J25VGeSzRLrQJU783f7jTSG2WaQdv86F1LU6rc8T4j1d",
     "name": "MKRS #3169",
     "image": "https://bafybeif6yy2drumy34pgj4pso34zf6aiineae3d5vwexe6hknbgi73fzq4.ipfs.nftstorage.link/3169.jpeg?ext=jpeg",
-    "metaUpdated": 1665544870692,
+    "metaUpdated": 1665647806427,
     "Background": "MKRS Background",
     "DNA": "Crystal Diamond",
     "Clothing": "Pink Hoodie",
@@ -108203,7 +108220,7 @@
     "mint": "71bdaVxkmLbDjpkgkac9MFaEpBYC9o3d1eDFFKwjYYiR",
     "name": "MKRS #5785",
     "image": "https://bafybeifqwdh3tdyakznc66i6aoyiollsdaky4mwcbvuukwq5tl2iuuurfq.ipfs.nftstorage.link/5785.jpeg?ext=jpeg",
-    "metaUpdated": 1665544871474,
+    "metaUpdated": 1665647807105,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Black Hoodie",
@@ -108225,7 +108242,7 @@
     "mint": "FG82Ewd8UJVbyqYvMx2msDFHWzSiqUgWaZ8RVd9BGXzu",
     "name": "MKRS #2130",
     "image": "https://bafybeiannjbl5k4fa32itehe5jkq6mwxmcqche7iswg6zjjbrwjexjo5di.ipfs.nftstorage.link/2130.jpeg?ext=jpeg",
-    "metaUpdated": 1665544872272,
+    "metaUpdated": 1665647807885,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Red Pit",
@@ -108247,7 +108264,7 @@
     "mint": "5goojvKHpvYu74U7CWtqqc481thrzfiWQV7REDrrJ9CH",
     "name": "MKRS #3148",
     "image": "https://bafybeiflhmhf5fhojba7ld4mvqugaduqnuuigtnlxrpnvx45r4ijdbpnxm.ipfs.nftstorage.link/3148.jpeg?ext=jpeg",
-    "metaUpdated": 1665544893398,
+    "metaUpdated": 1665647808476,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Yellow Crewneck",
@@ -108269,7 +108286,7 @@
     "mint": "BTrWrozpesQupqHzVPiiLZxVV4oY3zjRuM41j2De5Ff6",
     "name": "MKRS #7644",
     "image": "https://bafybeifzbxezpydbtyq33orodbgwuhntjffyzdd6s26ojza6je4uplj4wy.ipfs.nftstorage.link/7644.jpeg?ext=jpeg",
-    "metaUpdated": 1665544894120,
+    "metaUpdated": 1665647809148,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "White Vest on White T-Shirt",
@@ -108284,14 +108301,14 @@
     "rank": 4832,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
     "mint": "FWQVxzzN2Lqwy76wuEtGGGUVdtpfjqkd4G9PQ1jNxySB",
     "name": "MKRS #3028",
     "image": "https://bafybeido7smlgl5c4iwfvjqlbmjorg77zdoewy7v7hopgt653lz3slsosa.ipfs.nftstorage.link/3028.jpeg?ext=jpeg",
-    "metaUpdated": 1665544894816,
+    "metaUpdated": 1665647809350,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Yellow Overalls",
@@ -108313,7 +108330,7 @@
     "mint": "A5FwY378eTLV67Rgs1dXSRpDV85NQhJLKaYsn7s5ncbH",
     "name": "MKRS #3441",
     "image": "https://bafybeigfogazmfpj4g6ii5ziuew4vrdw23uo4li42x3s74q73mh3jqkgpq.ipfs.nftstorage.link/3441.jpeg?ext=jpeg",
-    "metaUpdated": 1665544895774,
+    "metaUpdated": 1665647810049,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Pink Pit",
@@ -108336,7 +108353,7 @@
     "mint": "7FN1QYUq3Cc9QwKg9nRWVWr1QQ6NVxXjautTb7ueWooa",
     "name": "MKRS #5445",
     "image": "https://bafybeihf4ltwlistnxsipvcsbhdk2pbtmsyn6ifwlmequewwtbcdtvj3iq.ipfs.nftstorage.link/5445.jpeg?ext=jpeg",
-    "metaUpdated": 1665544896460,
+    "metaUpdated": 1665647811741,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Yellow T-Shirt",
@@ -108358,7 +108375,7 @@
     "mint": "2DGiRmeuhA9yz76fs85T5F5tTYMFpzKCRUqZhAe1aspA",
     "name": "MKRS #7266",
     "image": "https://bafybeibytey5pt7mmm5llixz5xwbxa2xeq4w4mrijz34c2d2qjuwpic2ha.ipfs.nftstorage.link/7266.jpeg?ext=jpeg",
-    "metaUpdated": 1665544897096,
+    "metaUpdated": 1665647812297,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "Dark Grey Holy T-Shirt",
@@ -108381,7 +108398,7 @@
     "mint": "7Z9h6XjEe88bKPJkYtg4BMWqUSkY9gQ6srHYFDK17qx9",
     "name": "MKRS #3367",
     "image": "https://bafybeictygyyk46vejgf3h2v2vkadp6uwtif3i6yolowtfc7yo7fbsmffa.ipfs.nftstorage.link/3367.jpeg?ext=jpeg",
-    "metaUpdated": 1665544897875,
+    "metaUpdated": 1665647812924,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Red Puffer",
@@ -108403,7 +108420,7 @@
     "mint": "7qc5Fwz8VnyY8WPJre1YhDuSnB2r1iKtSJwKAYf2m7sN",
     "name": "MKRS #4043",
     "image": "https://arweave.net/Vc77CoytHzPLukKmaGK1T1_Tnpymr_6-0_heeWwpqoo",
-    "metaUpdated": 1665544898539,
+    "metaUpdated": 1665647813047,
     "Background": "MKRS Background",
     "DNA": "Flowers Vintage",
     "Clothing": "Light Grey Hoodie",
@@ -108428,7 +108445,7 @@
     "mint": "AswAx3EWPuZDJHzAL8J1sW4AS4TAuGeVcNcTUptSxkfP",
     "name": "MKRS #4963",
     "image": "https://bafybeid7lhwr7fdxiq4gomfkooxwnawrkrabiyin2prs4ykwopjejxtjzu.ipfs.nftstorage.link/4963.jpeg?ext=jpeg",
-    "metaUpdated": 1665544899281,
+    "metaUpdated": 1665647813711,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Yellow T-Shirt",
@@ -108450,7 +108467,7 @@
     "mint": "8AnRkcCvC87z7EUNkLaPTgnnbuUrzcwpQG4YXHq3QEEF",
     "name": "MKRS #6322",
     "image": "https://bafybeibs6bccdo47k3oh76cowtleqa76foszjb5oajy4cz65x3l3kv7vx4.ipfs.nftstorage.link/6322.jpeg?ext=jpeg",
-    "metaUpdated": 1665544900999,
+    "metaUpdated": 1665647814373,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "Black Overalls",
@@ -108473,7 +108490,7 @@
     "mint": "8T3jsVqfPvoZxFjXr6NNrr3nYcgHmRumYdCTqYxgfKsb",
     "name": "MKRS #6702",
     "image": "https://bafybeid6en2ccxs5ycwmxphucan7yvmeyeewtrthv5v2a4a72og7v3hetm.ipfs.nftstorage.link/6702.jpeg?ext=jpeg",
-    "metaUpdated": 1665544901701,
+    "metaUpdated": 1665647814589,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Red Hoodie",
@@ -108495,7 +108512,7 @@
     "mint": "2m2761j3VDcAwqfpVHDRNJJAN9szgrVZWVHXU6BVLmD8",
     "name": "MKRS #1731",
     "image": "https://bafybeiblen3nxas7sszcvqglpqnjozglxlue3xzsedszyktj2jdrwjv3se.ipfs.nftstorage.link/1731.jpeg?ext=jpeg",
-    "metaUpdated": 1665544902622,
+    "metaUpdated": 1665647815276,
     "Background": "MKRS Background",
     "DNA": "Flowers Vintage",
     "Clothing": "Black Crewneck",
@@ -108509,16 +108526,13 @@
     "Twins": "None",
     "rank": 4842,
     "price": "",
-    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
-    "ownerAlt": "exchange",
-    "owns": 1126,
     "siblings": []
   },
   {
     "mint": "5n7bbRjciczEsVroYfGbGf6z2hC12YNniyB63oNXDc1Y",
     "name": "MKRS #2801",
     "image": "https://arweave.net/U-D8UgjqwlenHeqhpEWELQZjX_6wBEm9i5hKRSjSA_E",
-    "metaUpdated": 1665544903132,
+    "metaUpdated": 1665647815406,
     "Background": "MKRS Background",
     "DNA": "Flowers Vintage",
     "Clothing": "Light Grey Hoodie",
@@ -108543,7 +108557,7 @@
     "mint": "DHSY3qrmVhh5LQpkpvR2kSr6GUBhjCFgZwcCzhPPy8A7",
     "name": "MKRS #6409",
     "image": "https://bafybeifuetwty4kovcr2h3pmpfqsvd3k5ah4nw2urskohv76jer4gtaoay.ipfs.nftstorage.link/6409.jpeg?ext=jpeg",
-    "metaUpdated": 1665544903804,
+    "metaUpdated": 1665647816142,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Light Grey Puffer",
@@ -108565,7 +108579,7 @@
     "mint": "4i9fpMeBWEHP8c9RtmNwQkXKB6UozoeEG8qQt5QPVidC",
     "name": "MKRS #5410",
     "image": "https://bafybeihvxurz6fily7v7zsaoscmgp7pxll2wzsywq5tvaspcrxpioxsayu.ipfs.nftstorage.link/5410.jpeg?ext=jpeg",
-    "metaUpdated": 1665544904662,
+    "metaUpdated": 1665647816847,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Black Holy T-Shirt",
@@ -108588,7 +108602,7 @@
     "mint": "BvhG3fw8mWt1NFGGoUj7za5WwXXbHwmbi24LTFHrgKU1",
     "name": "MKRS #4497",
     "image": "https://bafybeiakkefdgbift4nbs4lkb3aizysbbusvv7sv6mdawrzia24bzbiota.ipfs.nftstorage.link/4497.jpeg?ext=jpeg",
-    "metaUpdated": 1665544905829,
+    "metaUpdated": 1665647817535,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Red Puffer",
@@ -108611,7 +108625,7 @@
     "mint": "8v1rXGs1PXWGPriyE9jZgGCCmsDpZraEyAbNFT3rUuSn",
     "name": "MKRS #5698",
     "image": "https://bafybeifvy7xxy5j5saoo3kpezb5yggmjsq3keci652ejcizelskjhpuuja.ipfs.nftstorage.link/5698.jpeg?ext=jpeg",
-    "metaUpdated": 1665544906650,
+    "metaUpdated": 1665647817738,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Blue Turtleneck",
@@ -108625,16 +108639,13 @@
     "Twins": "None",
     "rank": 4847,
     "price": "",
-    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
-    "ownerAlt": "exchange",
-    "owns": 1126,
     "siblings": []
   },
   {
     "mint": "C16t79quJiVVoTmKC7VcnWdyBcZ5LdT5iTt6q68dQA9s",
     "name": "MKRS #3076",
     "image": "https://bafybeid3ghsr677mpj7dhaixhux53jtvobxkj2esfarqgy5bep6cueqlqy.ipfs.nftstorage.link/3076.jpeg?ext=jpeg",
-    "metaUpdated": 1665544907597,
+    "metaUpdated": 1665647818547,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Sand T-Shirt",
@@ -108657,7 +108668,7 @@
     "mint": "BKR8NyGbqGEgAr8J7DDrY9NF7uRuE3t1RQSWfGqcDkfq",
     "name": "MKRS #5222",
     "image": "https://bafybeiccpjzyaqdkt72ocjrmvy5vaizb6773dndfhwaum5whuqowichcja.ipfs.nftstorage.link/5222.jpeg?ext=jpeg",
-    "metaUpdated": 1665544908253,
+    "metaUpdated": 1665647819172,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Light Grey Tank",
@@ -108680,7 +108691,7 @@
     "mint": "Atb6WThg5cHYFXEmwGd6AWwhEDiRBDV29nfG2yNMzDdm",
     "name": "MKRS #3285",
     "image": "https://bafybeifm22i5efo366rcro2vpmtvayyr6x3gw7bxrtdznkvsfcokrivp4i.ipfs.nftstorage.link/3285.jpeg?ext=jpeg",
-    "metaUpdated": 1665545228463,
+    "metaUpdated": 1665648047991,
     "Background": "MKRS Background",
     "DNA": "Crystal Diamond",
     "Clothing": "Black Puffer",
@@ -108695,14 +108706,14 @@
     "rank": 4850,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
     "mint": "4GYL5xaeFG9wQ4dYt5PPP3oam8u7aKmzoRWmVihyR6Tz",
     "name": "MKRS #0561",
     "image": "https://arweave.net/OEBBy10kkBDrX3vs1Z4dJuxS82zafjKdBdAR1fas0i0",
-    "metaUpdated": 1665544908851,
+    "metaUpdated": 1665647819443,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Yellow T-Shirt",
@@ -108726,7 +108737,7 @@
     "mint": "7t7keSMyzBR6waN2cqtRNusKiHrUBUuXzpzf5dap9fHr",
     "name": "MKRS #7177",
     "image": "https://arweave.net/aHjux1AxvCbEGg5amslT-0cP6JYpfl-YeZ9-4sHoBac",
-    "metaUpdated": 1665544908945,
+    "metaUpdated": 1665647819564,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Yellow T-Shirt",
@@ -108751,7 +108762,7 @@
     "mint": "stfdr5MGTRnDav6UD7rAvV8MjDrEmFPbGzhZHaNi9A9",
     "name": "MKRS #7706",
     "image": "https://bafybeia74tc4rff54nmfjrcm2m7vk3n6qykv4v6ywagt5k3lksi2ygsepq.ipfs.nftstorage.link/7706.jpeg?ext=jpeg",
-    "metaUpdated": 1665544909938,
+    "metaUpdated": 1665647820363,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Yellow Overalls",
@@ -108774,7 +108785,7 @@
     "mint": "EJgyv36YpvXKdXocWskpmMtmFpi2vSSSj9mKJZrJEUds",
     "name": "MKRS #5747",
     "image": "https://bafybeialws3trc3xihqvnsmhlqvqdk2ze3p3rddhxs52vgg2fy6b4xdqde.ipfs.nftstorage.link/5747.jpeg?ext=jpeg",
-    "metaUpdated": 1665544910909,
+    "metaUpdated": 1665647820949,
     "Background": "MKRS Background",
     "DNA": "Crystal Diamond",
     "Clothing": "Black Puffer",
@@ -108797,7 +108808,7 @@
     "mint": "HfxDLau6WTKZ7vmVMcWCrHEWGSbGFfcA4CgHXA7QecF",
     "name": "MKRS #6057",
     "image": "https://bafybeiffkyp7zgp4zvhtg5helsbwowudaq4gmej7yej5n6bw3cskerdelu.ipfs.nftstorage.link/6057.jpeg?ext=jpeg",
-    "metaUpdated": 1665544911749,
+    "metaUpdated": 1665647821636,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Pink Hoodie",
@@ -108819,7 +108830,7 @@
     "mint": "Dr89EJZ41svSuDvqaRRWj7M5yztydcRH74EJem4VtYDr",
     "name": "MKRS #7521",
     "image": "https://bafybeienep53g5k6g6hyhhdzctrm7gi7t7hipwigq2xrknsw3iufffzbtu.ipfs.nftstorage.link/7521.jpeg?ext=jpeg",
-    "metaUpdated": 1665544912841,
+    "metaUpdated": 1665647822350,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Light Grey Tank",
@@ -108834,14 +108845,14 @@
     "rank": 4856,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
     "mint": "EqSYhNyKbH3dNcxUbWHDMwgmgcAzQoBHN1gYfkmaV9mP",
     "name": "MKRS #6775",
     "image": "https://bafybeigoc3kr35rrdhrw3qkptsw36m27zsuseauj67iwl3dovwvjreiiiq.ipfs.nftstorage.link/6775.jpeg?ext=jpeg",
-    "metaUpdated": 1665544914427,
+    "metaUpdated": 1665647822878,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Pink Tank",
@@ -108863,7 +108874,7 @@
     "mint": "HW5kjNd9gM3S1JEjK1pEjWPKQFuYh98zQor8kam5PeeF",
     "name": "MKRS #3689",
     "image": "https://bafybeihkfy4hjlbl37s6mmmd7iy53wd4hf3ntj5yau6z7avglr2eaywrcu.ipfs.nftstorage.link/3689.jpeg?ext=jpeg",
-    "metaUpdated": 1665544915648,
+    "metaUpdated": 1665647823488,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "White Overalls",
@@ -108886,7 +108897,7 @@
     "mint": "12tgqCQL7TzQ9Mq9BrRjCiwDiyu3hn2AFGYPDFW9Egnz",
     "name": "MKRS #3324",
     "image": "https://bafybeidw24uass6fnli5ayzi6orl6unbmbvuqeu47zuvjta5yuzmdzhxgq.ipfs.nftstorage.link/3324.jpeg?ext=jpeg",
-    "metaUpdated": 1665544916504,
+    "metaUpdated": 1665647824456,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Lavender T-Shirt",
@@ -108909,7 +108920,7 @@
     "mint": "4tcSXHvEL8Ej68Y2EyUEoDGLqRCs9XeWLZjKQpYAMg17",
     "name": "MKRS #7069",
     "image": "https://bafybeib56lk5jkeob6abvwt2xjzcm526bokka72x5idqjtikpjqatopt2m.ipfs.nftstorage.link/7069.jpeg?ext=jpeg",
-    "metaUpdated": 1665544917245,
+    "metaUpdated": 1665647825616,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Pink T-Shirt",
@@ -108923,15 +108934,13 @@
     "Twins": "None",
     "rank": 4860,
     "price": "",
-    "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
     "siblings": []
   },
   {
     "mint": "9KAFvTkWMd9TZwcb9shYusMKii8xbLtHLjgn7gpE2S3s",
     "name": "MKRS #4033",
     "image": "https://bafybeiasysu75q47bkngd66fy35srhmxkp72skq7g36h44q76a7h3cttlq.ipfs.nftstorage.link/4033.jpeg?ext=jpeg",
-    "metaUpdated": 1665544917988,
+    "metaUpdated": 1665647846873,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Yellow T-Shirt",
@@ -108954,7 +108963,7 @@
     "mint": "9qD9ni3oxxTJ8wg7HNFBXcoqXLJamoMU48caMJadZWrH",
     "name": "MKRS #4114",
     "image": "https://arweave.net/czDq7a8W3DXe_1Q-6vZsoRrUPIN7kv4bDAZFC0Vv4UY",
-    "metaUpdated": 1665544918475,
+    "metaUpdated": 1665647847136,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "White Vest on White T-Shirt",
@@ -108978,7 +108987,7 @@
     "mint": "6e2G6tacwjiiA8pXQMhBnhJbTEXEeZesui3nXjyfJzEJ",
     "name": "MKRS #4945",
     "image": "https://arweave.net/rw-pxZquP9tGNdb0JOdY7ew8LGERYI3tHJkCsItTxS4",
-    "metaUpdated": 1665544918567,
+    "metaUpdated": 1665647847469,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "White Vest on White T-Shirt",
@@ -109003,7 +109012,7 @@
     "mint": "3xHTxBhznp51VeuHJA68YeSbNHP4H43cnZGpsuwXXaBb",
     "name": "MKRS #0201",
     "image": "https://bafybeicw5w6flxrtnjgdgv62grajtvxbif2y3n7qtgdtwytggplmbhybsi.ipfs.nftstorage.link/201.jpeg?ext=jpeg",
-    "metaUpdated": 1665544919395,
+    "metaUpdated": 1665647848085,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "Sand T-Shirt",
@@ -109025,7 +109034,7 @@
     "mint": "2y2uaihH33jutW99eVASJu9SuRfb9bs3keG7Ek3c4TDq",
     "name": "MKRS #4864",
     "image": "https://bafybeihcem64zrwsee7gtyl2emexapbmvvfnwgskno6nx7a6feqrkrdmjy.ipfs.nftstorage.link/4864.jpeg?ext=jpeg",
-    "metaUpdated": 1665544940413,
+    "metaUpdated": 1665647848750,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Light Grey T-Shirt",
@@ -109047,7 +109056,7 @@
     "mint": "9nBWYjrbPjiYxJyTZUsNF5NL2d6DfzYGJuwHtX5xHkrR",
     "name": "MKRS #3922",
     "image": "https://bafybeie57c7avpiemzwcrl3qotx57sih5rj6uy2aykpzacueyhwe3r666y.ipfs.nftstorage.link/3922.jpeg?ext=jpeg",
-    "metaUpdated": 1665544941554,
+    "metaUpdated": 1665647848960,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "White Holy T-Shirt",
@@ -109069,7 +109078,7 @@
     "mint": "CaGBWU2jqkoDrKuZMxEC9sQ1HAfSadMDZ2ppT4BULbHG",
     "name": "MKRS #6689",
     "image": "https://bafybeickawp3cwg53jz6gmyrkg75yusci5g4dv76nlj5ewgwozziga4onu.ipfs.nftstorage.link/6689.jpeg?ext=jpeg",
-    "metaUpdated": 1665544942327,
+    "metaUpdated": 1665647849687,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Sand T-Shirt",
@@ -109091,7 +109100,7 @@
     "mint": "EuJnKMSEAMvvG9PVDwRrcCpMPwbGHhJGj5D7P4QWsMHx",
     "name": "MKRS #3027",
     "image": "https://bafybeido7smlgl5c4iwfvjqlbmjorg77zdoewy7v7hopgt653lz3slsosa.ipfs.nftstorage.link/3027.jpeg?ext=jpeg",
-    "metaUpdated": 1665544943461,
+    "metaUpdated": 1665647850310,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "White Holy T-Shirt",
@@ -109114,7 +109123,7 @@
     "mint": "Db2dmv2aMN3m5gXwUiNkYKzGkHcw2FxGeyRbew3uxyzp",
     "name": "MKRS #4529",
     "image": "https://bafybeiaxbri7fdhvrhxys2fwirlifpwrn6mx3jbjwcn4o26dbsnoiqyai4.ipfs.nftstorage.link/4529.jpeg?ext=jpeg",
-    "metaUpdated": 1665544944296,
+    "metaUpdated": 1665647850970,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Pink T-Shirt",
@@ -109137,7 +109146,7 @@
     "mint": "GEt4LrdNRhEikBXN5iuWadAb8oeysj2yBBmKjNnpxZNZ",
     "name": "MKRS #0105",
     "image": "https://bafybeifpe3td4rd343e6wotiqycknb2cbb7idrjpjxrmdabn6jirxxtzhq.ipfs.nftstorage.link/105.jpeg?ext=jpeg",
-    "metaUpdated": 1665544965351,
+    "metaUpdated": 1665647851700,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Red Puffer",
@@ -109159,7 +109168,7 @@
     "mint": "86mbKCYH3DvdGBWVdPUhjoiPXJvrmvQBfpr1aYfBXeP8",
     "name": "MKRS #5022",
     "image": "https://bafybeih472wzd3z6adkn6rcxjihuaaql4txe7amcpadqkuxl5ekahgquke.ipfs.nftstorage.link/5022.jpeg?ext=jpeg",
-    "metaUpdated": 1665544966493,
+    "metaUpdated": 1665647852237,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Blue Puffer",
@@ -109181,7 +109190,7 @@
     "mint": "E1PE7J5VJoTMNUdYhr5wwcFkcZfSkCZkq8sz6TeVFy9k",
     "name": "MKRS #6076",
     "image": "https://bafybeihu4aspdxibucnzeyx7wtyzrocwfd7725g665tr4mw2l7622nbwea.ipfs.nftstorage.link/6076.jpeg?ext=jpeg",
-    "metaUpdated": 1665544967147,
+    "metaUpdated": 1665647853146,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "White Overalls",
@@ -109203,7 +109212,7 @@
     "mint": "GPxems2RqYEqWzDwMgkVv8RwLqKRZJrvSBRTLCz3orkh",
     "name": "MKRS #6307",
     "image": "https://bafybeibs6bccdo47k3oh76cowtleqa76foszjb5oajy4cz65x3l3kv7vx4.ipfs.nftstorage.link/6307.jpeg?ext=jpeg",
-    "metaUpdated": 1665544967988,
+    "metaUpdated": 1665647853699,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "Red Hoodie",
@@ -109225,7 +109234,7 @@
     "mint": "41zQjE3dYhP3xMSB5mqHT4eVkdHGcZVZZtuhEUefZRGp",
     "name": "MKRS #6416",
     "image": "https://bafybeifuetwty4kovcr2h3pmpfqsvd3k5ah4nw2urskohv76jer4gtaoay.ipfs.nftstorage.link/6416.jpeg?ext=jpeg",
-    "metaUpdated": 1665544968739,
+    "metaUpdated": 1665647854608,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "Red Puffer",
@@ -109247,7 +109256,7 @@
     "mint": "3Zf5s8r1HFvrUnoACWBxiwWjVSvB3mTsqhUY3SmjcaH4",
     "name": "MKRS #1874",
     "image": "https://bafybeiacmsrj7rmosl7owuhyhmlsetcgz4braz2uspvglsz2bmvk2ofw7m.ipfs.nftstorage.link/1874.jpeg?ext=jpeg",
-    "metaUpdated": 1665544969622,
+    "metaUpdated": 1665647875920,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Green T-Shirt",
@@ -109270,7 +109279,7 @@
     "mint": "3wVWYaX2in9kSssty3Ayor81L9bvVwqmh2LSAbn1RvHb",
     "name": "MKRS #6648",
     "image": "https://bafybeiax7ljalxoilu6ec3plb4wpwn564ybs3rhr34o4hrbmuwcxc3z42u.ipfs.nftstorage.link/6648.jpeg?ext=jpeg",
-    "metaUpdated": 1665544970359,
+    "metaUpdated": 1665647876613,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Blue Puffer",
@@ -109292,7 +109301,7 @@
     "mint": "6J7LgPK97MEeoB7SNLjDzvpubvzEGcq2uV2fopryWAkK",
     "name": "MKRS #7145",
     "image": "https://bafybeidiscash3knj7ldavyw2w4sffiheamkw2mlhrebeinpc2i4ewwsga.ipfs.nftstorage.link/7145.jpeg?ext=jpeg",
-    "metaUpdated": 1665544971168,
+    "metaUpdated": 1665647876843,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "Blue Puffer",
@@ -109314,7 +109323,7 @@
     "mint": "7zPraQ2fPwjd9vCcn3h24PKXcBKAnHBNWqahJaLoGcs8",
     "name": "MKRS #4581",
     "image": "https://bafybeibkob6mwjymrqnujrt4mchzmhqfmcvuyeedqsokzgw4hwosgewjx4.ipfs.nftstorage.link/4581.jpeg?ext=jpeg",
-    "metaUpdated": 1665544972158,
+    "metaUpdated": 1665647877527,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "White Overalls",
@@ -109337,7 +109346,7 @@
     "mint": "GYaiPmUoNwAQEuTKzHZ2SASCVenDMYkDW6vGgYvbv3Pq",
     "name": "MKRS #1316",
     "image": "https://bafybeieh7wwjqdsnxpmpojllzt6ltnijl7kwgjnhsaa6awmsklytkuntp4.ipfs.nftstorage.link/1316.jpeg?ext=jpeg",
-    "metaUpdated": 1665544972822,
+    "metaUpdated": 1665647877768,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "Pink Hoodie",
@@ -109360,7 +109369,7 @@
     "mint": "CzKq5AQX5Rqp2cTcNc5XbBpA3MFQeyi4wUSRjAFu6o4s",
     "name": "MKRS #0564",
     "image": "https://bafybeib4wmlgyvexax2yrxhxkpcagot4evy6ffztwiugmariqfg2zqudrq.ipfs.nftstorage.link/564.jpeg?ext=jpeg",
-    "metaUpdated": 1665544994029,
+    "metaUpdated": 1665647878512,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "Light Grey Puffer",
@@ -109383,7 +109392,7 @@
     "mint": "3NtsvECkKCcVrn6aU2NUiXDzY16xME4EuL1xSSgpMUR1",
     "name": "MKRS #2197",
     "image": "https://bafybeiat4ev4sbcohm6mvlynidysuq6q42n2v77435ynrux4w6tzsxqpwy.ipfs.nftstorage.link/2197.jpeg?ext=jpeg",
-    "metaUpdated": 1665544994765,
+    "metaUpdated": 1665647879445,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Sand Holy T-Shirt",
@@ -109406,7 +109415,7 @@
     "mint": "HPWw7FiNjhm3AioVnvhVMqoJ2jYVQKjpeUARLn4GXctP",
     "name": "MKRS #0522",
     "image": "https://bafybeidav3yunyjksctvtxauucva47wcgcafqhyotmrjhokqzc5w5tlxqa.ipfs.nftstorage.link/522.jpeg?ext=jpeg",
-    "metaUpdated": 1665544995607,
+    "metaUpdated": 1665647900715,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "Blue Vest on White T-Shirt",
@@ -109429,7 +109438,7 @@
     "mint": "5YVK91woiU6KCa7v781qzpJ3UEup2AZFghPJhbUzp29v",
     "name": "MKRS #2422",
     "image": "https://bafybeicekztgnwrzzeablwommweflaojrgyjmp5xkvzcojnf3ey7g4ktlm.ipfs.nftstorage.link/2422.jpeg?ext=jpeg",
-    "metaUpdated": 1665544996740,
+    "metaUpdated": 1665647901527,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "Black Overalls",
@@ -109443,15 +109452,13 @@
     "Twins": "None",
     "rank": 4883,
     "price": "",
-    "owner": "2dgxBv2vsoiLP7oA5xtgs34kskbmuXYoJ4AQKTAdLVKR",
-    "owns": 19,
     "siblings": []
   },
   {
     "mint": "8fh73J7Dbriu7he5EMeAqKWftQpgUq2Vsyxo9xv6VDiX",
     "name": "MKRS #3970",
     "image": "https://bafybeiajlu7mc5jyuzh25rtu7qmnebfr33ksgmvmlxdaixbtqb4kikgxlm.ipfs.nftstorage.link/3970.jpeg?ext=jpeg",
-    "metaUpdated": 1665544997601,
+    "metaUpdated": 1665647902276,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Red T-Shirt",
@@ -109474,7 +109481,7 @@
     "mint": "5zghTBPbKd4K9TTStgjpCRG1adrhpZzC8ybSkXwHv2hr",
     "name": "MKRS #2634",
     "image": "https://bafybeidfvtoknwykoujd44tghqdzyxpyqecb6ouqh44i47e7w4bg7vtt6e.ipfs.nftstorage.link/2634.jpeg?ext=jpeg",
-    "metaUpdated": 1665544998344,
+    "metaUpdated": 1665647903106,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Blue Puffer",
@@ -109496,7 +109503,7 @@
     "mint": "8XkE9sC5MB1vieDEX8KG9p63FmzAEuHrjxUWDkA9R2Sh",
     "name": "MKRS #3971",
     "image": "https://bafybeiajlu7mc5jyuzh25rtu7qmnebfr33ksgmvmlxdaixbtqb4kikgxlm.ipfs.nftstorage.link/3971.jpeg?ext=jpeg",
-    "metaUpdated": 1665544999105,
+    "metaUpdated": 1665647903781,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Light Grey Puffer",
@@ -109518,7 +109525,7 @@
     "mint": "2tUTtGLwZodQ7g1XpB8xnSe95yPLLuESJzjo7duCZU5w",
     "name": "MKRS #0182",
     "image": "https://bafybeicw5w6flxrtnjgdgv62grajtvxbif2y3n7qtgdtwytggplmbhybsi.ipfs.nftstorage.link/182.jpeg?ext=jpeg",
-    "metaUpdated": 1665544999746,
+    "metaUpdated": 1665647904447,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Black Overalls",
@@ -109540,7 +109547,7 @@
     "mint": "CRsUTi3B13fu9b9VpHDuiWFsUhVoutXir9MjcPx4KP56",
     "name": "MKRS #1148",
     "image": "https://bafybeifu2vdmr5l5rdc4n2ydlojtxzmffgw3umxe4icjnkqrhf6nb2bxee.ipfs.nftstorage.link/1148.jpeg?ext=jpeg",
-    "metaUpdated": 1665545000558,
+    "metaUpdated": 1665647905177,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Yellow T-Shirt",
@@ -109562,7 +109569,7 @@
     "mint": "8HradNqmYTyFRRBXS9JdRD9orJaszbyBeg3Ms4gFAWSt",
     "name": "MKRS #0910",
     "image": "https://bafybeihlai2zrx4sfysbgtwe7b6mo4sys4e2ihxa3cmfwriyutkjmyvuf4.ipfs.nftstorage.link/910.jpeg?ext=jpeg",
-    "metaUpdated": 1665545001395,
+    "metaUpdated": 1665647905377,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Black Overalls",
@@ -109585,7 +109592,7 @@
     "mint": "6DjFiK6CyYbB7psa8GZPxX2cFsYVi6EHxP93FvGsNeSd",
     "name": "MKRS #2350",
     "image": "https://bafybeibqyloenn47wgrta5mumdfrf7dphwvzgp2oz55linrkudf3zgt24i.ipfs.nftstorage.link/2350.jpeg?ext=jpeg",
-    "metaUpdated": 1665545002263,
+    "metaUpdated": 1665647905628,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Dark Grey Holy T-Shirt",
@@ -109608,7 +109615,7 @@
     "mint": "G1bdvgPmZvndSs3ivRtJTS7wCWVLryHgSwDsci7jDZGK",
     "name": "MKRS #7182",
     "image": "https://bafybeifa4eon75xqqqjftf37kvyeejydlxguu5n36zzgklf2gn2wsmgqui.ipfs.nftstorage.link/7182.jpeg?ext=jpeg",
-    "metaUpdated": 1665545003156,
+    "metaUpdated": 1665647906555,
     "Background": "MKRS Background",
     "DNA": "Crystal Diamond",
     "Clothing": "Red T-Shirt",
@@ -109630,7 +109637,7 @@
     "mint": "8XgMhBrVrYLVDkUjB4sGeMhj3UoqBR3rQk3k8j9bojcm",
     "name": "MKRS #1050",
     "image": "https://bafybeigk6abtv7y3iqzutgeae4xqcbfbu24dbzbiqgsfpsb4pc5gg2aeem.ipfs.nftstorage.link/1050.jpeg?ext=jpeg",
-    "metaUpdated": 1665545003898,
+    "metaUpdated": 1665647907608,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Denim on Black Tank",
@@ -109652,7 +109659,7 @@
     "mint": "GPEDQnjdpjFL7WYZSnJf23Bm8VnsNSfHbwfzJif2ThHh",
     "name": "MKRS #4823",
     "image": "https://bafybeighi66ecyjg5bemuvi7uy6ubka4lp77y2eq5elqbh64o7cpbnpgci.ipfs.nftstorage.link/4823.jpeg?ext=jpeg",
-    "metaUpdated": 1665545004676,
+    "metaUpdated": 1665647908606,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Black Crewneck",
@@ -109675,7 +109682,7 @@
     "mint": "5SQaEAz9PyawV1bhuq9sAAswWpjvqouT1K2ZKWR2BwaK",
     "name": "MKRS #4768",
     "image": "https://bafybeifjx24gjdckwhct2ohgppp5voljrqdc5odgluch4gumv2bplpqura.ipfs.nftstorage.link/4768.jpeg?ext=jpeg",
-    "metaUpdated": 1665545005377,
+    "metaUpdated": 1665647908779,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Red Puffer",
@@ -109697,7 +109704,7 @@
     "mint": "DjtsyAeisdxcYsjXFA1RTMCeMAirqu1BbP6kk7mLJznK",
     "name": "MKRS #3509",
     "image": "https://bafybeiec6oksc6jjn5562ik6ma3i3qjsk62cne5us3lpiyxxsn5pph4h7u.ipfs.nftstorage.link/3509.jpeg?ext=jpeg",
-    "metaUpdated": 1665545006014,
+    "metaUpdated": 1665647909752,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "White Holy T-Shirt",
@@ -109719,7 +109726,7 @@
     "mint": "6FgvPBds7AHVBMfbRdTSBUSD4GzrNBnmaiR6sMZQaJU1",
     "name": "MKRS #4342",
     "image": "https://bafybeiekpztc76gm6kjjdzfap75ljh64lpeis4k4ry7iisw2qzgzw4chwy.ipfs.nftstorage.link/4342.jpeg?ext=jpeg",
-    "metaUpdated": 1665545006860,
+    "metaUpdated": 1665647910323,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Black Overalls",
@@ -109741,7 +109748,7 @@
     "mint": "GJ8zRPLh8zEcXG494Pg5WprNimfexFQkFTL4BqYgQBvv",
     "name": "MKRS #6267",
     "image": "https://bafybeickaupo6vrmz7w6a3cqc64knanu2dmbfuiya4jv32ifmqoyzo3xra.ipfs.nftstorage.link/6267.jpeg?ext=jpeg",
-    "metaUpdated": 1665545007704,
+    "metaUpdated": 1665647910523,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Red T-Shirt",
@@ -109764,7 +109771,7 @@
     "mint": "3iJGwcRcHZ6QeYHgMA3QF288LXi4CHBn8e4UiPntg7n4",
     "name": "MKRS #1834",
     "image": "https://bafybeigftxme2u3rjcq6hn5pgjmfrrwnlbprfh3v5uqqrj66gjsnt2irvq.ipfs.nftstorage.link/1834.jpeg?ext=jpeg",
-    "metaUpdated": 1665545008432,
+    "metaUpdated": 1665647911262,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "White Puffer",
@@ -109787,7 +109794,7 @@
     "mint": "9s4nLDXt8jJvUJHV4uHLPnW5j7N1g9UcrrtKKTpCkmQG",
     "name": "MKRS #1976",
     "image": "https://bafybeiaammkspzbuiywoqurjdagv7kzvinxfrr2dqhx734wxpcvybqctn4.ipfs.nftstorage.link/1976.jpeg?ext=jpeg",
-    "metaUpdated": 1665545009196,
+    "metaUpdated": 1665647911988,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Denim on Black Tank",
@@ -109810,7 +109817,7 @@
     "mint": "FMMTpBA6JdPvok5opxcwPRTudassNiNSgjg7UcgvDYew",
     "name": "MKRS #2786",
     "image": "https://bafybeifmdednswnpcyqo2d4b7j2ltcmt37ivpi6qyayfrc7a5saanw2riq.ipfs.nftstorage.link/2786.jpeg?ext=jpeg",
-    "metaUpdated": 1665545009937,
+    "metaUpdated": 1665647912594,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "Black Hoodie",
@@ -109832,7 +109839,7 @@
     "mint": "BDiNjLhekGXJPQLBVEh3onSq5XTc1L1YHuJ74isF6wNU",
     "name": "MKRS #4719",
     "image": "https://bafybeieyzdvcnyxzhn4zh6en5xpxossgvojxikidh555ygmmhku7psxkea.ipfs.nftstorage.link/4719.jpeg?ext=jpeg",
-    "metaUpdated": 1665545010626,
+    "metaUpdated": 1665647913156,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Light Grey Tank",
@@ -109854,7 +109861,7 @@
     "mint": "gX3LySH1gwstGLADPxTtxqUtG1GdnE4qnHddDjdJ2Vh",
     "name": "MKRS #6360",
     "image": "https://bafybeifvuosl5d6ivonrl6u2cdbme6w3nhrl4decgkznuqevul5kjdsece.ipfs.nftstorage.link/6360.jpeg?ext=jpeg",
-    "metaUpdated": 1665545011336,
+    "metaUpdated": 1665647934327,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Pink Hoodie",
@@ -109877,7 +109884,7 @@
     "mint": "8zPDrQvdi4fUJpRnAewf4aEJEiBv7N27W7JJo5oQmUjh",
     "name": "MKRS #5549",
     "image": "https://bafybeif4h3h46fuhkodtbvnck5qj2bql3slfqzpywur6e6ppjueb5fxspu.ipfs.nftstorage.link/5549.jpeg?ext=jpeg",
-    "metaUpdated": 1665545032527,
+    "metaUpdated": 1665647934687,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Light Grey Tank",
@@ -109899,7 +109906,7 @@
     "mint": "C4WtLgfAF8DDSmdJoim65YhA66j3xM7FNeqG2rLWyWDL",
     "name": "MKRS #0142",
     "image": "https://bafybeih3yca3lrhecjkmztorkvkn6m6xbvmc5y2tihbyrcpz3bt5g47kiy.ipfs.nftstorage.link/142.jpeg?ext=jpeg",
-    "metaUpdated": 1665545033349,
+    "metaUpdated": 1665647935301,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Blue Turtleneck",
@@ -109921,7 +109928,7 @@
     "mint": "6qJsEuBWp3Lk2QnqKDy3kyP1QCzB3BaoLDb689GFDwXr",
     "name": "MKRS #0369",
     "image": "https://bafybeihsd4lqy4mbaeghrtz3c5jqjg42wkba2pn45bgenxaxjt47b2htia.ipfs.nftstorage.link/369.jpeg?ext=jpeg",
-    "metaUpdated": 1665545034017,
+    "metaUpdated": 1665647935956,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Blue Puffer",
@@ -109944,7 +109951,7 @@
     "mint": "95ehrikJXTvFcFmFBdY9QHDqvjy4T2g58cJj6Bd3CNHV",
     "name": "MKRS #1935",
     "image": "https://bafybeicypsuvfurkzthwtem4rjmowe7treogzmg663jke7w4glfdeewtza.ipfs.nftstorage.link/1935.jpeg?ext=jpeg",
-    "metaUpdated": 1665545055198,
+    "metaUpdated": 1665647936700,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Painted Tank",
@@ -109958,15 +109965,13 @@
     "Twins": "None",
     "rank": 4906,
     "price": "",
-    "owner": "8cbWWwqinVjPHocTNSn8EFdhbNEeUnuhf74n1SAXiWbG",
-    "owns": 131,
     "siblings": []
   },
   {
     "mint": "7jQXXx8rwqs5nCWN9N3H26M6Pb2zAdUDvDCeCrpLSH5h",
     "name": "MKRS #2379",
     "image": "https://bafybeigzgjng6iix26yu6zibs5wgfsba6btmawklgv3u65c6lustueiqcy.ipfs.nftstorage.link/2379.jpeg?ext=jpeg",
-    "metaUpdated": 1665545055956,
+    "metaUpdated": 1665647937269,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "White Overalls",
@@ -109988,7 +109993,7 @@
     "mint": "81UDHh8m3f83V7h9S2i3Ad2mDegGedosDMJkoTpx8egd",
     "name": "MKRS #4783",
     "image": "https://arweave.net/3UHXyf2glZ4zJ4rYww1tJZrByTrl7c8-QdPVZMUwK8U",
-    "metaUpdated": 1665545056127,
+    "metaUpdated": 1665647937554,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Denim on Black T-Shirt",
@@ -110012,7 +110017,7 @@
     "mint": "2WiHrVJ5DPEFSDEWUKrHYh6jPnfgezj1r61uqBRaTLyA",
     "name": "MKRS #4771",
     "image": "https://arweave.net/Xg_YYQbBV3VIyA9hneJhsmqDWfYFEMX3EGqdbbH_0-o",
-    "metaUpdated": 1665545056289,
+    "metaUpdated": 1665647937757,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Denim on Black T-Shirt",
@@ -110037,7 +110042,7 @@
     "mint": "9dB6vALE2DS23fJweZY1oKZcnFLQU2f1crnjN8hSSFRP",
     "name": "MKRS #6760",
     "image": "https://bafybeigoc3kr35rrdhrw3qkptsw36m27zsuseauj67iwl3dovwvjreiiiq.ipfs.nftstorage.link/6760.jpeg?ext=jpeg",
-    "metaUpdated": 1665545057257,
+    "metaUpdated": 1665647938480,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Sand Pit",
@@ -110060,7 +110065,7 @@
     "mint": "7zaC1umsDFDYyXfPkdUsSghu7MwbSDqtSY33Mxm3WPcn",
     "name": "MKRS #6869",
     "image": "https://bafybeigruwnateutfmsgtwbrlpzpmlwfyafydtwzdlf3y5v2bktpshuuvu.ipfs.nftstorage.link/6869.jpeg?ext=jpeg",
-    "metaUpdated": 1665545057925,
+    "metaUpdated": 1665647939046,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Sand Holy T-Shirt",
@@ -110082,7 +110087,7 @@
     "mint": "HHu4tH6QZLmqeAAFhkHQga6WERKy5zbbGYLjeRW9SJUj",
     "name": "MKRS #4894",
     "image": "https://arweave.net/dq4sRycdKNBA4RN1hoANd2YNbo0-wlKtCZAqmobUS0I",
-    "metaUpdated": 1665545057989,
+    "metaUpdated": 1665647939166,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "Blue Vest on White T-Shirt",
@@ -110097,7 +110102,7 @@
     "rank": 4912,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "EySnXJqHVtoa8Vuzy42sH4TSvcNpPbvYNuVxsX7PbKTe",
       "EGkpSGksYfRKhnRcHHp8YEKxJDCwiBKreK5mxbi6ocZF",
@@ -110109,7 +110114,7 @@
     "mint": "EySnXJqHVtoa8Vuzy42sH4TSvcNpPbvYNuVxsX7PbKTe",
     "name": "MKRS #3338",
     "image": "https://arweave.net/BwuH2_CeW7PQJuQQacP3h2FEx9qDM2yQ9PrT3qc8Ajs",
-    "metaUpdated": 1665545058640,
+    "metaUpdated": 1665647939443,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "Blue Vest on White T-Shirt",
@@ -110124,7 +110129,7 @@
     "rank": 4913,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "HHu4tH6QZLmqeAAFhkHQga6WERKy5zbbGYLjeRW9SJUj",
       "EGkpSGksYfRKhnRcHHp8YEKxJDCwiBKreK5mxbi6ocZF",
@@ -110136,7 +110141,7 @@
     "mint": "HbP1Xfwp9zjwmR2nLyE8TVwyHA8GDxWXuAN3WpuiWh4Z",
     "name": "MKRS #3897",
     "image": "https://bafybeiaewfwo4meuxfkzusp4evboldqy7bumvtxkxigdscyopqkubvv2uq.ipfs.nftstorage.link/3897.jpeg?ext=jpeg",
-    "metaUpdated": 1665545059453,
+    "metaUpdated": 1665647940197,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Light Grey Tank",
@@ -110158,7 +110163,7 @@
     "mint": "F64eyABRV937nv9ecF2RrGsZWT3tKkTxDwjZtgYKHhEz",
     "name": "MKRS #3657",
     "image": "https://bafybeiedugjskg3k3g6gkqrs7roa2tj2ltacg4vjz75imuvin754qrgwn4.ipfs.nftstorage.link/3657.jpeg?ext=jpeg",
-    "metaUpdated": 1665545060309,
+    "metaUpdated": 1665647941279,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Dark Grey Holy T-Shirt",
@@ -110181,7 +110186,7 @@
     "mint": "EGkpSGksYfRKhnRcHHp8YEKxJDCwiBKreK5mxbi6ocZF",
     "name": "MKRS #2182",
     "image": "https://arweave.net/rU7NfK8_sbYOHWmKhnP1A6WZ5GrgeYF2zxX2fVNm014",
-    "metaUpdated": 1665545060762,
+    "metaUpdated": 1665647941392,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "Blue Vest on White T-Shirt",
@@ -110208,7 +110213,7 @@
     "mint": "7efBHrW5sty37k5zWcuaBLN636kKTqiCzewnH6pEmXVH",
     "name": "MKRS #7162",
     "image": "https://arweave.net/533eT-1YJ8p0Thm6rXmb3Dr0XM83b1gGFEW7HolQGgM",
-    "metaUpdated": 1665545061212,
+    "metaUpdated": 1665647941643,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "Blue Vest on White T-Shirt",
@@ -110222,8 +110227,6 @@
     "Treats": "None",
     "rank": 4917,
     "price": "",
-    "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
     "siblings": [
       "HHu4tH6QZLmqeAAFhkHQga6WERKy5zbbGYLjeRW9SJUj",
       "EySnXJqHVtoa8Vuzy42sH4TSvcNpPbvYNuVxsX7PbKTe",
@@ -110235,7 +110238,7 @@
     "mint": "2yRSgtJFMQsUbr3he9Hw2RRQZu9H5DRxmxkJatgP4Afy",
     "name": "MKRS #1908",
     "image": "https://arweave.net/vSPkaVBS57jcBil_39Ldyr6FtS9w4EvhMZBRs_T1Kro",
-    "metaUpdated": 1665545061706,
+    "metaUpdated": 1665647941905,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "Blue Vest on White T-Shirt",
@@ -110250,7 +110253,7 @@
     "rank": 4918,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "HHu4tH6QZLmqeAAFhkHQga6WERKy5zbbGYLjeRW9SJUj",
       "EySnXJqHVtoa8Vuzy42sH4TSvcNpPbvYNuVxsX7PbKTe",
@@ -110262,7 +110265,7 @@
     "mint": "3bJdvcAz85QLUPy2yYeDg6JvtLVEMj4eqd5YSzyuG8Kd",
     "name": "MKRS #4420",
     "image": "https://bafybeiehrs7244ktda2yd5xrsyh5lxzf4lqg5hksdnf6pvxn4maby44ju4.ipfs.nftstorage.link/4420.jpeg?ext=jpeg",
-    "metaUpdated": 1665545062601,
+    "metaUpdated": 1665647943076,
     "Background": "MKRS Background",
     "DNA": "Flowers Vintage",
     "Clothing": "Blue Holy T-Shirt",
@@ -110284,7 +110287,7 @@
     "mint": "9PRv2gXbFukigVYgNcT7SAh7qqYC1twc1QykgP3hXvLS",
     "name": "MKRS #4222",
     "image": "https://bafybeic4pj3trjbord2yaqmewv5ii5jf7tzgrdp3da3vbseda7gj37flty.ipfs.nftstorage.link/4222.jpeg?ext=jpeg",
-    "metaUpdated": 1665545063414,
+    "metaUpdated": 1665647943793,
     "Background": "MKRS Background",
     "DNA": "Taped Mono",
     "Clothing": "White Puffer",
@@ -110306,7 +110309,7 @@
     "mint": "6oJNdqhMQBurKHeJE3ezJpXikSQBdwBHGPtmXry9Ki3L",
     "name": "MKRS #3473",
     "image": "https://bafybeie7lnqh7teoyocb7psyggfvpxwq5nuexbyfhfxmeuxlkxpoi3q3hy.ipfs.nftstorage.link/3473.jpeg?ext=jpeg",
-    "metaUpdated": 1665545064142,
+    "metaUpdated": 1665647944470,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Yellow Crewneck",
@@ -110329,7 +110332,7 @@
     "mint": "6AY5ERPQHCNjveNYyonZeAu5cH5dKdDCjPBv3syUktQ6",
     "name": "MKRS #5844",
     "image": "https://bafybeic2pxbz5opx3p3dbqphuyjvwryzwrrxmp2qt5hxdrm6unenzh2vwm.ipfs.nftstorage.link/5844.jpeg?ext=jpeg",
-    "metaUpdated": 1665545064899,
+    "metaUpdated": 1665647945071,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Black Puffer",
@@ -110351,7 +110354,7 @@
     "mint": "3dSBuzDP1L8ExQ8ZiBNkj4JeBLaB5fk2okwiPCqrmuUE",
     "name": "MKRS #6808",
     "image": "https://bafybeib32tzz4632lsoxpuuybyqlo742rne6mhjlr26d6udotqeis4aevy.ipfs.nftstorage.link/6808.jpeg?ext=jpeg",
-    "metaUpdated": 1665545086124,
+    "metaUpdated": 1665647945637,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Sand T-Shirt",
@@ -110374,7 +110377,7 @@
     "mint": "Bc8JkanKGbPTbjxrZmQSig4LxGLRxWEX38eDtsmkCeiu",
     "name": "MKRS #3323",
     "image": "https://arweave.net/qLEkSwNRooUYs3XkS2D9FZRYw3O3767DbnPrs98-tYo",
-    "metaUpdated": 1665545086260,
+    "metaUpdated": 1665647945749,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Yellow Hoodie",
@@ -110399,7 +110402,7 @@
     "mint": "CfSHB4aVXXjtcWNzFeUCX9G3peMKT6mj5NU7NSRSxUhR",
     "name": "MKRS #1152",
     "image": "https://arweave.net/M-OBffWoRXZLNawSgr3FyfFG_uJps8uzBdzYXOu58M4",
-    "metaUpdated": 1665545086967,
+    "metaUpdated": 1665647946074,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Green Pit",
@@ -110424,7 +110427,7 @@
     "mint": "5WCJpPZfdVQofcXh68DN4NTBk4xMtQAhxurGAGSAjAMh",
     "name": "MKRS #1329",
     "image": "https://bafybeiaewkindskghje732mcuhoz6cpra56vbezowdjtojgurzrbkapnsy.ipfs.nftstorage.link/1329.jpeg?ext=jpeg",
-    "metaUpdated": 1665545108004,
+    "metaUpdated": 1665647946401,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Green Turtleneck",
@@ -110446,7 +110449,7 @@
     "mint": "EYRRP1dSEuQNU1KuYQZKZ66P5v4WmWxe7GUtAX8GsCN7",
     "name": "MKRS #6415",
     "image": "https://arweave.net/wq2z7f-xLy0JEMNtgSh57hKYB-GJbTCAbEKRMARTB9U",
-    "metaUpdated": 1665545108131,
+    "metaUpdated": 1665647946472,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Green Pit",
@@ -110470,7 +110473,7 @@
     "mint": "9NZt7S4PBdyktNeUtoMcrS6fE4Qe1axP1N7iC6UjnmXa",
     "name": "MKRS #5967",
     "image": "https://arweave.net/GdBTru_xQuwcXwWN3UeCGNjGFbiHYO3MIiJbfCyNheA",
-    "metaUpdated": 1665545108801,
+    "metaUpdated": 1665647946759,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Blue",
     "Clothing": "Yellow Hoodie",
@@ -110494,7 +110497,7 @@
     "mint": "GBXYkG9d1rrYXtTadqdmdRdzHoFHAQGjaDtHG6sXXETM",
     "name": "MKRS #5504",
     "image": "https://bafybeichlvgwoerry6iibkq2jxwxvyh4wmclwhowxap2nnznymkdtcdpde.ipfs.nftstorage.link/5504.jpeg?ext=jpeg",
-    "metaUpdated": 1665545109559,
+    "metaUpdated": 1665647947585,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Black T-Shirt",
@@ -110516,7 +110519,7 @@
     "mint": "Dnye2dhSmn8ujK9cNk55Xd7cQecVq6teFURapCfratnj",
     "name": "MKRS #7264",
     "image": "https://bafybeibytey5pt7mmm5llixz5xwbxa2xeq4w4mrijz34c2d2qjuwpic2ha.ipfs.nftstorage.link/7264.jpeg?ext=jpeg",
-    "metaUpdated": 1665545110515,
+    "metaUpdated": 1665647969147,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "Red T-Shirt",
@@ -110539,7 +110542,7 @@
     "mint": "Ab8BdAHKp5xLHNhqWCtAadcywjRiNLdNwCnf6ck3zJL6",
     "name": "MKRS #6206",
     "image": "https://bafybeie3cbzl5oaqpj7yywk64dx4tjn7qeyu2jecsqtteyvrjbwq24ep74.ipfs.nftstorage.link/6206.jpeg?ext=jpeg",
-    "metaUpdated": 1665545111159,
+    "metaUpdated": 1665647969840,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "White Overalls",
@@ -110561,7 +110564,7 @@
     "mint": "2Bv4fzGFSo9PGrpfnUMGo6UfCqiVJDdcHsWUeRA7z44J",
     "name": "MKRS #3737",
     "image": "https://bafybeiawxlsigpzbxoqw26xe3b4c3fznblwnwj7lhlz6qchji37ecipmfa.ipfs.nftstorage.link/3737.jpeg?ext=jpeg",
-    "metaUpdated": 1665545112215,
+    "metaUpdated": 1665647970492,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Sand T-Shirt",
@@ -110583,7 +110586,7 @@
     "mint": "CEv9QeyF3W1uGYqPyowmjaNaMAUvcwPz2NF5YF7rSRWE",
     "name": "MKRS #0960",
     "image": "https://bafybeigc2mrwpz2tc5rv46u7z5v3ptjvb5wkcekn7xuscnaum6qlzrbdk4.ipfs.nftstorage.link/960.jpeg?ext=jpeg",
-    "metaUpdated": 1665545113168,
+    "metaUpdated": 1665647971054,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Lavender Holy T-Shirt",
@@ -110605,7 +110608,7 @@
     "mint": "CuPh6FJAHURscwxEJhHGm5z4ULrhdWWwSMA5vz8oWExa",
     "name": "MKRS #1632",
     "image": "https://bafybeih2xiatpbzrhfdj4ilzqqkkteld46ewrwlkloq47ufnrfjiorxcwm.ipfs.nftstorage.link/1632.jpeg?ext=jpeg",
-    "metaUpdated": 1665545113866,
+    "metaUpdated": 1665647971215,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Lavender T-Shirt",
@@ -110627,7 +110630,7 @@
     "mint": "GuFMaBijNFigsjJ3uoBBiJ4t7xhUYkd8PXJp1RUV2eJ",
     "name": "MKRS #1459",
     "image": "https://bafybeib5brkii7v6vhxnie65geyex5gtoh2mwc7egmgikd43rdkcsflcta.ipfs.nftstorage.link/1459.jpeg?ext=jpeg",
-    "metaUpdated": 1665545114735,
+    "metaUpdated": 1665647971463,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Black Overalls",
@@ -110650,7 +110653,7 @@
     "mint": "H4c54JvRr8ofoFQMWSZ2Npf8Ncq6bspbbHesH4cwRvqM",
     "name": "MKRS #5820",
     "image": "https://bafybeic2pxbz5opx3p3dbqphuyjvwryzwrrxmp2qt5hxdrm6unenzh2vwm.ipfs.nftstorage.link/5820.jpeg?ext=jpeg",
-    "metaUpdated": 1665545115621,
+    "metaUpdated": 1665647972461,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Black T-Shirt",
@@ -110672,7 +110675,7 @@
     "mint": "9YG9RySMyzmTKzqreY99A5L2ycJ6cGxviiEPEWg6whZQ",
     "name": "MKRS #0899",
     "image": "https://bafybeihyf7s563odkdfl4a7ldmvgk4xnjmnco73bc364le77biklg3y2pq.ipfs.nftstorage.link/899.jpeg?ext=jpeg",
-    "metaUpdated": 1665545116582,
+    "metaUpdated": 1665647973110,
     "Background": "MKRS Background",
     "DNA": "Crystal Diamond",
     "Clothing": "Yellow T-Shirt",
@@ -110694,7 +110697,7 @@
     "mint": "4NRtFXTZMDG89EfhocAAu9JjHrdfhKH8ZfUtSoPu8LxM",
     "name": "MKRS #3912",
     "image": "https://bafybeie57c7avpiemzwcrl3qotx57sih5rj6uy2aykpzacueyhwe3r666y.ipfs.nftstorage.link/3912.jpeg?ext=jpeg",
-    "metaUpdated": 1665545117478,
+    "metaUpdated": 1665647973323,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Black Overalls",
@@ -110717,7 +110720,7 @@
     "mint": "EaEJEzSyumJJZdjZmTeTL8gaie2PTpbpgmobDq8MHFm8",
     "name": "MKRS #4673",
     "image": "https://bafybeieunx3l7mtvscn2uf7qckweqs7vjs4pnq773mbbda7novhtqm4psu.ipfs.nftstorage.link/4673.jpeg?ext=jpeg",
-    "metaUpdated": 1665545118139,
+    "metaUpdated": 1665647974044,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Light Grey Tank",
@@ -110740,7 +110743,7 @@
     "mint": "Ayy2L6LTbVe2TEHb8QRfEhBocShVsSkBDdEPQcfFKAL1",
     "name": "MKRS #2828",
     "image": "https://bafybeihv3msu74nvgmrghmyetf26e5de3l6tui256z2p5wwoxjoia573ji.ipfs.nftstorage.link/2828.jpeg?ext=jpeg",
-    "metaUpdated": 1665545119025,
+    "metaUpdated": 1665647974823,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Red T-Shirt",
@@ -110762,7 +110765,7 @@
     "mint": "955rwisZFUHqixZqMWez8PTsosq3SMRkuxwW8Midn94Z",
     "name": "MKRS #2433",
     "image": "https://bafybeifgiynqu3c4npqps6ymhnwvn3tfg5bij3vnvfs3l53gkg326add5q.ipfs.nftstorage.link/2433.jpeg?ext=jpeg",
-    "metaUpdated": 1665545119760,
+    "metaUpdated": 1665647975682,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Black Tank",
@@ -110784,7 +110787,7 @@
     "mint": "8JHcSBsYYpWnN24QceFtEs8QDngbeA8vxH5Bx1rP6aD3",
     "name": "MKRS #5894",
     "image": "https://bafybeibs55rp3ptk4l2mvxmht33yw7ojqc37yf6vkhfc4dcxqqwkitt2aa.ipfs.nftstorage.link/5894.jpeg?ext=jpeg",
-    "metaUpdated": 1665545120425,
+    "metaUpdated": 1665647976335,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Black T-Shirt",
@@ -110806,7 +110809,7 @@
     "mint": "B7snExHRCNr18Eg6cB2memdUJ4ABSrqvd7U6K2MUJeaA",
     "name": "MKRS #3709",
     "image": "https://bafybeid7ocoewugbvulhjjmsa3kw4u5vdqdydc6m22t7tmbm5dxydos5ua.ipfs.nftstorage.link/3709.jpeg?ext=jpeg",
-    "metaUpdated": 1665545121718,
+    "metaUpdated": 1665647997788,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Sand Holy T-Shirt",
@@ -110829,7 +110832,7 @@
     "mint": "E7Qkg9nD227g9sKMHF8DF23XymKaxLXZcdiCi2JfKdE2",
     "name": "MKRS #4709",
     "image": "https://bafybeieiauphk2tvg7schyqbfgwbtvfixxb4bjnv3p2aloxxts5uhfscta.ipfs.nftstorage.link/4709.jpeg?ext=jpeg",
-    "metaUpdated": 1665545122383,
+    "metaUpdated": 1665647998823,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Black Overalls",
@@ -110852,7 +110855,7 @@
     "mint": "61Qf4QfzAa4cy6LL5Q9C2zQZuUpcmkbnNTGL5EVmLGo9",
     "name": "MKRS #0851",
     "image": "https://bafybeidya7xkurufrf2yh2aofcbif3yke3nwxuczsx5i54z67ppk45alcm.ipfs.nftstorage.link/851.jpeg?ext=jpeg",
-    "metaUpdated": 1665545123369,
+    "metaUpdated": 1665647999024,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "White T-Shirt",
@@ -110874,7 +110877,7 @@
     "mint": "CrYiQqG1AatFcAdtQ7js3hpW4jFWk4nZZYE534zVex7b",
     "name": "MKRS #5783",
     "image": "https://bafybeifqwdh3tdyakznc66i6aoyiollsdaky4mwcbvuukwq5tl2iuuurfq.ipfs.nftstorage.link/5783.jpeg?ext=jpeg",
-    "metaUpdated": 1665545124430,
+    "metaUpdated": 1665647999625,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Light Grey Crewneck",
@@ -110888,16 +110891,13 @@
     "Twins": "None",
     "rank": 4946,
     "price": "",
-    "owner": "FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu",
-    "ownerAlt": "exchange",
-    "owns": 1126,
     "siblings": []
   },
   {
     "mint": "9HXFhZTPh5vJJtJPK5cAF2TyP7VtxvqL1CBV9spGigFZ",
     "name": "MKRS #6776",
     "image": "https://bafybeigoc3kr35rrdhrw3qkptsw36m27zsuseauj67iwl3dovwvjreiiiq.ipfs.nftstorage.link/6776.jpeg?ext=jpeg",
-    "metaUpdated": 1665545139293,
+    "metaUpdated": 1665648000320,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Blue Hoodie",
@@ -110919,7 +110919,7 @@
     "mint": "3SVLuxc6ds1etBAHcwfZXvBjhu823GJ8pfVnzFycEqv4",
     "name": "MKRS #0330",
     "image": "https://bafybeidseq7o26nfzzoszy36cgbg7brb3ylliafmqyxrsiqlfividyjvwy.ipfs.nftstorage.link/330.jpeg?ext=jpeg",
-    "metaUpdated": 1665545139983,
+    "metaUpdated": 1665648006073,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "White T-Shirt",
@@ -110934,14 +110934,14 @@
     "rank": 4948,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
     "mint": "6uWwyoYidDS9gkVkazMy1BSpU7Zn9ySjdZbm21kwesFL",
     "name": "MKRS #0344",
     "image": "https://bafybeidseq7o26nfzzoszy36cgbg7brb3ylliafmqyxrsiqlfividyjvwy.ipfs.nftstorage.link/344.jpeg?ext=jpeg",
-    "metaUpdated": 1665545140614,
+    "metaUpdated": 1665648006371,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "White Hoodie",
@@ -110963,7 +110963,7 @@
     "mint": "eH8v5h1udBBFRK8L7Xt4ETDnvcVMXjqtoiMAjNrSY2M",
     "name": "MKRS #4973",
     "image": "https://bafybeid7lhwr7fdxiq4gomfkooxwnawrkrabiyin2prs4ykwopjejxtjzu.ipfs.nftstorage.link/4973.jpeg?ext=jpeg",
-    "metaUpdated": 1665545141413,
+    "metaUpdated": 1665648006652,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Black Hoodie",
@@ -110985,7 +110985,7 @@
     "mint": "3wMMnsbXA1Pq79riqpoc86rrffTjNnqcYApYZtdGE6et",
     "name": "MKRS #7614",
     "image": "https://bafybeihcga2xsm63nqhjqcbjjf2zfkcjudyozwl6elk66vnmkigmrdkpce.ipfs.nftstorage.link/7614.jpeg?ext=jpeg",
-    "metaUpdated": 1665545142312,
+    "metaUpdated": 1665648007704,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Red Puffer",
@@ -111008,7 +111008,7 @@
     "mint": "FhpU8w5wogQd22NwmS4sGDMXY9YEvVYqmvFb2aqj3nCk",
     "name": "MKRS #5667",
     "image": "https://bafybeihxvkr2sqkkleevs35p5n7qppafaud32vb5dwrnxrwyolabc3mljq.ipfs.nftstorage.link/5667.jpeg?ext=jpeg",
-    "metaUpdated": 1665545143259,
+    "metaUpdated": 1665648008284,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "Black Overalls",
@@ -111031,7 +111031,7 @@
     "mint": "7Ehgt7k4XJ4D7jsiDfCjx7ThisgtMMXynes1L3RQ44MW",
     "name": "MKRS #2337",
     "image": "https://bafybeih3id3me6c7bjxirwpiu2joz64gm4mtqo5oolx6ixzvsgcwvd6i4q.ipfs.nftstorage.link/2337.jpeg?ext=jpeg",
-    "metaUpdated": 1665545144280,
+    "metaUpdated": 1665648029984,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "White Holy T-Shirt",
@@ -111053,7 +111053,7 @@
     "mint": "EcaYojzuhQZ7Br5WA9kD31HYX1Gtr4RJ1V4ThS5CiUo5",
     "name": "MKRS #3295",
     "image": "https://bafybeifm22i5efo366rcro2vpmtvayyr6x3gw7bxrtdznkvsfcokrivp4i.ipfs.nftstorage.link/3295.jpeg?ext=jpeg",
-    "metaUpdated": 1665545145092,
+    "metaUpdated": 1665648031052,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Black Overalls",
@@ -111075,7 +111075,7 @@
     "mint": "GQpSgB5FHss7KWB8vCjDJyivZbCk4gn7x2LTqHZnV2Ap",
     "name": "MKRS #0739",
     "image": "https://bafybeihd4kuehytggoufrytwdj2gf5iatzaqw3epy3dgx5zgk4i5kfgojm.ipfs.nftstorage.link/739.jpeg?ext=jpeg",
-    "metaUpdated": 1665545146043,
+    "metaUpdated": 1665648031764,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Sand Holy T-Shirt",
@@ -111097,7 +111097,7 @@
     "mint": "FY9E7RFPqzLJ654jQNySRRTM23YqmdMeqVEYMkChNS3B",
     "name": "MKRS #5253",
     "image": "https://bafybeigsnop3nvxxkhrci6ndp35ycntnccakpmietnquf5d4urqghlmf2a.ipfs.nftstorage.link/5253.jpeg?ext=jpeg",
-    "metaUpdated": 1665545146960,
+    "metaUpdated": 1665648032334,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Black Puffer",
@@ -111119,7 +111119,7 @@
     "mint": "4sWakKDpYGr6ujvrA467RBDiUk8ADAYSBThxWwwCvxto",
     "name": "MKRS #4609",
     "image": "https://bafybeiffliip7p7qdsxsxoifnvaxqxhkr66p6nqv7h7ntcrmj5qqbmjbx4.ipfs.nftstorage.link/4609.jpeg?ext=jpeg",
-    "metaUpdated": 1665545147619,
+    "metaUpdated": 1665648033320,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Lavender T-Shirt",
@@ -111141,7 +111141,7 @@
     "mint": "HRmtHpvoNc7SLERrZGxayDAd9urJZxLh1HDedYwEx8VZ",
     "name": "MKRS #2720",
     "image": "https://bafybeieovewqzbxwqciyvrxxp7wp62v3u32tfvpcoiw3jw6oove6epwxsy.ipfs.nftstorage.link/2720.jpeg?ext=jpeg",
-    "metaUpdated": 1665545148311,
+    "metaUpdated": 1665648034035,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Black Hoodie",
@@ -111163,7 +111163,7 @@
     "mint": "5x26wkRcZxvBMxEdSN6tSqLJaQuPYwMaGCyYA3cPE4dn",
     "name": "MKRS #7193",
     "image": "https://bafybeifa4eon75xqqqjftf37kvyeejydlxguu5n36zzgklf2gn2wsmgqui.ipfs.nftstorage.link/7193.jpeg?ext=jpeg",
-    "metaUpdated": 1665545148972,
+    "metaUpdated": 1665648034606,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "Blue Puffer",
@@ -111185,7 +111185,7 @@
     "mint": "CPs7ShsrYuDFgtmRWXSyuezzmE7NDkgGaW3Z3TWatRt3",
     "name": "MKRS #1799",
     "image": "https://bafybeiamf2iew7oqo5bnyv3r6vchvufste6ej57xnxrxi23b2625qarxwe.ipfs.nftstorage.link/1799.jpeg?ext=jpeg",
-    "metaUpdated": 1665545170118,
+    "metaUpdated": 1665648034861,
     "Background": "MKRS Background",
     "DNA": "Spirit Neon",
     "Clothing": "Light Grey Hoodie",
@@ -111207,7 +111207,7 @@
     "mint": "57pypJZZxxGEmMPJArbSTaeswe3hxCxNDt3vNBuU7oVp",
     "name": "MKRS #2385",
     "image": "https://bafybeigzgjng6iix26yu6zibs5wgfsba6btmawklgv3u65c6lustueiqcy.ipfs.nftstorage.link/2385.jpeg?ext=jpeg",
-    "metaUpdated": 1665545191326,
+    "metaUpdated": 1665648035117,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Light Grey Tank",
@@ -111229,7 +111229,7 @@
     "mint": "5dkM72AvrpVj4it58BWMQnj3dcJm52WbJ7he82QE6KTf",
     "name": "MKRS #4668",
     "image": "https://bafybeieunx3l7mtvscn2uf7qckweqs7vjs4pnq773mbbda7novhtqm4psu.ipfs.nftstorage.link/4668.jpeg?ext=jpeg",
-    "metaUpdated": 1665545192200,
+    "metaUpdated": 1665648036064,
     "Background": "MKRS Background",
     "DNA": "Crystal Diamond",
     "Clothing": "Light Grey Puffer",
@@ -111252,7 +111252,7 @@
     "mint": "ADyURy1VrJxFe12Hdeh4QZyFVMtb5Ya934bkaVtQGJfu",
     "name": "MKRS #6665",
     "image": "https://bafybeickawp3cwg53jz6gmyrkg75yusci5g4dv76nlj5ewgwozziga4onu.ipfs.nftstorage.link/6665.jpeg?ext=jpeg",
-    "metaUpdated": 1665545193290,
+    "metaUpdated": 1665648036713,
     "Background": "MKRS Background",
     "DNA": "Sky Storm",
     "Clothing": "Blue Holy T-Shirt",
@@ -111275,7 +111275,7 @@
     "mint": "Arfvp7AhThcWBbg7NMqsrMHDQ1qmBHssDCN32gmfLP6i",
     "name": "MKRS #3329",
     "image": "https://bafybeidw24uass6fnli5ayzi6orl6unbmbvuqeu47zuvjta5yuzmdzhxgq.ipfs.nftstorage.link/3329.jpeg?ext=jpeg",
-    "metaUpdated": 1665545194072,
+    "metaUpdated": 1665648037820,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Yellow Overalls",
@@ -111298,7 +111298,7 @@
     "mint": "92aJCJhG7q4kE3JMszVnZ2tZ3ApmcRvPi6K37BNbmGmj",
     "name": "MKRS #2654",
     "image": "https://bafybeif5ofo7vjw4fn7xcvhz77hljrcuk456eharlpkzofnknujjead5fu.ipfs.nftstorage.link/2654.jpeg?ext=jpeg",
-    "metaUpdated": 1665545216730,
+    "metaUpdated": 1665648038773,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Black Overalls",
@@ -111321,7 +111321,7 @@
     "mint": "AYT2KdY3nazndN3KXhgDkSwzkrrCVnEm5LULwq47CbFL",
     "name": "MKRS #0814",
     "image": "https://bafybeid2ieqttrqhus4kg4bdt3nvoxljnfmja6vf4sxdtg6qb2owfbvdqi.ipfs.nftstorage.link/814.jpeg?ext=jpeg",
-    "metaUpdated": 1665545217512,
+    "metaUpdated": 1665648039062,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Light Grey Puffer",
@@ -111344,7 +111344,7 @@
     "mint": "7zENwXnPXQ9ZBgFDccgVffXcMauEertm61e4VFUYs4HC",
     "name": "MKRS #0112",
     "image": "https://bafybeifpe3td4rd343e6wotiqycknb2cbb7idrjpjxrmdabn6jirxxtzhq.ipfs.nftstorage.link/112.jpeg?ext=jpeg",
-    "metaUpdated": 1665545218813,
+    "metaUpdated": 1665648039651,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Light Grey Hoodie",
@@ -111366,7 +111366,7 @@
     "mint": "DVu2GPE3VvVAhd1V26Pk28hhUJL5V7afmapemiQDMJnN",
     "name": "MKRS #3858",
     "image": "https://bafybeibhjdm4xz44egsjtjjtqf3mfeknwlu6kyiwm6eg73bhe5ahzl3cre.ipfs.nftstorage.link/3858.jpeg?ext=jpeg",
-    "metaUpdated": 1665545219744,
+    "metaUpdated": 1665648040242,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Blue Puffer",
@@ -111389,7 +111389,7 @@
     "mint": "GgTZ7QYCBjttHXCUadLTicJKZXiymPRMDgMfoqVbjmg5",
     "name": "MKRS #0761",
     "image": "https://bafybeifokpp3sarirbkrqg7rohok2p3s26qcpqtzcol6aqwcywptujvsz4.ipfs.nftstorage.link/761.jpeg?ext=jpeg",
-    "metaUpdated": 1665545220396,
+    "metaUpdated": 1665648040961,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Black Overalls",
@@ -111403,15 +111403,13 @@
     "Twins": "None",
     "rank": 4969,
     "price": "",
-    "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
     "siblings": []
   },
   {
     "mint": "8csBdF7PK44s4opQsPQ7uW3Dbxb6mf4kawqqKaXbWGRb",
     "name": "MKRS #3736",
     "image": "https://bafybeiawxlsigpzbxoqw26xe3b4c3fznblwnwj7lhlz6qchji37ecipmfa.ipfs.nftstorage.link/3736.jpeg?ext=jpeg",
-    "metaUpdated": 1665545221173,
+    "metaUpdated": 1665648041580,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Red Pit",
@@ -111434,7 +111432,7 @@
     "mint": "UT5QTjC5Bw54k6RVh2nxYV6yWxrGNzreQS9p7nJk9Do",
     "name": "MKRS #0837",
     "image": "https://bafybeid2ieqttrqhus4kg4bdt3nvoxljnfmja6vf4sxdtg6qb2owfbvdqi.ipfs.nftstorage.link/837.jpeg?ext=jpeg",
-    "metaUpdated": 1665545221944,
+    "metaUpdated": 1665648042255,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Light Grey T-Shirt",
@@ -111456,7 +111454,7 @@
     "mint": "CFsJeQUz6KugEujLKUiTFXeCcJbwpwecSiF8Wh43ftZY",
     "name": "MKRS #0660",
     "image": "https://bafybeibx7d3yfygnldrts6k5hkz277m7z7ezrjoxejc4csa6f236prmfi4.ipfs.nftstorage.link/660.jpeg?ext=jpeg",
-    "metaUpdated": 1665545223246,
+    "metaUpdated": 1665648043058,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "Light Grey Holy T-Shirt",
@@ -111478,7 +111476,7 @@
     "mint": "ANCYF7DRDWjWL57UixfGsJgntfmZ27orCEtFfJpgSBtP",
     "name": "MKRS #4184",
     "image": "https://arweave.net/vYhxIfUQIoUYeApwOfInNy4sKwZClxXah3xgYsKq2Q4",
-    "metaUpdated": 1665545223329,
+    "metaUpdated": 1665648043195,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "Light Grey Vest on Black Crewneck",
@@ -111502,7 +111500,7 @@
     "mint": "C43FZf3xEoaU2jLkZJboR3oMp3Qmcp1aiWddC48F8pa4",
     "name": "MKRS #3542",
     "image": "https://bafybeieq4l23f3uc43vqkpi46yyggzerffs6orgp37pq4s3j7pldfllljy.ipfs.nftstorage.link/3542.jpeg?ext=jpeg",
-    "metaUpdated": 1665545224204,
+    "metaUpdated": 1665648043860,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Blue Puffer",
@@ -111525,7 +111523,7 @@
     "mint": "3BizF7r2wYVQpKUBCGQRGUBEEcpYyNgnTsqArLtWZqY8",
     "name": "MKRS #0519",
     "image": "https://bafybeidav3yunyjksctvtxauucva47wcgcafqhyotmrjhokqzc5w5tlxqa.ipfs.nftstorage.link/519.jpeg?ext=jpeg",
-    "metaUpdated": 1665545224980,
+    "metaUpdated": 1665648044529,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Lavender Holy T-Shirt",
@@ -111547,7 +111545,7 @@
     "mint": "BfkngPweHVjJNcKTfatbwu8BKQ6zZYMA6bTUv1xpGHkF",
     "name": "MKRS #5822",
     "image": "https://arweave.net/2Bv7Y-hnBqp73yT_mSky7BQE1w4tf_HAGwxOhjXVLSU",
-    "metaUpdated": 1665545225442,
+    "metaUpdated": 1665648044598,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "White Vest on White Crewneck",
@@ -111562,7 +111560,7 @@
     "rank": 4976,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "Bs2etCEui6PxnhKX19tLihqgKDj7zi8pAEpprtHMGVzz"
     ]
@@ -111571,7 +111569,7 @@
     "mint": "Bs2etCEui6PxnhKX19tLihqgKDj7zi8pAEpprtHMGVzz",
     "name": "MKRS #1964",
     "image": "https://arweave.net/wbKv6SRo1JyOur70umxV5sqPwYZvMrn9lejNzS0Xzn4",
-    "metaUpdated": 1665545225537,
+    "metaUpdated": 1665648044868,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "White Vest on White Crewneck",
@@ -111596,7 +111594,7 @@
     "mint": "AjNjuDmatPEXpTcmRHYkRbVZNoUxLqurBJ4TAQFNdvcu",
     "name": "MKRS #5705",
     "image": "https://arweave.net/EllWqHBkk7xu1ItIFOgNiuRGvObNaUEYYjaD52cy6_c",
-    "metaUpdated": 1665545226140,
+    "metaUpdated": 1665648045328,
     "Background": "MKRS Background",
     "DNA": "Taped Caution",
     "Clothing": "Light Grey Vest on Black Crewneck",
@@ -111620,7 +111618,7 @@
     "mint": "4TVGycovohsiwCPNMSoJvRhkw4YJJubvrUrJN9angtFy",
     "name": "MKRS #3981",
     "image": "https://bafybeiajlu7mc5jyuzh25rtu7qmnebfr33ksgmvmlxdaixbtqb4kikgxlm.ipfs.nftstorage.link/3981.jpeg?ext=jpeg",
-    "metaUpdated": 1665545226912,
+    "metaUpdated": 1665648046388,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Dark Grey Holy T-Shirt",
@@ -111634,16 +111632,13 @@
     "Twins": "None",
     "rank": 4979,
     "price": "",
-    "owner": "6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek",
-    "ownerAlt": "treasury",
-    "owns": 640,
     "siblings": []
   },
   {
     "mint": "FWK782bxsT7KfvYj95GbLwDAwnh9EbJpmiQkzqZkbG5A",
     "name": "MKRS #4198",
     "image": "https://bafybeie34xuax7m3g762qxn7m3uumvylzh3dviqyz5qtlr76jzo2podu5y.ipfs.nftstorage.link/4198.jpeg?ext=jpeg",
-    "metaUpdated": 1665545229148,
+    "metaUpdated": 1665648048180,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Lavender T-Shirt",
@@ -111665,7 +111660,7 @@
     "mint": "82AeXuzKoJ6z5zYJozGkBQUArGg9vBdY6Ej8xcm5qR9D",
     "name": "MKRS #6731",
     "image": "https://bafybeiax4e3vd7fda6injdzn5nm4t364f5mgdhtm4lnidmj7xsitkeffvy.ipfs.nftstorage.link/6731.jpeg?ext=jpeg",
-    "metaUpdated": 1665545229850,
+    "metaUpdated": 1665648048937,
     "Background": "MKRS Background",
     "DNA": "Taped Mono",
     "Clothing": "Light Grey Tank",
@@ -111687,7 +111682,7 @@
     "mint": "6BuD6ZwpMMJutg2MBwivM7u1VEp7FKNt55DagDEk5Qoi",
     "name": "MKRS #5248",
     "image": "https://bafybeiccpjzyaqdkt72ocjrmvy5vaizb6773dndfhwaum5whuqowichcja.ipfs.nftstorage.link/5248.jpeg?ext=jpeg",
-    "metaUpdated": 1665545230614,
+    "metaUpdated": 1665648049160,
     "Background": "MKRS Background",
     "DNA": "Crystal Ruby",
     "Clothing": "White Holy T-Shirt",
@@ -111709,7 +111704,7 @@
     "mint": "Btmucm7feX67f8pqaQEaNqN3Mjw4hvEugdLucyrAW8Gf",
     "name": "MKRS #1692",
     "image": "https://bafybeibvkcvma3zuw4xjemfkzhx33i7linwwfu5qdsswqgoolwolrpxpni.ipfs.nftstorage.link/1692.jpeg?ext=jpeg",
-    "metaUpdated": 1665545231538,
+    "metaUpdated": 1665648049807,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "Yellow T-Shirt",
@@ -111723,15 +111718,13 @@
     "Twins": "None",
     "rank": 4983,
     "price": "",
-    "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
     "siblings": []
   },
   {
     "mint": "2kKrCxnYu19emVpcTVybApiCVN8q3XMoEfff3ykMEmZP",
     "name": "MKRS #2926",
     "image": "https://bafybeiandeia5zfja75bkuyghxkkrioaac3vf4hbf5nue2xtlqbh4cbjmm.ipfs.nftstorage.link/2926.jpeg?ext=jpeg",
-    "metaUpdated": 1665545232670,
+    "metaUpdated": 1665648071367,
     "Background": "MKRS Background",
     "DNA": "Taped Mono",
     "Clothing": "Red Puffer",
@@ -111754,7 +111747,7 @@
     "mint": "tTdtqt6Xwv9NrHjA42VsgbmSb3GHP1cA45tWbWJMtC4",
     "name": "MKRS #7771",
     "image": "https://bafybeidmp23xxx3y6mjgm6ffoegbhnjxhd76hswvfhx56tyeam72scm54a.ipfs.nftstorage.link/7771.jpeg?ext=jpeg",
-    "metaUpdated": 1665545233462,
+    "metaUpdated": 1665648072300,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Sand Overalls",
@@ -111777,7 +111770,7 @@
     "mint": "68ag7RJPPpsvt8WLFeC76Yc9Jp3NoLu8JWrEUHg8juop",
     "name": "MKRS #0005",
     "image": "https://bafybeie3nuj25dcuebpofaxfoorsz6h35dgxm533uqmg7dqdoft7vd2i3e.ipfs.nftstorage.link/5.jpeg?ext=jpeg",
-    "metaUpdated": 1665545234335,
+    "metaUpdated": 1665648072882,
     "Background": "MKRS Background",
     "DNA": "Devil Purple",
     "Clothing": "Black Puffer",
@@ -111799,7 +111792,7 @@
     "mint": "CzVh9QvyQQ4M146qkyz7iEhS8UT6UFx8J2GgS1DU3nq9",
     "name": "MKRS #5700",
     "image": "https://bafybeihz4fkvm75fhynpxktew3cul55szecpyhbl4j4bd5jwcom6bl6sti.ipfs.nftstorage.link/5700.jpeg?ext=jpeg",
-    "metaUpdated": 1665545235060,
+    "metaUpdated": 1665648073610,
     "Background": "MKRS Background",
     "DNA": "Devil Green",
     "Clothing": "Light Grey Tank",
@@ -111821,7 +111814,7 @@
     "mint": "APynhF1ggcumVxHjtsXxgkEXhqnKShnu9PiyPD3tMQWh",
     "name": "MKRS #6932",
     "image": "https://bafybeif3hst5vcoaida72jn4unu3snte3sivjr6xlxovrvawn57ybu55gu.ipfs.nftstorage.link/6932.jpeg?ext=jpeg",
-    "metaUpdated": 1665545256505,
+    "metaUpdated": 1665648074323,
     "Background": "MKRS Background",
     "DNA": "Flowers Vintage",
     "Clothing": "Sand Hoodie",
@@ -111835,15 +111828,13 @@
     "Twins": "None",
     "rank": 4988,
     "price": "",
-    "owner": "ABtRfhSNXFkPuxTrwjqgiW5PiR6UE2ee7Vk4WdW1HEv5",
-    "owns": 1,
     "siblings": []
   },
   {
     "mint": "A73LmYVvhSw8uScJ8XJiriogNgs56V72sjPiRUTkmgaa",
     "name": "MKRS #4597",
     "image": "https://arweave.net/idL-W6YHmfmnH3g872tZ7xGPIEmZCEGJCrvmonl2Ve0",
-    "metaUpdated": 1665545256600,
+    "metaUpdated": 1665648074566,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Black Overalls",
@@ -111867,7 +111858,7 @@
     "mint": "BhKLKLXnTx2qsen37bj1Bt2WktY62Lqktq4JG8oo9Gc6",
     "name": "MKRS #2029",
     "image": "https://arweave.net/9dbDmHXXUqHDYGGUm3uoea25WozRun2xpO2ull1oEro",
-    "metaUpdated": 1665545256886,
+    "metaUpdated": 1665648074942,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Black Overalls",
@@ -111892,7 +111883,7 @@
     "mint": "Fp1FDToiUA13KmtMajn5vsafHeSkhSqbgWbNebkK7cK3",
     "name": "MKRS #3860",
     "image": "https://bafybeibhjdm4xz44egsjtjjtqf3mfeknwlu6kyiwm6eg73bhe5ahzl3cre.ipfs.nftstorage.link/3860.jpeg?ext=jpeg",
-    "metaUpdated": 1665545257832,
+    "metaUpdated": 1665648075176,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Yellow Crewneck",
@@ -111914,7 +111905,7 @@
     "mint": "4QaLeKQMzaVECG3aySX9NysLXTDjVtVm1gYydBXcnR1d",
     "name": "MKRS #2080",
     "image": "https://bafybeierrqm3gxauudsvjx3tok5th6xj4valgi5r6hqv3mjrpxdgqilzii.ipfs.nftstorage.link/2080.jpeg?ext=jpeg",
-    "metaUpdated": 1665545258711,
+    "metaUpdated": 1665648075470,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Light Grey Tank",
@@ -111937,7 +111928,7 @@
     "mint": "6MZToARxbWe71V8GGLBPxBh3qPg79Xgyha1HP8TqvHdp",
     "name": "MKRS #7526",
     "image": "https://bafybeienep53g5k6g6hyhhdzctrm7gi7t7hipwigq2xrknsw3iufffzbtu.ipfs.nftstorage.link/7526.jpeg?ext=jpeg",
-    "metaUpdated": 1665545259582,
+    "metaUpdated": 1665648076016,
     "Background": "MKRS Background",
     "DNA": "Robot Light",
     "Clothing": "White Overalls",
@@ -111959,7 +111950,7 @@
     "mint": "6n1yaoScv3F3CJGVNKfw7LzRjh5J8voxQKR32pxTTtCv",
     "name": "MKRS #5586",
     "image": "https://bafybeietwgehyvgbj6nx2xnysj7nlqn4xnrkmtckx47hzjmticfgfnkqiy.ipfs.nftstorage.link/5586.jpeg?ext=jpeg",
-    "metaUpdated": 1665545260424,
+    "metaUpdated": 1665648095269,
     "Background": "MKRS Background",
     "DNA": "Robot Gold",
     "Clothing": "Red Hoodie",
@@ -111982,7 +111973,7 @@
     "mint": "E9LxNXqRxML4PXzMXzHp8wKhG8PZHrmnn8wpvsQ5zxwf",
     "name": "MKRS #1727",
     "image": "https://bafybeiblen3nxas7sszcvqglpqnjozglxlue3xzsedszyktj2jdrwjv3se.ipfs.nftstorage.link/1727.jpeg?ext=jpeg",
-    "metaUpdated": 1665545261372,
+    "metaUpdated": 1665648096321,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Pink Pit",
@@ -112005,7 +111996,7 @@
     "mint": "Ezx5k2r8FBKo2yzMxRTuJz3V92WrZMuMjeJAfjhwT8qy",
     "name": "MKRS #5466",
     "image": "https://bafybeiavfi6suxc4c7ieszpakbye7z44switmxk5ovcgd5kva4c5p5jvvu.ipfs.nftstorage.link/5466.jpeg?ext=jpeg",
-    "metaUpdated": 1665545282555,
+    "metaUpdated": 1665648096568,
     "Background": "MKRS Background",
     "DNA": "Crystal Emerald",
     "Clothing": "Red T-Shirt",
@@ -112027,7 +112018,7 @@
     "mint": "4hWSdj3NZPbJCzXu2pnSe4f6HDwdKM2dZViDogkfmU4b",
     "name": "MKRS #3343",
     "image": "https://bafybeibknano6vts254wvs6d4kfjeviov3ago4piwyyhmlpkmun25ummpa.ipfs.nftstorage.link/3343.jpeg?ext=jpeg",
-    "metaUpdated": 1665545303888,
+    "metaUpdated": 1665648096776,
     "Background": "MKRS Background",
     "DNA": "Sky Clear",
     "Clothing": "Dark Grey Holy T-Shirt",
@@ -112049,7 +112040,7 @@
     "mint": "CJmA1ukVLSh2AuVeJ9J8gTXYfKQTCYbjDouQZrherv7z",
     "name": "MKRS #5184",
     "image": "https://bafybeien4uuejn7q6s5xhftamwwqlmgmnydrjzqpkjnsh6u6nt2wyrf3zi.ipfs.nftstorage.link/5184.jpeg?ext=jpeg",
-    "metaUpdated": 1665545304713,
+    "metaUpdated": 1665648097645,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Red T-Shirt",
@@ -112064,14 +112055,14 @@
     "rank": 4998,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
     "mint": "7g5ANeehxkkumxQhgFJBWZFWTeApDL6mE24ub8bjBzLe",
     "name": "MKRS #3993",
     "image": "https://bafybeibndwlb6q3h4znuxifczedxv7edzn3rrblfjaztbnh3sa6jyj3uqa.ipfs.nftstorage.link/3993.jpeg?ext=jpeg",
-    "metaUpdated": 1665545326148,
+    "metaUpdated": 1665648098390,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Mono",
     "Clothing": "White Vest on White Crewneck",
@@ -112094,7 +112085,7 @@
     "mint": "ByCW8GS6toBkP554dqvTVPByunwhKu9LC32eXT7KV6TZ",
     "name": "MKRS #5115",
     "image": "https://bafybeicpjmac2vihyhlmvr7dy2petg5k2dsu6wyh77o34sl3je6aqm7z7a.ipfs.nftstorage.link/5115.jpeg?ext=jpeg",
-    "metaUpdated": 1665545326897,
+    "metaUpdated": 1665648098655,
     "Background": "MKRS Background",
     "DNA": "Sky Sunrise",
     "Clothing": "White Hoodie",
@@ -112117,7 +112108,7 @@
     "mint": "EqkBmpdwUo86yjVAqoYNDTMN4hjZSEmvZ3xRoZ6TiDZ1",
     "name": "MKRS #1400",
     "image": "https://bafybeibvrgvrdeg5zxa5zfbatmibu6h2khvzlutcbu4mtz7ncmq3ck43le.ipfs.nftstorage.link/1400.jpeg?ext=jpeg",
-    "metaUpdated": 1665545327672,
+    "metaUpdated": 1665648099212,
     "Background": "MKRS Background",
     "DNA": "Spirit Clear",
     "Clothing": "Sand Holy T-Shirt",
@@ -112139,7 +112130,7 @@
     "mint": "ugur6BkBzwY1igbPjrQXFkhuMQq8scETVKqv2xMGty1",
     "name": "MKRS #3803",
     "image": "https://bafybeig5myyhfh6unjuwn3jfe7zh74cxwp466xj3jpd4jonm2qawnavswe.ipfs.nftstorage.link/3803.jpeg?ext=jpeg",
-    "metaUpdated": 1665545335371,
+    "metaUpdated": 1665648120546,
     "Background": "MKRS Background",
     "DNA": "Robot Dark",
     "Clothing": "Pink Pit",
@@ -112153,15 +112144,13 @@
     "Twins": "None",
     "rank": 5002,
     "price": "",
-    "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
     "siblings": []
   },
   {
     "mint": "CCDVz92orFfyxwg1i2qfc5cMR6ZHmPF4LWcSNjVpYGT8",
     "name": "MKRS #7435",
     "image": "https://arweave.net/ejgTLxLqvZs6O5qNJiC1egbCZ8kAfRwNqTK1v1UXtDQ",
-    "metaUpdated": 1665545335498,
+    "metaUpdated": 1665648120958,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Light Grey Overalls",
@@ -112175,8 +112164,6 @@
     "Treats": "None",
     "rank": 5003,
     "price": "",
-    "owner": "37fZ6GzH98Uqh9reu3egUuJcWiH5kfjj9VSfTBTpkEJi",
-    "owns": 1,
     "siblings": [
       "BDtqd1cPY7Hfnwpc6ikCGHJs2x4h9inudcVNFc3mceFm",
       "G3wPqyUUZjDbYKqb26SqHhBSsJ9p5zU7XgXtpuFydESU"
@@ -112186,7 +112173,7 @@
     "mint": "4ULnHowKk2sr5Eo9puGwcQtzf8mFVQZZwHrcTnvi13Nj",
     "name": "MKRS #2466",
     "image": "https://arweave.net/fuuJd3jL0E-KxHurCY3mMFPZzCR0giAlAPMNgV9-U-8",
-    "metaUpdated": 1665545336057,
+    "metaUpdated": 1665648121060,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Yellow Hoodie",
@@ -112210,7 +112197,7 @@
     "mint": "BDtqd1cPY7Hfnwpc6ikCGHJs2x4h9inudcVNFc3mceFm",
     "name": "MKRS #6222",
     "image": "https://arweave.net/4j-hiFhVANfOdinkUaUdOwjqtlhozlSBATNNuM2dO3Y",
-    "metaUpdated": 1665545336534,
+    "metaUpdated": 1665648121320,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Light Grey Overalls",
@@ -112225,7 +112212,7 @@
     "rank": 5005,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "CCDVz92orFfyxwg1i2qfc5cMR6ZHmPF4LWcSNjVpYGT8",
       "G3wPqyUUZjDbYKqb26SqHhBSsJ9p5zU7XgXtpuFydESU"
@@ -112235,7 +112222,7 @@
     "mint": "9NAdEFezhJRy4Q771QyH4BEXKpf4gKm9AQCXfmuexVHp",
     "name": "MKRS #5978",
     "image": "https://bafybeigv2un7q5b6rngtciqz7aue64ngcphydsakij2c2e5vysb24esbnm.ipfs.nftstorage.link/5978.jpeg?ext=jpeg",
-    "metaUpdated": 1665545337367,
+    "metaUpdated": 1665648121684,
     "Background": "MKRS Background",
     "DNA": "Spirit Pink",
     "Clothing": "Black Hoodie",
@@ -112257,7 +112244,7 @@
     "mint": "ZM7BgF9zLgQp89ogWFdyhfi6cwv7UnPwkzaUbsj1RfU",
     "name": "MKRS #7161",
     "image": "https://arweave.net/tsSoVVhHeiJ7T6MfXkfamccvPtKwWreHGHOrArnhknw",
-    "metaUpdated": 1665545337922,
+    "metaUpdated": 1665648121962,
     "Background": "MKRS Background",
     "DNA": "Bad Frens Pink",
     "Clothing": "Green Turtleneck",
@@ -112272,7 +112259,7 @@
     "rank": 5007,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": [
       "GwyPkYkh6gUS5GRkHYkLh7QZwAwSogWEpVszzgJWzahv"
     ]
@@ -112281,7 +112268,7 @@
     "mint": "J83ThJkhAy9zrr3JCEkW82QDLVVHGV7z5u6GG7yw9j51",
     "name": "MKRS #0532",
     "image": "https://bafybeidav3yunyjksctvtxauucva47wcgcafqhyotmrjhokqzc5w5tlxqa.ipfs.nftstorage.link/532.jpeg?ext=jpeg",
-    "metaUpdated": 1665545339099,
+    "metaUpdated": 1665648123499,
     "Background": "MKRS Background",
     "DNA": "Devil Red",
     "Clothing": "Denim on Black Tank",
@@ -112409,7 +112396,7 @@
     "rank": 5013,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": [
       "ZM7BgF9zLgQp89ogWFdyhfi6cwv7UnPwkzaUbsj1RfU"
     ]
@@ -112478,7 +112465,7 @@
     "rank": 5016,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "CCDVz92orFfyxwg1i2qfc5cMR6ZHmPF4LWcSNjVpYGT8",
       "BDtqd1cPY7Hfnwpc6ikCGHJs2x4h9inudcVNFc3mceFm"
@@ -112615,7 +112602,7 @@
     "rank": 5022,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -112863,7 +112850,7 @@
     "rank": 5033,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -112907,7 +112894,7 @@
     "rank": 5035,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -113219,7 +113206,7 @@
     "rank": 5049,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -113263,7 +113250,7 @@
     "rank": 5051,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -113652,7 +113639,7 @@
     "rank": 5068,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -113967,7 +113954,7 @@
     "rank": 5082,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -114303,7 +114290,7 @@
     "rank": 5097,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -114348,7 +114335,7 @@
     "rank": 5099,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -114393,7 +114380,7 @@
     "rank": 5101,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -114707,7 +114694,7 @@
     "rank": 5115,
     "price": "",
     "owner": "4ydXuF6MyJUvdRoXe2VxNRrWwEyKzrBZoBAjitK8pvgY",
-    "owns": 7,
+    "owns": 6,
     "siblings": []
   },
   {
@@ -115552,7 +115539,7 @@
     "rank": 5152,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "6m4o2uEGQMH1rfie7iMEVgD3b3dmgXW1MyckFeXWpm7e"
     ]
@@ -115621,7 +115608,7 @@
     "rank": 5155,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -115643,7 +115630,7 @@
     "rank": 5156,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -115688,7 +115675,7 @@
     "rank": 5158,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -115710,7 +115697,7 @@
     "rank": 5159,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -115955,7 +115942,7 @@
     "rank": 5170,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -116044,7 +116031,7 @@
     "rank": 5174,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -116817,7 +116804,7 @@
     "rank": 5208,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -117135,7 +117122,7 @@
     "rank": 5222,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "B4xKGXHcr35ZyqjEkkrXrN6eikKVKXvHFGJda9iTrFfc"
     ]
@@ -117272,7 +117259,7 @@
     "rank": 5228,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -117809,7 +117796,7 @@
     "rank": 5252,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -119202,7 +119189,7 @@
     "rank": 5314,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -119290,7 +119277,7 @@
     "rank": 5318,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -119502,7 +119489,7 @@
     "rank": 5327,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -119569,7 +119556,7 @@
     "rank": 5330,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -119815,7 +119802,7 @@
     "rank": 5341,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -120194,7 +120181,7 @@
     "rank": 5358,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -120394,7 +120381,7 @@
     "rank": 5367,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -120550,7 +120537,7 @@
     "rank": 5374,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -120839,7 +120826,7 @@
     "rank": 5387,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -121749,7 +121736,7 @@
     "rank": 5427,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -122311,7 +122298,7 @@
     "rank": 5452,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -122377,7 +122364,7 @@
     "rank": 5455,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -122744,7 +122731,7 @@
     "rank": 5471,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -122880,7 +122867,7 @@
     "rank": 5477,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -123240,7 +123227,7 @@
     "rank": 5493,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -123284,7 +123271,7 @@
     "rank": 5495,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -123351,7 +123338,7 @@
     "rank": 5498,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -123396,7 +123383,7 @@
     "rank": 5500,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -123774,7 +123761,7 @@
     "rank": 5517,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": []
   },
   {
@@ -124041,7 +124028,7 @@
     "rank": 5529,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -124375,7 +124362,7 @@
     "rank": 5544,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -124949,7 +124936,7 @@
     "rank": 5569,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -125648,7 +125635,7 @@
     "rank": 5600,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -125670,7 +125657,7 @@
     "rank": 5601,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -125692,7 +125679,7 @@
     "rank": 5602,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -125826,7 +125813,7 @@
     "rank": 5608,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "2QZh1J6XVpMDXV8o9nh39jYqFwPfdjJHQCq7GgfzMYw2"
     ]
@@ -125874,7 +125861,7 @@
     "rank": 5610,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -126820,7 +126807,7 @@
     "rank": 5652,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "5coHEoTukv2gpdghyutgQ9vfasux1Xow9cJRDYGFmRKK",
       "EoJFp547ycuPCK78rxymwJtTXncHNPUtkwgjFcegQKHX",
@@ -126846,7 +126833,7 @@
     "rank": 5653,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "9PQaZyNU3tSs8BtpyBhBg5uLTyG9c39na34MvFvEfTK1",
       "EoJFp547ycuPCK78rxymwJtTXncHNPUtkwgjFcegQKHX",
@@ -126872,7 +126859,7 @@
     "rank": 5654,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "9PQaZyNU3tSs8BtpyBhBg5uLTyG9c39na34MvFvEfTK1",
       "5coHEoTukv2gpdghyutgQ9vfasux1Xow9cJRDYGFmRKK",
@@ -126898,7 +126885,7 @@
     "rank": 5655,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "9PQaZyNU3tSs8BtpyBhBg5uLTyG9c39na34MvFvEfTK1",
       "5coHEoTukv2gpdghyutgQ9vfasux1Xow9cJRDYGFmRKK",
@@ -127014,7 +127001,7 @@
     "rank": 5660,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -127260,7 +127247,7 @@
     "rank": 5671,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -127617,7 +127604,7 @@
     "rank": 5687,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": []
   },
   {
@@ -127928,7 +127915,7 @@
     "rank": 5701,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -128727,7 +128714,7 @@
     "rank": 5736,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -129820,7 +129807,7 @@
     "rank": 5784,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -130202,7 +130189,7 @@
     "rank": 5801,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -130317,7 +130304,7 @@
     "rank": 5806,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": [
       "6nKMrvtjqPmGk7qe7VCrf8aLmooRKb29mgF6Yi3mS9oD"
     ]
@@ -130431,7 +130418,7 @@
     "rank": 5811,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": []
   },
   {
@@ -130480,7 +130467,7 @@
     "rank": 5813,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "Eo2J37xn1wsy719WCWHjZH7jCAiLKFGKhM4jDjfDgY7f"
     ]
@@ -130772,7 +130759,7 @@
     "rank": 5825,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "5WjudahuWgjTxpCaXJzVrtcRmcBf4g86ZVGB6EtYdPV7"
     ]
@@ -130840,7 +130827,7 @@
     "rank": 5828,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": []
   },
   {
@@ -130974,7 +130961,7 @@
     "rank": 5834,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -131137,7 +131124,7 @@
     "rank": 5841,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "A6tbmtJyZ5Wb8HLFch5UKVxuPiEGbKiag4t4CTdnGVgy"
     ]
@@ -131186,7 +131173,7 @@
     "rank": 5843,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "9PKYQD3dTbtp8oq41B2rDCacPiUpyRkgYp7Ec7NqKxrt"
     ]
@@ -131652,7 +131639,7 @@
     "rank": 5863,
     "price": "",
     "owner": "3gDdFp5DLGzsPn34YWRstgc4AhMTvp7PuX6eMCtCno2h",
-    "owns": 25,
+    "owns": 26,
     "siblings": [
       "A6nmSZTQheLhcsVcQPkE9LZNv5ZVcR6N3Skqe8qGt45n"
     ]
@@ -132275,7 +132262,7 @@
     "rank": 5890,
     "price": "",
     "owner": "Bn4eXNCKzVxZpUELmggjqL9whNopfBMMRuPS5zQt2tgL",
-    "owns": 123,
+    "owns": 122,
     "siblings": [
       "CPpcreDxTaXJhXQDDFjhVj25c8VcHgKP9SmPoCdtTehu"
     ]
@@ -132658,7 +132645,7 @@
     "rank": 5907,
     "price": "",
     "owner": "HDic8tesxZppxtqr9qLsFaqxVm32emsoGFrqRXnw6CJz",
-    "owns": 27,
+    "owns": 25,
     "siblings": [
       "92ZDnZX7yWknRu423R6feZsSqBKZW5g7L9PKFCUpnvSq"
     ]
@@ -132754,7 +132741,7 @@
     "rank": 5911,
     "price": "",
     "owner": "2nidTCE4drvkP7yr867H5CkYC5WY2xvSd7NddXuhGaoX",
-    "owns": 85,
+    "owns": 84,
     "siblings": [
       "Fso2PLBDR9JC5RBcaYqCtRbHDAm6TpHpn4p3Su14cxWm"
     ]
@@ -132825,7 +132812,7 @@
     "rank": 5914,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": []
   },
   {
@@ -134474,7 +134461,7 @@
     "rank": 5982,
     "price": "",
     "owner": "EMfXUEUGdCUqnU9c3j6sNojrbH7fs1RpAtk7ab19xNp7",
-    "owns": 139,
+    "owns": 138,
     "siblings": [
       "FmwvPkixveW9mUL4w5R4buvSAJ2wnY9iBqyBwsqUT9LL"
     ]
@@ -134801,7 +134788,6 @@
     "rank": 5995,
     "price": 11,
     "owner": "9jpVekdjMQRtvdv9N7c8TANxeqmLhKJu3ciUjQ33k1as",
-    "ownerAlt": "listed",
     "owns": 1,
     "siblings": [
       "8XYq4xQ1wroc3sXpxYscq6S6bScHqMtgwATKHW73hddj",
