@@ -72,6 +72,7 @@ function getTraits(nft) {
             value = value ? `${value} SOL` : 'Not Listed';
             value = `<a href="https://magiceden.io/item-details/${nft.mint}?name=${encodeURI(nft.name)}" title="${value}" target="_blank">${value}</a></div><br><div>`;
         }
+        value = value ? value : '';
         html += `<div class="trait"><span class="title">${trait}: </span>${value}</div>`;
     }
     return html;
