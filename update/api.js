@@ -40,19 +40,21 @@ exports.getMetadata = async function (mint) {
         }
     }
     while (loading)
-    return {
+    return attributes && attributes.length > 0 ? {
         mint,
         name,
         image,
         metaUpdated: Date.now(),
         ...attributes
-    };
+    } : {};
 }
 
 function flattenAttributes(attributes) {
     const attrs = [];
-    for (const trait of attributes) {
-        attrs[trait.trait_type] = trait.value;
+    if (attributes && attributes.length) {
+        for (const trait of attributes) {
+            attrs[trait.trait_type] = trait.value;
+        }
     }
     return attrs;
 }
