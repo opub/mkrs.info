@@ -4,7 +4,7 @@ const { increment, progress, clear } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
 // this should allow nft metadata updates at least daily
-const batchSize = hashList.length / 24;
+const batchSize = hashList.length / 6;
 
 const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'metaUpdated', 'price', 'Traits'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
@@ -114,7 +114,7 @@ async function loadPrices(nfts) {
 // get current owner and number owned
 async function loadOwners(nfts) {
     console.log('loading owners');
-    const owners = await getOwners(false, nfts.map(nft => nft.mint));
+    const owners = await getOwners(true, nfts.map(nft => nft.mint));
     const owned = new Map();
     nfts.forEach(nft => {
         let owner = owners[nft.mint] || nft.owner;
