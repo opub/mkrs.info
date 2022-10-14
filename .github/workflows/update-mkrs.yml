@@ -2,8 +2,11 @@ name: Update MKRS
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '30 * * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - mkrs.json
 
 jobs:
   Update-MKRS-Stats:

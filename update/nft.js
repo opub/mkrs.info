@@ -3,8 +3,8 @@ const { getMetadata, getRanks, getPrices, getOwners } = require('./api');
 const { increment, progress, clear } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
-// this should allow nft metadata updates at least daily
-const batchSize = hashList.length / 6;
+// this should allow full nft metadata updates ever other run
+const batchSize = hashList.length / 2;
 
 const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'metaUpdated', 'price', 'Traits'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
@@ -14,9 +14,8 @@ const cacheFile = '../mkrs.json';
 
 // load all nfts and metadata using locally cached values if available
 exports.loadNFTs = async function () {
-    console.log('loading nfts');
-
     const nfts = await loadMetadata();
+    
     countTraits(nfts);
     await loadRanks(nfts);
     await loadPrices(nfts);
@@ -27,6 +26,8 @@ exports.loadNFTs = async function () {
 }
 
 async function loadMetadata() {
+    console.log('loading metadata');
+
     // determine which nfts to fetch metadata for
     // this is really slow so avoid updating them all every time
     const loaded = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
