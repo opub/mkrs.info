@@ -114,7 +114,7 @@ async function loadPrices(nfts) {
 // get current owner and number owned
 async function loadOwners(nfts) {
     console.log('loading owners');
-    const owners = await getOwners(true, nfts.map(nft => nft.mint));
+    const owners = await getOwners(false, nfts.map(nft => nft.mint));
     const owned = new Map();
     nfts.forEach(nft => {
         let owner = owners[nft.mint] || nft.owner;
