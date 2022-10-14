@@ -3,8 +3,8 @@ const { getMetadata, getRanks, getPrices, getOwners } = require('./api');
 const { increment, progress, clear, log } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
-// this should allow full nft metadata updates ever other run
-const batchSize = hashList.length / 2;
+// this should allow full nft metadata updates daily
+const batchSize = hashList.length / 6;
 
 const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'metaUpdated', 'price', 'Traits'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
