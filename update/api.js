@@ -1,4 +1,4 @@
-const { get, requestError, progress, clear } = require('./common/util');
+const { get, requestError, progress, clear, log } = require('./common/util');
 const { Connection, PublicKey } = require('@solana/web3.js');
 const { programs } = require('@metaplex/js');
 const { metadata: { Metadata } } = programs;
@@ -92,7 +92,7 @@ exports.getRanks = async function () {
         }
     }
     catch (e) {
-        console.log('getRanks', e);
+        log('getRanks', e);
     }
     return new Map(ranks.map(item => [item.mint, item.rank]));
 }
@@ -122,7 +122,7 @@ exports.getOwners = async function (fast, mints) {
                     }
                 }
                 while (loading)
-                progress(i / mints.length);
+                progress(i / mints.length, 'getOwners');
             }
             clear();
             return owners;
@@ -130,7 +130,7 @@ exports.getOwners = async function (fast, mints) {
     }
     catch (e) {
         clear();
-        console.log('getOwners', e);
+        log('getOwners', e);
     }
     return {};
 }

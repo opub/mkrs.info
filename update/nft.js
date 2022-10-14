@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { getMetadata, getRanks, getPrices, getOwners } = require('./api');
-const { increment, progress, clear } = require('./common/util');
+const { increment, progress, clear, log } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
 // this should allow full nft metadata updates ever other run
@@ -26,7 +26,7 @@ exports.loadNFTs = async function () {
 }
 
 async function loadMetadata() {
-    console.log('loading metadata');
+    log('loading metadata');
 
     // determine which nfts to fetch metadata for
     // this is really slow so avoid updating them all every time
@@ -53,7 +53,7 @@ async function loadMetadata() {
             // use image as proxy for clean fetch and don't override existing when error
             nfts.set(fetch[i], nft);
         }
-        progress(i / fetch.length);
+        progress(i / fetch.length, 'loadMetadata');
     }
     clear();
     return Array.from(nfts.values());
@@ -91,7 +91,7 @@ function countTraits(nfts) {
 
 // get official ranks from HowRare
 async function loadRanks(nfts) {
-    console.log('loading ranks');
+    log('loading ranks');
     const ranks = await getRanks();
     nfts.forEach(nft => { nft.rank = ranks.get(nft.mint) });
     nfts.sort((a, b) => a.rank - b.rank);
@@ -100,7 +100,7 @@ async function loadRanks(nfts) {
 // get the currently listed price on ME if available
 // listed items will have owner=magiceden so set real owner now
 async function loadPrices(nfts) {
-    console.log('loading prices');
+    log('loading prices');
     const prices = await getPrices();
     nfts.forEach(nft => {
         if (prices.has(nft.mint)) {
@@ -114,7 +114,7 @@ async function loadPrices(nfts) {
 
 // get current owner and number owned
 async function loadOwners(nfts) {
-    console.log('loading owners');
+    log('loading owners');
     const owners = await getOwners(false, nfts.map(nft => nft.mint));
     const owned = new Map();
     nfts.forEach(nft => {
@@ -144,7 +144,7 @@ async function loadOwners(nfts) {
 
 // determine nfts that have identical attributes
 function findSiblings(nfts) {
-    console.log('finding siblings');
+    log('finding siblings');
     const siblings = new Map();
     nfts.forEach(nft => {
         const key = signature(nft);
