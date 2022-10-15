@@ -10,7 +10,7 @@ const clusterURL = 'https://ssc-dao.genesysgo.net/';
 const commitment = 'confirmed';
 const connection = new Connection(clusterURL, { commitment });
 
-const RPS = 200;
+const RPS = 180;
 let lastRequest = 0;
 
 // get both onchain and offchain metadata for each nft

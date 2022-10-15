@@ -5,7 +5,7 @@ const axiosThrottle = require('axios-request-throttle');
 const requestsPerSecond = 4;
 axiosThrottle.use(axios, { requestsPerSecond });
 
-const backoff = 1000;
+const backoff = 500;
 let attempts = 0;
 
 exports.get = async function (url, options) {
@@ -31,7 +31,7 @@ exports.requestError = async function (from, err) {
         log('WARN', from, resp.statusText, resp.config.url);
         return true;
     } else {
-        log('ERROR', from, err.name, err.message, err.stack);
+        log('ERROR', from, err.name, err.message);
         return false;
     }
 }
@@ -60,7 +60,7 @@ exports.progress = function (step, from) {
         const empty = "□".repeat(width - left);
         clear();
         process.stdout.write(`${fill}${empty} ${pct}%`);
-    } else if(pct % 5 === 0 && pct != lastPct) {
+    } else if (pct % 5 === 0 && pct != lastPct) {
         log(from, `${pct}%`);
         lastPct = pct;
     }
