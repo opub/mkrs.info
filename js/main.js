@@ -16,7 +16,7 @@
  * this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 const maxRows = 500;
-const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Treats', 'Background'];
+const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Headwear', 'Mouth', 'Teardrop', 'Treats', 'Background'];
 
 let siblings = false, listed = false, filter = '';
 
@@ -32,8 +32,8 @@ function pageSetup() {
     populateHeader();
     fetch('mkrs.json').then((resp) => resp.json()).then((json) => {
         data = json;
-        const first = new Date(data.reduce((min, nft) => min < nft.metaUpdated ? min : nft.metaUpdated)).toLocaleString();
-        const last = new Date(data.reduce((max, nft) => max > nft.metaUpdated ? max : nft.metaUpdated)).toLocaleString();
+        const first = new Date(data.reduce((min, nft) => min < nft.last ? min : nft.last)).toLocaleString();
+        const last = new Date(data.reduce((max, nft) => max > nft.last ? max : nft.last)).toLocaleString();
         get('metadata').innerHTML = `Metadata last updated between ${first} and ${last}.`;
         updateTable();
     });

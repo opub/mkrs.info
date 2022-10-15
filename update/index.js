@@ -1,6 +1,7 @@
 const { loadNFTs } = require('./nft');
 const { elapsed, log } = require('./common/util');
 const fs = require('fs');
+const file = '../mkrs.json';
 
 (async () => {
     const started = Date.now();
@@ -13,6 +14,14 @@ const fs = require('fs');
 
 // export all to JSON for mkrs.info
 function exportJSON(nfts) {
-    log('saving', nfts.length, 'nfts');
-    fs.writeFileSync('../mkrs.json', JSON.stringify(nfts, null, 2));
+    const len = nfts.length;
+    log('saving', len, 'nfts');
+    fs.writeFileSync(file, '[\n');
+    for (let i = 0; i < len; i++) {
+        fs.appendFileSync(file, JSON.stringify(nfts[i], null, 2));
+        if (i < len - 1) {
+            fs.appendFileSync(file, ',\n');
+        }
+    }
+    fs.appendFileSync(file, '\n]');
 }

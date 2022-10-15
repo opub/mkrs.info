@@ -43,7 +43,7 @@ exports.getMetadata = async function (mint) {
         mint,
         name,
         image,
-        metaUpdated: Date.now(),
+        last: Date.now(),
         ...attributes
     } : {};
 }
