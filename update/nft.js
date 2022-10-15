@@ -4,9 +4,10 @@ const { increment, progress, clear, log } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
 // this should allow full nft metadata updates daily
-const batchSize = hashList.length / 3;
+const batchSize = hashList.length / 4;
 
 const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'metaUpdated', 'price', 'Traits'];
+const baseTraits = ['Background', 'Clothing', 'DNA', 'DNA Split', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Twins'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
 const exchange = 'FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu';
 const magiceden = '1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix';
@@ -15,7 +16,7 @@ const cacheFile = '../mkrs.json';
 // load all nfts and metadata using locally cached values if available
 exports.loadNFTs = async function () {
     const nfts = await loadMetadata();
-    
+
     countTraits(nfts);
     await loadRanks(nfts);
     await loadPrices(nfts);
@@ -164,7 +165,7 @@ function findSiblings(nfts) {
 
 // generates trait signature to determine siblings
 function signature(nft) {
-    const filtered = { ...nft };
-    common.forEach(c => filtered[c] = undefined);
+    const filtered = [];
+    baseTraits.forEach(t => filtered[t] = nft[t]);
     return JSON.stringify(filtered);
 }
