@@ -79,7 +79,8 @@ function getTraits(nft) {
 }
 
 function mask(address) {
-    return address ? `${address.substring(0, 5)}...${address.substring(40)}` : '';
+    address = pretty(address)
+    return address.length > 40 ? `${address.substring(0, 5)}...${address.substring(40)}` : '';
 }
 
 function pretty(value) {
