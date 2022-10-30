@@ -4,7 +4,7 @@ const { increment, progress, clear, log } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
 // this should allow full nft metadata updates daily
-const batchSize = hashList.length / 4;
+const batchSize = hashList.length / 12;
 const fastOwners = false;
 
 const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'last', 'price', 'Traits'];

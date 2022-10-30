@@ -6,21 +6,22 @@ const { metadata: { Metadata } } = programs;
 const collection = 'mkrs';
 const magicEden = 'https://api-mainnet.magiceden.dev/v2';
 const howrare = 'https://api.howrare.is/v0.1';
-const clusterURL = 'https://ssc-dao.genesysgo.net/';
+const clusterURLs = ['https://restless-white-spree.solana-mainnet.discover.quiknode.pro/75b80d7fb5be2115e1c4d82863de65556b701d7d/', 'https://ssc-dao.genesysgo.net/', 'https://api.mainnet-beta.solana.com/'];
 const commitment = 'confirmed';
-const connection = new Connection(clusterURL, { commitment });
+const connections = clusterURLs.map(url => new Connection(url, { commitment }));
 
-const RPS = 150;
+const RPS = 180;
 let lastRequest = 0;
 
 // get both onchain and offchain metadata for each nft
 exports.getMetadata = async function (mint) {
     let loading = true;
     let name, image, attributes;
+    let endpoint = 0;
     do {
         try {
             const pda = await Metadata.getPDA(mint);
-            const { data: onchain } = await Metadata.load(connect(), pda);
+            const { data: onchain } = await Metadata.load(connect(endpoint), pda);
             if (onchain) {
                 name = onchain.name;
                 const { data: offchain } = await get(onchain.data.uri);
@@ -36,6 +37,7 @@ exports.getMetadata = async function (mint) {
         }
         catch (e) {
             loading = await requestError('getMetadata', e);
+            endpoint = endpoint < clusterURLs.length - 1 ? endpoint + 1 : 0;
         }
     }
     while (loading)
@@ -108,17 +110,20 @@ exports.getOwners = async function (fast, mints) {
             }
         } else {
             const owners = [];
+            let endpoint = 0;
             for (let i = 0; i < mints.length; i++) {
                 const mint = mints[i];
                 let loading = false;
                 do {
                     try {
-                        const accounts = await connect().getTokenLargestAccounts(new PublicKey(mint));
-                        const info = await connect().getParsedAccountInfo(accounts.value[0].address);
+                        const accounts = await connect(endpoint).getTokenLargestAccounts(new PublicKey(mint));
+                        const info = await connect(endpoint).getParsedAccountInfo(accounts.value[0].address);
                         owners[mint] = info.value.data.parsed.info.owner;
+                        endpoint = 0;
                     }
                     catch (e) {
                         loading = await requestError('getOwners', e);
+                        endpoint = endpoint < clusterURLs.length - 1 ? endpoint + 1 : 0;
                     }
                 }
                 while (loading)
@@ -136,9 +141,9 @@ exports.getOwners = async function (fast, mints) {
 }
 
 // blocking call to force request throttling
-function connect() {
+function connect(index) {
     const stop = lastRequest + (1 / RPS * 1000);
     while (Date.now() < stop) { }
     lastRequest = Date.now();
-    return connection;
+    return connections[index];
 }
