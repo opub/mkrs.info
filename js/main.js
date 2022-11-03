@@ -64,18 +64,8 @@ function populateTable() {
         if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
             return false;
         } else if (filter.length > 0) {
-            const search = filter.toUpperCase().split(' ');
-            for (const term of search) {
-                for (const a in m) {
-                    if (m[a]) {
-                        const text = `${m[a]}`.toUpperCase();
-                        if (term.length > 0 && text.indexOf(term) > -1) {
-                            return true;
-                        }
-                    }
-                }
-            }
-            return false;
+            const search = filter.trim().split(' ');
+            return filterRow(m, search);
         }
         return true;
     });
@@ -104,7 +94,8 @@ function populateTable() {
             }
             if (filter.length > 0) {
                 const search = filter.toUpperCase().split(' ');
-                for (const term of search) {
+                for (let term of search) {
+                    term = term.indexOf('=') > 0 ? term.substring(term.indexOf('=') + 1) : term;
                     if (term.length > 0 && cell.textContent.toUpperCase().indexOf(term) > -1) {
                         cell.style.backgroundColor = '#f8eb67';
                     }
@@ -125,6 +116,36 @@ function populateTable() {
     const table = get('results');
     table.appendChild(rows);
     loading(false);
+}
+
+function filterRow(row, search) {
+    let include = false;
+    for (const term of search) {
+        if (term.indexOf('=') > 0) {
+            const cell = term.substring(0, term.indexOf('='));
+            const text = term.substring(term.indexOf('=') + 1);
+            if (!matchSearch(`${row[cell]}`, text)) {
+                return false;
+            } else {
+                include = true;
+            }
+        } else {
+            for (const cell in row) {
+                include = include || matchSearch(`${row[cell]}`, term);
+            }
+        }
+    }
+    return include;
+}
+
+function matchSearch(value, search) {
+    if (!value || value.length === 0 || !search || search.length === 0) {
+        return false;
+    } else {
+        value = value.trim().toUpperCase();
+        search = search.trim().toUpperCase();
+        return value.indexOf(search) > -1;
+    }
 }
 
 function populateHeader() {
