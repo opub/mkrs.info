@@ -105,11 +105,15 @@ function populateTable() {
     }
 
     // add table footer message
-    if (truncated || filtered.length === 0) {
-        const row = rows.insertRow(-1);
-        const cell = row.insertCell(0);
-        cell.colSpan = columns.length;
-        cell.innerHTML = truncated ? `Showing ${filtered.length} of ${count} results. Change filter or sort to display additional results.` : 'No matching results found.';
+    const row = rows.insertRow(-1);
+    const cell = row.insertCell(0);
+    cell.colSpan = columns.length;
+    if (truncated) {
+        cell.innerHTML = `Displaying ${filtered.length} of ${count} results. Change filter or sort to display additional results.`;
+    } else if (filtered.length > 0) {
+        cell.innerHTML = `Displaying ${filtered.length} matching results.`;
+    } else {
+        cell.innerHTML = 'No matching results found.';
     }
 
     // add rows to table DOM

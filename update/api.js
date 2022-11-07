@@ -6,7 +6,7 @@ const { metadata: { Metadata } } = programs;
 const collection = 'mkrs';
 const magicEden = 'https://api-mainnet.magiceden.dev/v2';
 const howrare = 'https://api.howrare.is/v0.1';
-const clusterURLs = ['https://restless-white-spree.solana-mainnet.discover.quiknode.pro/75b80d7fb5be2115e1c4d82863de65556b701d7d/', 'https://ssc-dao.genesysgo.net/', 'https://api.mainnet-beta.solana.com/'];
+const clusterURLs = ['https://ssc-dao.genesysgo.net/', 'https://restless-white-spree.solana-mainnet.discover.quiknode.pro/75b80d7fb5be2115e1c4d82863de65556b701d7d/', 'https://api.mainnet-beta.solana.com/'];
 const commitment = 'confirmed';
 const connections = clusterURLs.map(url => new Connection(url, { commitment }));
 
@@ -37,7 +37,7 @@ exports.getMetadata = async function (mint) {
         }
         catch (e) {
             loading = await requestError('getMetadata', e);
-            endpoint = endpoint < clusterURLs.length - 1 ? endpoint + 1 : 0;
+            endpoint = endpoint < connections.length - 1 ? endpoint + 1 : 0;
         }
     }
     while (loading)
@@ -123,7 +123,7 @@ exports.getOwners = async function (fast, mints) {
                     }
                     catch (e) {
                         loading = await requestError('getOwners', e);
-                        endpoint = endpoint < clusterURLs.length - 1 ? endpoint + 1 : 0;
+                        endpoint = endpoint < connections.length - 1 ? endpoint + 1 : 0;
                     }
                 }
                 while (loading)
