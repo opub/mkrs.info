@@ -139353,7 +139353,6 @@
   "rank": 5946,
   "price": 9.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
-  "ownerAlt": "listed",
   "owns": 46,
   "siblings": [
     "FLoH9yebNVrsXcE9njaqSMrDTBXQNq1or3keC7YHY7Do"
@@ -139846,7 +139845,8 @@
   "owns": 12,
   "siblings": [
     "6fLG8vRv7XuVUi8ELSyv7pHjWTA27zH2aCXwRgBah6vH"
-  ]
+  ],
+  "ownerAlt": "listed"
 },
 {
   "mint": "Ay3CYWabdwtd8yWatkCDtWR2jVK9RjLsm8fv1uv7gtiC",
