@@ -75258,10 +75258,11 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 3226,
-  "price": "",
+  "price": 3,
   "owner": "GYgyUy5qTBkUmuCS6yTxEcvpo2uaCncNUHzxiU83DtgN",
   "owns": 1,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "EUmVcJofc3Sn31pQbea9FocDbbXnigmxapNsnKXKQXtH",
