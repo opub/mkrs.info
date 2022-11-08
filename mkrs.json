@@ -52225,10 +52225,11 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2244,
-  "price": "",
+  "price": 2.7,
   "owner": "AB4FYeiooPoyA7mLc167gxtk7nvccNTfBmCYVt51L61V",
   "owns": 1,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "ANoFe3Qy9VuQQxn59qg1br7EznNmYPnCTm6HkYMgaC5Q",
