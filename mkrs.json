@@ -12066,7 +12066,7 @@
   "rank": 520,
   "price": "",
   "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "owns": 6,
   "siblings": []
 },
 {
@@ -24199,9 +24199,8 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 1042,
-  "price": 10,
+  "price": "",
   "owner": "DAwu4Vp3JVxDBYoHbccDa5iG6MfTeXw865zcLTYXGntV",
-  "ownerAlt": "listed",
   "owns": 1,
   "siblings": []
 },
@@ -65537,10 +65536,11 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2812,
-  "price": "",
-  "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
-  "siblings": []
+  "price": 2.64,
+  "owner": "4qjJkZaoXyaYpPaBjhkkew1Kkid92c6JzNpyZvLKQZ91",
+  "owns": 2,
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "HYcJv4jNGWNEYVdfNmXR9Ywczsr5f1yERgwjnzjfbX8Y",
@@ -72808,7 +72808,7 @@
   "rank": 3122,
   "price": "",
   "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "owns": 6,
   "siblings": []
 },
 {
@@ -75371,9 +75371,9 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 3231,
-  "price": "",
-  "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "price": 2.64,
+  "owner": "4qjJkZaoXyaYpPaBjhkkew1Kkid92c6JzNpyZvLKQZ91",
+  "owns": 2,
   "siblings": []
 },
 {
@@ -78480,7 +78480,7 @@
   "rank": 3364,
   "price": "",
   "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "owns": 6,
   "siblings": []
 },
 {
@@ -108597,7 +108597,7 @@
   "rank": 4645,
   "price": "",
   "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "owns": 6,
   "siblings": []
 },
 {
@@ -116299,7 +116299,7 @@
   "rank": 4972,
   "price": "",
   "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "owns": 6,
   "siblings": []
 },
 {
@@ -118354,7 +118354,7 @@
   "rank": 5059,
   "price": "",
   "owner": "FzBevGZR7bRBm1UhwfTbSDS7mcpAuERwQ5Sbxfjit7LK",
-  "owns": 8,
+  "owns": 6,
   "siblings": []
 },
 {
