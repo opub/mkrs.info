@@ -61422,10 +61422,11 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2636,
-  "price": "",
+  "price": 2.65,
   "owner": "J9hPNum6bQcvLxpsmDQrseusBykfoPZZUJNq3GUCay9d",
   "owns": 1,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "8nUGFV8bYVBkDW1pzgCf1ezzNvGMq8kkhpmrGC9ddH8b",
