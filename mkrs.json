@@ -8716,11 +8716,10 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 376,
-  "price": 3.5,
-  "owner": "HWgSkw6UGjeexfj6NtiYhuKqz9LgBnWysYKms5gUWas4",
+  "price": "",
+  "owner": "HPGmfWVFZoovewBCp62ixupHKFJ7hdEUMtSV5XKk2cpq",
   "owns": 1,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "5MPHZwpw4w64gPjpACBPTRgxAAVJeiRJ8nhinbu2HCqb",
@@ -39188,7 +39187,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 1685,
-  "price": 3.1,
+  "price": "",
   "owner": "7NwS4KhR9wAVu21gnKxSnHd1t9QhbazzrTgbSYDpkHMB",
   "owns": 1,
   "siblings": []
@@ -44304,7 +44303,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 1905,
-  "price": 2.8,
+  "price": "",
   "owner": "FJGBBwUvCFw278UhUBb7APxUiZXu6X1SmFoRTPvFZ4hV",
   "owns": 2,
   "siblings": []
@@ -45978,7 +45977,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 1977,
-  "price": 3,
+  "price": "",
   "owner": "FckcdEWLywSAYhqkZxQZtwof3WAtwLKBVEpaR3WJ5dhJ",
   "owns": 3,
   "siblings": []
@@ -48640,7 +48639,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2091,
-  "price": 4.4444,
+  "price": 7.7777,
   "owner": "8BMD6zWyt1FZFfQTkJGCs7zisnZWzyUBQLsBMSvsmM96",
   "owns": 2,
   "siblings": []
@@ -57978,7 +57977,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2489,
-  "price": 2.75,
+  "price": "",
   "owner": "4ZVMKM2MsdbYVmJgizQnXBSYjn17JMKeqCci9UEy9CnS",
   "owns": 1,
   "siblings": []
@@ -61589,7 +61588,7 @@
   "rank": 2643,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": []
 },
 {
@@ -67010,7 +67009,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2875,
-  "price": 2.8,
+  "price": "",
   "owner": "6oMyMMipioGtcLQ3JscqN8rmVX83rxTiGdBGZgVc7yRa",
   "owns": 1,
   "siblings": []
@@ -86664,7 +86663,7 @@
   "rank": 3712,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": []
 },
 {
@@ -92066,7 +92065,7 @@
   "rank": 3943,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": [
     "JDPV1SU5XoCG3Vcmz6cPsGj5BkciKFLv1tArh2pHS476"
   ]
@@ -92140,7 +92139,7 @@
   "rank": 3946,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": [
     "GkoxQuhotnDZtuccvPnVJNF29eB8sFLm8MfGDf1G53qA"
   ]
@@ -100485,10 +100484,9 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 4302,
-  "price": 2.75,
-  "owner": "Cjqkd5yi2qyM9Pyo8vrAboj6Zm1zoX1H6sEs9i83ojkj",
-  "ownerAlt": "listed",
-  "owns": 2,
+  "price": "",
+  "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
+  "owns": 9,
   "siblings": []
 },
 {
@@ -101394,11 +101392,10 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 4340,
-  "price": 2.75,
-  "owner": "Cjqkd5yi2qyM9Pyo8vrAboj6Zm1zoX1H6sEs9i83ojkj",
-  "owns": 2,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "price": "",
+  "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
+  "owns": 9,
+  "siblings": []
 },
 {
   "mint": "CxTLd2ZNGVcgHfPywwq4KJK54WdtT6Rjknbqgp5539r4",
@@ -122011,7 +122008,7 @@
   "rank": 5214,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": []
 },
 {
@@ -126109,7 +126106,7 @@
   "rank": 5389,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": []
 },
 {
@@ -136893,7 +136890,7 @@
   "rank": 5845,
   "price": "",
   "owner": "5pGsQGZY7H72aV4T71j7JUkkBEAHiWibTQ2MuJeTnNer",
-  "owns": 7,
+  "owns": 9,
   "siblings": []
 },
 {
