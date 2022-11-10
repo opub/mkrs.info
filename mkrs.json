@@ -61421,11 +61421,10 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2636,
-  "price": 2.65,
+  "price": "",
   "owner": "J9hPNum6bQcvLxpsmDQrseusBykfoPZZUJNq3GUCay9d",
   "owns": 1,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "8nUGFV8bYVBkDW1pzgCf1ezzNvGMq8kkhpmrGC9ddH8b",
@@ -65536,11 +65535,10 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 2812,
-  "price": 2.64,
-  "owner": "4qjJkZaoXyaYpPaBjhkkew1Kkid92c6JzNpyZvLKQZ91",
-  "owns": 2,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "price": "",
+  "owner": "EoFYXQoFoBV1yaK2kLWepgPFQhygPrsDHUbMtWq9N3Pn",
+  "owns": 1,
+  "siblings": []
 },
 {
   "mint": "HYcJv4jNGWNEYVdfNmXR9Ywczsr5f1yERgwjnzjfbX8Y",
@@ -74670,7 +74668,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 3201,
-  "price": 2.64,
+  "price": "",
   "owner": "Cz4x8TkokJTPguuDkaTgLkS7cS9TwNc99Vwnp1NkSQNw",
   "owns": 1,
   "siblings": []
@@ -75373,7 +75371,7 @@
   "rank": 3231,
   "price": "",
   "owner": "4qjJkZaoXyaYpPaBjhkkew1Kkid92c6JzNpyZvLKQZ91",
-  "owns": 2,
+  "owns": 1,
   "siblings": []
 },
 {
@@ -93295,7 +93293,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 3995,
-  "price": 2.7,
+  "price": "",
   "owner": "FJGBBwUvCFw278UhUBb7APxUiZXu6X1SmFoRTPvFZ4hV",
   "owns": 2,
   "siblings": []
