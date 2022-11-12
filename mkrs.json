@@ -1129,8 +1129,7 @@
   "price": 16,
   "owner": "B4P4miyudoJTSpiuchDJs4HvxhSvyStni49LtEVoYVM",
   "owns": 1,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "HkPFNX2edNiUCfSQMXF9jmUPp5oFSmwFiCUuKUXvTUS6",
@@ -1222,7 +1221,8 @@
   "price": 18,
   "owner": "5Kj7efSy7jtZdXhdd8dsRxDohCB1m1JRo1KkRkpMQLC6",
   "owns": 2,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "HMVnWMftdPnTtZph1h8dt6FxcabfH71Z365GyYcqLq46",
@@ -2633,8 +2633,7 @@
   "price": 15,
   "owner": "AN8inrPdMGgQvzna7TYt4C4vKhBhYy9JaYHbD5rwqQVQ",
   "owns": 2,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "iTHEouTWFfsM8b24cPCnuTkByj8hRZ7cgCPyUXqe9Jd",
@@ -6598,7 +6597,7 @@
   "rank": 285,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -7828,7 +7827,7 @@
   "rank": 338,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -10463,8 +10462,7 @@
   "price": 10,
   "owner": "5xxZYKgcbS5ngfq6DiSwb5YbVCD6BauN41gec2PhQ9jr",
   "owns": 3,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "C7MfQA8qjrtuNk657Z3qr6X6gAHU5gtvMZWgmkk9fM6S",
@@ -11834,7 +11832,7 @@
   "rank": 510,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -18039,7 +18037,7 @@
   "rank": 777,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -18180,7 +18178,8 @@
   "price": 6,
   "owner": "6cwyoump6xeanphT8rTzbM7MtP5htPkbzkAfiGGRcUZY",
   "owns": 30,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "4Hs6ML9HuUs8X1ZYGpfNszLxhdCY3AWPH7AiYSyGLvYt",
@@ -19415,7 +19414,7 @@
   "rank": 836,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -21198,7 +21197,7 @@
   "rank": 913,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -24807,7 +24806,7 @@
   "rank": 1068,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -25924,7 +25923,7 @@
   "rank": 1116,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -26435,8 +26434,7 @@
   "price": 40,
   "owner": "41fxit1aqZrpYzdcCbSFW5T4Y5Y6VZaTihQ7RqA4EuZV",
   "owns": 2,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "4v1tjNdVRvaSNa8s2kdw4Y5Hu9viX9bvKKWQ6goyAQ9M",
@@ -28796,7 +28794,7 @@
   "rank": 1239,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -30317,8 +30315,7 @@
   "owns": 1,
   "siblings": [
     "6WVMpmzMr6L8DY88oabwuBM86SrLCnp4vBaw7rm9iGxw"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "84kYPNvSDhsz3XcoQTtyb1qoCRZBDpg6xgRNTBcUEZdZ",
@@ -33691,7 +33688,7 @@
   "rank": 1449,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -37787,7 +37784,7 @@
   "rank": 1625,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -38370,8 +38367,7 @@
   "price": 5,
   "owner": "E8TcmBr9bDAYRPTxv9ufatNkksp7toCeuHLCDWQus9qC",
   "owns": 1,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "6zqopRC54JMWLCtzRm2noYmA6RV5qFQ5YakuW1dUQHu8",
@@ -38718,7 +38714,7 @@
   "rank": 1665,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -38974,7 +38970,7 @@
   "rank": 1676,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -41481,7 +41477,7 @@
   "rank": 1784,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -43318,7 +43314,7 @@
   "rank": 1863,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -45342,7 +45338,7 @@
   "rank": 1950,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -46882,7 +46878,8 @@
   "price": 4.75,
   "owner": "6M26k99p76sm8c1GMR13SPxAmAmf2ihUpMnLAC1DWncd",
   "owns": 3,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "AR3qrmUVsV3imMuihdfNr9HX3w8it9gFVgcRGAcEBxPU",
@@ -47089,8 +47086,8 @@
   "Twins": "None",
   "rank": 2025,
   "price": "",
-  "owner": "CkAepZm5mYwbbzQpWkpQmJLHMGrYEQMkySHD6CH7DCpX",
-  "owns": 5,
+  "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
+  "owns": 22,
   "siblings": []
 },
 {
@@ -47232,7 +47229,8 @@
   "price": 33,
   "owner": "AxPhd9YchKcxZxScmpue55NeoUiGGHRAmtpcTs26JEg8",
   "owns": 1,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "6xVud2UDZno4KSHMqNC241xVNboG6zauoYBYDZKPHdqu",
@@ -48051,8 +48049,7 @@
   "price": 7,
   "owner": "8WgN6viDwhxLhbi8HQEbbiGMnZbhTWjHEfWNURHjdotK",
   "owns": 3,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "6zewMpzS2hsULPML12fKM5aaM79P379m3fkvV5kkvqQY",
@@ -49026,8 +49023,7 @@
   "price": 11.11,
   "owner": "84UM3WgFQbrcxuAnyUvF6z6Whomaysy5qwoS4P2AVNdZ",
   "owns": 1,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "7hS9fL2TBd8AcWG1XayMW8CvxuJUfitEbDX1T6viZMUa",
@@ -49704,7 +49700,7 @@
   "rank": 2137,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -49821,7 +49817,7 @@
   "rank": 2142,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -49960,7 +49956,7 @@
   "rank": 2148,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -50029,8 +50025,9 @@
   "rank": 2151,
   "price": 5.37,
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
-  "siblings": []
+  "owns": 22,
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "2CXMk1aBWBDpgLcUUedswHYXvyYcBKsEUHF7h8yLQW4D",
@@ -51335,8 +51332,7 @@
   "price": 8,
   "owner": "EbQ4ydhGufk2eywupNCgH7JQwiv1KqYUKFAkPr7jbUtb",
   "owns": 5,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "7U8G6MYtQFdTbBpHTy4Q4q8f2RZjzvSUpzGDuvwHvrYu",
@@ -53478,7 +53474,8 @@
   "owns": 2,
   "siblings": [
     "CPFJPrx2aepPy59wv5McqQFWgDXJyJtHx3kbgT35GJWW"
-  ]
+  ],
+  "ownerAlt": "listed"
 },
 {
   "mint": "CPFJPrx2aepPy59wv5McqQFWgDXJyJtHx3kbgT35GJWW",
@@ -54203,7 +54200,7 @@
   "rank": 2329,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -55091,7 +55088,8 @@
   "owns": 106,
   "siblings": [
     "HdLzCxLsFaub21X5rqkooNes32A8Qk52MBgk2zhXYnGb"
-  ]
+  ],
+  "ownerAlt": "listed"
 },
 {
   "mint": "HdLzCxLsFaub21X5rqkooNes32A8Qk52MBgk2zhXYnGb",
@@ -56147,7 +56145,7 @@
   "rank": 2412,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -57163,7 +57161,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 2455,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -60659,8 +60657,8 @@
   "Twins": "None",
   "rank": 2604,
   "price": "",
-  "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owner": "2yN3ozQ7e86by3VT4TqpAsbhMa4qgUTAGDcQp2oGZsVQ",
+  "owns": 1,
   "siblings": []
 },
 {
@@ -62319,7 +62317,7 @@
   "rank": 2675,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -64804,7 +64802,8 @@
   "price": 8,
   "owner": "EbQ4ydhGufk2eywupNCgH7JQwiv1KqYUKFAkPr7jbUtb",
   "owns": 5,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "GHV9hvqv4WJ8eBJ74QY8KmssWizYXz85NvoMUuwCFznZ",
@@ -67070,7 +67069,7 @@
   "rank": 2878,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -67116,7 +67115,7 @@
   "rank": 2880,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -67750,7 +67749,7 @@
   "rank": 2907,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -71226,7 +71225,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 3055,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -71277,7 +71276,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 3057,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -72716,7 +72715,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 3119,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -79937,7 +79936,7 @@
   "rank": 3427,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -80615,8 +80614,7 @@
   "price": 11,
   "owner": "5NeiZfzs1hr16utt5HPxHPHG5ZNM1o4mZT8oz9hBJCRA",
   "owns": 4,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "8ECFwYPXQV8LSPi5sgDv8YQvFwZSPTiayeJXwPKubdYp",
@@ -80638,7 +80636,7 @@
   "rank": 3457,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -81538,8 +81536,7 @@
   "owns": 106,
   "siblings": [
     "7SubNSERMLM1qbyrrdq8cgFARWCPFZaLg1TJsWVWUiwm"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "C93mm4FR1EgadqYkBt4KVEWYteKjhs8SxgNxMwXWaEtE",
@@ -81562,7 +81559,8 @@
   "price": 5.5,
   "owner": "5NeiZfzs1hr16utt5HPxHPHG5ZNM1o4mZT8oz9hBJCRA",
   "owns": 4,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "2MAq1mbMgCqxkNsowEbsiz6WL4t9RYjxDLT28YGmcSKm",
@@ -82308,13 +82306,12 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 3528,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
     "5uYP51LQSLronhopXdA1sRbF9tt3MLM1xYfiUn5LsH1w"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "2scx2ypoK5XKjztx4UHnXmQF22hLv9VTQ6AKYu4uKbok",
@@ -83773,7 +83770,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 3590,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -83871,8 +83868,7 @@
   "price": 7,
   "owner": "5NeiZfzs1hr16utt5HPxHPHG5ZNM1o4mZT8oz9hBJCRA",
   "owns": 4,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "DorZjFPvJ5GTQP3MKirWcMS31M3BALbfQAMPfyhg6zHs",
@@ -84516,8 +84512,7 @@
   "siblings": [
     "GJzeR82KNMuFkSzfgSeDam1UvUAPveS9qUTRxyWDmQbW",
     "3bfSb4hnDVcAqqom8zyznjiDhW7WrQpbgTAurZRS3As2"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "5ZtLK2QmkpU5h7eSb7iiLigiDnfZXcipMUepcJNmbh9f",
@@ -84681,7 +84676,8 @@
   "price": 3.15,
   "owner": "6juRHXUXNE1EbQAVimoKfyaz9xD1sYfyf7ugXWgJ9q8V",
   "owns": 7,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "EB19hrjcdLHoPDQ4Vihj1Z8q8GYBBetDHAamaGzUc2bc",
@@ -86199,7 +86195,7 @@
   "Treats": "None",
   "Twins": "None",
   "rank": 3693,
-  "price": "",
+  "price": 3.2,
   "owner": "9gDwBGqJuju6HPcSFXtVSSgg35XnecVw5cHdMETCuuEh",
   "owns": 2,
   "siblings": []
@@ -86412,7 +86408,7 @@
   "rank": 3702,
   "price": 3.5,
   "owner": "CkAepZm5mYwbbzQpWkpQmJLHMGrYEQMkySHD6CH7DCpX",
-  "owns": 5,
+  "owns": 4,
   "siblings": []
 },
 {
@@ -86923,7 +86919,7 @@
   "rank": 3724,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -87885,7 +87881,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 3765,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -93319,7 +93315,7 @@
   "rank": 3997,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -96018,7 +96014,7 @@
   "rank": 4112,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -100368,9 +100364,8 @@
   "rank": 4298,
   "price": 4,
   "owner": "CkAepZm5mYwbbzQpWkpQmJLHMGrYEQMkySHD6CH7DCpX",
-  "owns": 5,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "owns": 4,
+  "siblings": []
 },
 {
   "mint": "9qxqd8Sv9x8xwsrs6yoDdrjy3WfvndxQkPHzYpoiQWhF",
@@ -100626,7 +100621,8 @@
   "price": 3.25,
   "owner": "6juRHXUXNE1EbQAVimoKfyaz9xD1sYfyf7ugXWgJ9q8V",
   "owns": 7,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "9Uj1Tyn7ndxoQh6b7ZufFALR36Xu2MLgwF9wvHEHmH9E",
@@ -101439,14 +101435,13 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 4343,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
     "9jPAN9N6qaFX2LLfuQotiLrA6HLRSrnACUic7fPxiVUA",
     "HB4un9bLLaHRAMSEBstwHcfsRLoVV3p9NGpcvJft1U8x"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "2rKxbUh5Cm8RteSioRzqb4HzF7ByEmPfdspYcSMYu6rQ",
@@ -101589,7 +101584,7 @@
   "rank": 4349,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": [
     "H3vmufbxHVskY2dSGAGqGNeTuqh3hndYaz3Pde121b4q",
     "9jPAN9N6qaFX2LLfuQotiLrA6HLRSrnACUic7fPxiVUA"
@@ -103288,7 +103283,7 @@
   "rank": 4421,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -104754,9 +104749,8 @@
   "rank": 4484,
   "price": 4,
   "owner": "CkAepZm5mYwbbzQpWkpQmJLHMGrYEQMkySHD6CH7DCpX",
-  "owns": 5,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "owns": 4,
+  "siblings": []
 },
 {
   "mint": "4VoKvcknMofr1Jms4tk3UxHQ9YjHbwCFfN2U3JKd8UVD",
@@ -105572,7 +105566,7 @@
   "rank": 4519,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -106016,7 +106010,7 @@
   "rank": 4537,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -106037,13 +106031,12 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 4538,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
     "4NoGYgS9qfJRFFShDoe6PbHWLSs95ry1TUJuSoXELBg3"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "HAG3C2AvSmzNkBNMU1ggU9Fata5bWmbGSzLGgHzUaUqT",
@@ -106239,7 +106232,8 @@
   "price": 10,
   "owner": "C5ewBtiY1B8eYwbgipKqZg5TyZzjGrRvxxQfLPt2AbWt",
   "owns": 1,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "Gkjcvotp4d7am4Rhj98R5hDzWB25DpwWFknJBri42Tba",
@@ -106542,8 +106536,7 @@
   "price": 7,
   "owner": "8WgN6viDwhxLhbi8HQEbbiGMnZbhTWjHEfWNURHjdotK",
   "owns": 3,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "9vX5EBc1QUAvW7ucUzKWuiSfbCCEYXAPk1BeGvGk5QA7",
@@ -107923,7 +107916,7 @@
   "rank": 4618,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -110127,8 +110120,7 @@
   "price": 2.95,
   "owner": "FyCv9RWAmfcLbcbgqtjbCjNEpsVXx4eKgSw2zkADQavP",
   "owns": 2,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "RuG5yRBNzj7ZJfsmXrax8RKtYw41135jUK6Y1CrCpCb",
@@ -110898,8 +110890,7 @@
   "price": 4.25,
   "owner": "HE5K1Wc8Jf3sLekpPi5rfvVr5ftor8F5qjwoZRrsdqts",
   "owns": 110,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "3e6hwZZ1eLSrqLmDYoBL8Cmgk3J1zEWJ6GBimkEf6wR4",
@@ -110945,7 +110936,8 @@
   "price": 3.25,
   "owner": "C2UStkH8X5F6EA9GbZjywaRGSRbbja3qnr3b6C3YzKY7",
   "owns": 3,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "BTw5QeYTMHjumC9H8SSt5et3pMMB6yspHENtBpjbPWMY",
@@ -111673,8 +111665,7 @@
   "owns": 2,
   "siblings": [
     "3yaXS21PTL9bCUzxoKBc49aVkNSVJtyb37WfyhxnjuGH"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "2Pg1HtRatr8d3sV4jZpNNpsqGGEm3YwiVbN8yXF7Qi4V",
@@ -111887,7 +111878,7 @@
   "rank": 4787,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -112377,7 +112368,7 @@
   "rank": 4808,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -112498,7 +112489,8 @@
   "owns": 106,
   "siblings": [
     "HuT2Us64yR1kEDx4Vo5dgqWFYuUpF3VPus3a8BihP3PY"
-  ]
+  ],
+  "ownerAlt": "listed"
 },
 {
   "mint": "Eb3c4L2RXRwKAxmT9V112uAa841NFTud8ysiViz9AXTh",
@@ -112641,7 +112633,7 @@
   "rank": 4819,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -113090,8 +113082,7 @@
   "owns": 14,
   "siblings": [
     "5n7bbRjciczEsVroYfGbGf6z2hC12YNniyB63oNXDc1Y"
-  ],
-  "ownerAlt": "listed"
+  ]
 },
 {
   "mint": "AswAx3EWPuZDJHzAL8J1sW4AS4TAuGeVcNcTUptSxkfP",
@@ -113711,7 +113702,8 @@
   "price": 2.85,
   "owner": "DjWS6q8UVbEAhBXETgs2VMNeq1tp7XnvjAbH8pEPFQkj",
   "owns": 2,
-  "siblings": []
+  "siblings": [],
+  "ownerAlt": "listed"
 },
 {
   "mint": "2y2uaihH33jutW99eVASJu9SuRfb9bs3keG7Ek3c4TDq",
@@ -116386,7 +116378,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 4977,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -116694,12 +116686,13 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 4990,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
     "A73LmYVvhSw8uScJ8XJiriogNgs56V72sjPiRUTkmgaa"
-  ]
+  ],
+  "ownerAlt": "listed"
 },
 {
   "mint": "Fp1FDToiUA13KmtMajn5vsafHeSkhSqbgWbNebkK7cK3",
@@ -117950,7 +117943,7 @@
   "rank": 5043,
   "price": 4.5,
   "owner": "CkAepZm5mYwbbzQpWkpQmJLHMGrYEQMkySHD6CH7DCpX",
-  "owns": 5,
+  "owns": 4,
   "siblings": []
 },
 {
@@ -118440,7 +118433,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5064,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -118846,8 +118839,7 @@
   "price": 6,
   "owner": "5NeiZfzs1hr16utt5HPxHPHG5ZNM1o4mZT8oz9hBJCRA",
   "owns": 4,
-  "siblings": [],
-  "ownerAlt": "listed"
+  "siblings": []
 },
 {
   "mint": "3MjZd3xF9scWk5RYoq3REEaimYaFyC1xmia6syXqguht",
@@ -120068,7 +120060,7 @@
   "rank": 5133,
   "price": "",
   "owner": "NwfqE4SfFRJPui4g2L8BwxykSTBS54drGWVkkkmx4m3",
-  "owns": 26,
+  "owns": 25,
   "siblings": []
 },
 {
@@ -120428,7 +120420,7 @@
   "rank": 5148,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -122360,7 +122352,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5230,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -124495,7 +124487,7 @@
   "rank": 5321,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -130859,7 +130851,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5592,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -131683,7 +131675,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5627,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -136334,7 +136326,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5823,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -136738,7 +136730,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5840,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -136789,7 +136781,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5842,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -137611,7 +137603,7 @@
   "rank": 5876,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -138279,7 +138271,7 @@
   "rank": 5904,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": []
 },
 {
@@ -138396,7 +138388,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5909,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -139212,7 +139204,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5942,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -139267,7 +139259,7 @@
   "rank": 5944,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": [
     "9M4X2FJTBEGdEsJkuHNpQVnUqELVg1T3BGcdyjETtpep",
     "3SSvfRP8zwgu2ACHqFWcQyLDRntMw1nTJ5aGKkR4iQCG"
@@ -139317,7 +139309,7 @@
   "Hair": "None",
   "Treats": "None",
   "rank": 5946,
-  "price": 9.5,
+  "price": 8.5,
   "owner": "GBKtUoXzKNTbm3EACoeBMBYydDzzQrfmmAa8xtEqxuuZ",
   "owns": 46,
   "siblings": [
@@ -140288,7 +140280,7 @@
   "rank": 5984,
   "price": "",
   "owner": "2QCdT8xwkiDtyEB23X2kdwTsSgU6aNaJX8LK89ZS9Wrp",
-  "owns": 21,
+  "owns": 22,
   "siblings": [
     "Fec3ZcN1mEkdr7ox7oqi3gbaAiG41phQo3sUPPyLkKq5"
   ]
