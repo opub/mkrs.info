@@ -1,11 +1,7 @@
 const fs = require('fs');
-const { getMetadata, getRanks, getPrices, getOwners } = require('./api');
-const { increment, progress, clear, log } = require('./common/util');
+const { loadWallet, loadToken, getRanks, getPrices } = require('./api');
+const { increment, progress, clear, log, elapsed } = require('./common/util');
 const hashList = require('./data/hash-list.json');
-
-// this should allow full nft metadata updates daily
-const batchSize = hashList.length / 24;
-const fastOwners = false;
 
 const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'last', 'price', 'Traits'];
 const twinTraits = ['Background', 'Clothing', 'DNA', 'DNA Split', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Twins'];
@@ -16,50 +12,73 @@ const cacheFile = '../mkrs.json';
 
 // load all nfts and metadata using locally cached values if available
 exports.loadNFTs = async function () {
-    const lookup = await loadMetadata();
-    const nfts = Array.from(lookup.values());
+    let started = Date.now();
+
+    const cached = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
+    const lookup = new Map(cached.map(nft => [nft.mint, nft]));
+    hashList.forEach(hash => {
+        if (!lookup.has(hash)) {
+            lookup.set(hash, {});
+        }
+    });
+
+    const nfts = [];
+    const wallets = [...new Set(cached.filter(nft => nft.owns > 1).map(nft => nft.owner))];
+    // const wallets = [...new Set(cached.map(nft => nft.owner))];
+    for (let i = 0; i < wallets.length; i++) {
+        const loaded = await loadWallet(wallets[i]);
+        for (let j = 0; j < loaded.length; j++) {
+            const nft = normalize(loaded[j]);
+            nfts.push(nft);
+            lookup.delete(nft.mint);
+        }
+        progress(i / wallets.length, 'wallets');
+    }
+    clear();
+    console.log('wallets', wallets.length, 'mkrs', nfts.length, elapsed(Date.now() - started));
+
+    started = Date.now();
+    const remaining = Array.from(lookup.keys());
+    for (let i = 0; i < remaining.length; i++) {
+        const loaded = await loadToken(remaining[i]);
+        const nft = normalize(loaded);
+        nfts.push(nft);
+        lookup.delete(nft.mint);
+        progress(i / remaining.length, 'remaining');
+    }
+    clear();
+    console.log('tokens', remaining.length, 'mkrs', nfts.length, elapsed(Date.now() - started));
 
     countTraits(nfts);
     await loadRanks(nfts);
     await loadPrices(nfts);
-    await loadOwners(nfts, lookup);
+    await countOwners(nfts);
     findSiblings(nfts);
 
     return nfts;
 }
 
-async function loadMetadata() {
-    log('loading metadata');
+function normalize(nft) {
+    const attributes = flatten(nft.attributes);
+    return {
+        mint: nft.mintAddress,
+        name: nft.name,
+        image: nft.image,
+        owner: nft.owner,
+        price: nft.price,
+        last: Date.now(),
+        ...attributes
+    };
+}
 
-    // determine which nfts to fetch metadata for
-    // this is really slow so avoid updating them all every time
-    const loaded = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
-    const nfts = new Map(loaded.map(nft => [nft.mint, nft]));
-    let fetch = hashList.filter(hash => {
-        const filtered = loaded.filter(nft => nft.mint === hash);
-        return filtered.length === 0 || !filtered[0].image;
-    });
-
-    if (fetch.length < batchSize) {
-        // none missing so just update a batch of them
-        loaded.sort((a, b) => {
-            const x = a.last ? a.last : 0;
-            const y = b.last ? b.last : 0;
-            return x - y;
-        });
-        fetch = fetch.concat(loaded.map(nft => nft.mint).slice(0, batchSize - fetch.length));
-    }
-
-    for (let i = 0; i < fetch.length; i++) {
-        const nft = await getMetadata(fetch[i]);
-        if (nft.image) {
-            // use image as proxy for clean fetch and don't override existing when error
-            nfts.set(fetch[i], nft);
+function flatten(attributes) {
+    if (attributes && attributes.length) {
+        const attrs = [];
+        for (const trait of attributes) {
+            attrs[trait.trait_type] = trait.value;
         }
-        progress(i / fetch.length, 'loadMetadata');
+        return attrs;
     }
-    clear();
-    return nfts;
 }
 
 function countTraits(nfts) {
@@ -115,13 +134,12 @@ async function loadPrices(nfts) {
     });
 }
 
-// get current owner and number owned
-async function loadOwners(nfts, lookup) {
-    log('loading owners');
-    const owners = await getOwners(fastOwners, nfts.map(nft => nft.mint));
+// get number owned
+function countOwners(nfts) {
+    log('counting owners');
     const owned = new Map();
     nfts.forEach(nft => {
-        let owner = owners[nft.mint] || nft.owner || lookup.get(nft.mint).owner;
+        const owner = nft.owner;
         if (owner) {
             let ownerAlt;
             if (owner === exchange) {
@@ -130,12 +148,9 @@ async function loadOwners(nfts, lookup) {
             else if (owner === treasury) {
                 ownerAlt = 'treasury';
             }
-            else if (owner === magiceden) {
-                // use seller as owner instead of ME
-                owner = nft.owner;
+            else if (owner === magiceden || nft.price.length > 0) {
                 ownerAlt = 'listed';
             }
-            nft.owner = owner;
             nft.ownerAlt = ownerAlt;
         }
         if (owner) {
