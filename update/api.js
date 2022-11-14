@@ -6,7 +6,7 @@ const { metadata: { Metadata } } = programs;
 const collection = 'mkrs';
 const magicEden = 'https://api-mainnet.magiceden.dev/v2';
 const howrare = 'https://api.howrare.is/v0.1';
-const clusterURLs = ['https://ssc-dao.genesysgo.net/', 'https://api.mainnet-beta.solana.com/', 'https://restless-white-spree.solana-mainnet.discover.quiknode.pro/75b80d7fb5be2115e1c4d82863de65556b701d7d/'];
+const clusterURLs = ['https://api.mainnet-beta.solana.com/', 'https://try-rpc.mainnet.solana.blockdaemon.tech/', 'https://restless-white-spree.solana-mainnet.discover.quiknode.pro/75b80d7fb5be2115e1c4d82863de65556b701d7d/'];
 const commitment = 'confirmed';
 const connections = clusterURLs.map(url => new Connection(url, { commitment }));
 
