@@ -3,7 +3,7 @@ const { loadWallet, loadToken, getRanks, getPrices } = require('./api');
 const { increment, progress, clear, log, elapsed } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
-const common = ['mint', 'name', 'image', 'details', 'rank', 'owner', 'owns', 'ownerAlt', 'sibling', 'siblings', 'last', 'price', 'Traits'];
+const common = ['mint', 'name', 'image', 'rank', 'owner', 'owns', 'ownerAlt', 'siblings', 'last', 'price', 'Traits'];
 const twinTraits = ['Background', 'Clothing', 'DNA', 'DNA Split', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Twins'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
 const exchange = 'FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu';
@@ -91,6 +91,7 @@ function countTraits(nfts) {
             }
         }
     });
+    types.sort();
     // normalize traits with count
     nfts.forEach(nft => {
         nft.Traits = 0;
