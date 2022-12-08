@@ -60,6 +60,10 @@ li {
     white-space: nowrap;
 }
 
+#search {
+    width: 400px;
+}
+
 #twinlink,
 #tablelink {
     font-size: 30px;

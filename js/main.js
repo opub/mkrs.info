@@ -18,7 +18,7 @@
 const maxRows = 500;
 const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Headwear', 'Mouth', 'Teardrop', 'Treats', 'Background'];
 
-let siblings = false, listed = false, filter = '';
+let siblings = false, listed = false, card = false, filter = '';
 
 let data = [];
 (function () { pageSetup() })();
@@ -53,15 +53,17 @@ function populateTable() {
     // get and persist state values
     siblings = get('siblings').checked;
     listed = get('listed').checked;
+    card = get('card').checked;
     filter = get('search').value;
-    const state = { siblings, listed, filter };
+    const state = { siblings, listed, card, filter };
     localStorage.setItem('state', JSON.stringify(state));
     window.location.hash = stateToHash(state);
-    amplitude.getInstance().logEvent(`table populate - siblings:${siblings}, listed:${listed}, filter:${filter}`);
+    amplitude.getInstance().logEvent(`table populate - siblings:${siblings}, listed:${listed}, card:${card}, filter:${filter}`);
 
     // filter matching results
     let filtered = data.filter(m => {
-        if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None') || listed && !m.price) {
+        if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None')
+            || listed && !m.price || card && m.Headwear.indexOf(' of ') < 0) {
             return false;
         } else if (filter.length > 0) {
             const search = filter.trim().split(' ');
@@ -223,12 +225,14 @@ const sortBy = (field, reverse) => {
 
 function setState(state) {
     let updated = false;
-    if (state && (siblings != state.siblings || listed != state.listed || filter != state.filter)) {
+    if (state && (siblings != state.siblings || listed != state.listed || card != state.card || filter != state.filter)) {
         siblings = state.siblings;
         listed = state.listed;
+        card = state.card;
         filter = state.filter;
         get('siblings').checked = siblings;
         get('listed').checked = listed;
+        get('card').checked = card;
         get('search').value = filter;
         updated = true;
     }
@@ -243,6 +247,9 @@ function stateToHash(state) {
     if (state.listed) {
         params.push('l');
     }
+    if (state.card) {
+        params.push('c');
+    }
     if (state.filter.trim().length > 0) {
         params.push('f=' + encodeURIComponent(state.filter.trim()));
     }
@@ -255,6 +262,7 @@ function hashToState(hash) {
     const state = {};
     state.siblings = params.includes('s');
     state.listed = params.includes('l');
+    state.card = params.includes('c');
     if (params.length > 0 && params[params.length - 1].startsWith('f=')) {
         state.filter = decodeURIComponent(params[params.length - 1].substring(2));
     } else {
@@ -272,3 +280,4 @@ window.onpopstate = function (event) {
 get('search').addEventListener('keyup', updateTable);
 get('siblings').addEventListener('click', updateTable);
 get('listed').addEventListener('click', updateTable);
+get('card').addEventListener('click', updateTable);
