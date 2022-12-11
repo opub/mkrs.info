@@ -42,11 +42,11 @@ exports.loadNFTs = async function () {
     for (let i = 0; i < remaining.length; i++) {
         const loaded = await loadToken(remaining[i]);
         if (loaded) {
+            const nft = normalize(loaded);
             nfts.push(nft);
             lookup.delete(nft.mint);
             progress(i / remaining.length, 'remaining');
         }
-        const nft = normalize(loaded);
     }
     clear();
     console.log('tokens', remaining.length, 'mkrs', nfts.length, elapsed(Date.now() - started));
