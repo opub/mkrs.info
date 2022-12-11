@@ -2,7 +2,7 @@ const readline = require('readline');
 const axios = require('axios');
 const axiosThrottle = require('axios-request-throttle');
 
-const requestsPerSecond = 4;
+const requestsPerSecond = 3;
 axiosThrottle.use(axios, { requestsPerSecond });
 
 const backoff = 1000;
