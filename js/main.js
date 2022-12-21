@@ -55,6 +55,24 @@ function populateTable() {
     listed = get('listed').checked;
     card = get('card').checked;
     filter = get('search').value;
+
+    // clean up advanced searches
+    let search = [];
+    if (filter.length > 0) {
+        search = filter.trim().split(' ');
+        for (let i = 0; i < search.length; i++) {
+            const term = search[i];
+            if (term.indexOf('=') > 0) {
+                const key = term.substring(0, term.indexOf('='));
+                const value = term.substring(term.indexOf('=') + 1);
+                search[i] = {
+                    key: fixTraitCase(key, data[0]),
+                    value
+                };
+            }
+        }
+    }
+
     const state = { siblings, listed, card, filter };
     localStorage.setItem('state', JSON.stringify(state));
     window.location.hash = stateToHash(state);
@@ -63,10 +81,9 @@ function populateTable() {
     // filter matching results
     let filtered = data.filter(m => {
         if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None')
-            || listed && !m.price || card && m.Headwear.indexOf(' of ') < 0) {
+            || listed && !m.price || card && m.Headwear.indexOf(' of ') < 0 && m.Headwear.indexOf('Joker') < 0) {
             return false;
-        } else if (filter.length > 0) {
-            const search = filter.trim().split(' ');
+        } else if (search.length > 0) {
             return filterRow(m, search);
         }
         return true;
@@ -94,10 +111,9 @@ function populateTable() {
             } else {
                 cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
             }
-            if (filter.length > 0) {
-                const search = filter.toUpperCase().split(' ');
+            if (search.length > 0) {
                 for (let term of search) {
-                    term = term.indexOf('=') > 0 ? term.substring(term.indexOf('=') + 1) : term;
+                    term = term.value ? term.value.toUpperCase() : term.toUpperCase();
                     if (term.length > 0 && cell.textContent.toUpperCase().indexOf(term) > -1) {
                         cell.style.backgroundColor = '#f8eb67';
                     }
@@ -124,13 +140,27 @@ function populateTable() {
     loading(false);
 }
 
+function fixTraitCase(trait, item) {
+    if (!item[trait]) {
+        if (trait.toLowerCase() === 'split') {
+            //special case since has a space
+            return 'DNA Split';
+        }
+        for (const attr in item) {
+            if (attr.toLowerCase() === trait.toLowerCase()) {
+                return attr;
+            }
+        }
+    }
+    console.log('could not match', trait);
+    return trait;
+}
+
 function filterRow(row, search) {
     let include = false;
     for (const term of search) {
-        if (term.indexOf('=') > 0) {
-            const cell = term.substring(0, term.indexOf('='));
-            const text = term.substring(term.indexOf('=') + 1);
-            if (!matchSearch(`${row[cell]}`, text)) {
+        if (term.key) {
+            if (!matchSearch(`${row[term.key]}`, term.value)) {
                 return false;
             } else {
                 include = true;
