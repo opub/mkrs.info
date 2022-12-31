@@ -16,7 +16,7 @@
  * this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 const maxRows = 500;
-const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Headwear', 'Mouth', 'Teardrop', 'Treats', 'Background'];
+const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Headwear', 'Based Pass', 'Mouth', 'Teardrop', 'Treats', 'Background'];
 
 let siblings = false, listed = false, card = false, filter = '';
 
@@ -142,9 +142,11 @@ function populateTable() {
 
 function fixTraitCase(trait, item) {
     if (!item[trait]) {
+        //special cases for traits with spaces
         if (trait.toLowerCase() === 'split') {
-            //special case since has a space
             return 'DNA Split';
+        } else if (trait.toLowerCase() === 'pass') {
+            return 'Based Pass';
         }
         for (const attr in item) {
             if (attr.toLowerCase() === trait.toLowerCase()) {
