@@ -3956,7 +3956,7 @@
 {
   "mint": "JA9aXUFUsonHzhXjhE4mggZqCunXRAWJKoKKuY6ckwrV",
   "name": "MKRS #7740",
-  "image": "https://arweave.net/k1qnK4CKQ7RkNpFO8FxA7V1k_OqLVKZeVYDigPmOnoM",
+  "image": "",
   "owner": "EFViJTh7EzkC8D5uVYfqKpyX8uNLNckXpHCy9ggD8KFc",
   "price": 111,
   "last": 1680747705532,
@@ -3964,18 +3964,18 @@
   "DNA": "Taped Rainbow LDZ",
   "Clothing": "Black Blazer",
   "Eyes": "None",
+  "Hair": "None",
+  "Headwear": "None",
   "Mouth": "None",
   "Teardrop": "None",
-  "Hair": "Buns Sand",
-  "Headwear": "Ace of Clubs Mint",
-  "Based Pass": "Red Pass Lapel",
-  "Traits": 6,
-  "DNA Split": "None",
   "Treats": "None",
   "Twins": "None",
   "rank": 167,
   "owns": 53,
-  "siblings": []
+  "siblings": [
+    null,
+    null
+  ]
 },
 {
   "mint": "BHvXwFtT2SfmdVHubT5SthwwzpeuuzJU5Knin19Z8Jvw",
@@ -145889,7 +145889,9 @@
   "Teardrop": "None",
   "Treats": "None",
   "Twins": "None",
-  "siblings": []
+  "siblings": [
+    "JA9aXUFUsonHzhXjhE4mggZqCunXRAWJKoKKuY6ckwrV"
+  ]
 },
 {
   "price": "",
@@ -145907,6 +145909,8 @@
   "Teardrop": "None",
   "Treats": "None",
   "Twins": "None",
-  "siblings": []
+  "siblings": [
+    "JA9aXUFUsonHzhXjhE4mggZqCunXRAWJKoKKuY6ckwrV"
+  ]
 }
 ]
