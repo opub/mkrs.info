@@ -16,7 +16,7 @@
  * this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 const maxRows = 500;
-const columns = ['Rank', 'Name', 'Twins', 'Price', 'Owner', 'Owns', 'DNA', 'DNA Split', 'Clothing', 'Eyes', 'Hair', 'Headwear', 'Based Pass', 'Mouth', 'Teardrop', 'Treats', 'Background'];
+const columns = ['Rank', 'Name', 'Price', 'Owner', 'Owns', 'XP', 'DNA', 'Split', 'Clothing', 'Eyes', 'Hair', 'Headwear', 'Pass', 'Mouth', 'Teardrop', 'Treats', 'Background'];
 
 let siblings = false, listed = false, card = false, filter = '';
 
@@ -24,289 +24,283 @@ let data = [];
 (function () { pageSetup() })();
 
 function pageSetup() {
-    // set filter values from hash or local storage
-    const hash = window.location.hash;
-    const state = hash.length > 1 ? hashToState(hash) : JSON.parse(localStorage.getItem('state'));
-    setState(state);
+  // set filter values from hash or local storage
+  const hash = window.location.hash;
+  const state = hash.length > 1 ? hashToState(hash) : JSON.parse(localStorage.getItem('state'));
+  setState(state);
 
-    populateHeader();
-    fetch('mkrs.json').then((resp) => resp.json()).then((json) => {
-        data = json;
-        const first = new Date(data.reduce((min, nft) => min < nft.last ? min : nft.last)).toLocaleString();
-        const last = new Date(data.reduce((max, nft) => max > nft.last ? max : nft.last)).toLocaleString();
-        get('metadata').innerHTML = `Metadata last updated between ${first} and ${last}.`;
-        updateTable();
-    });
+  populateHeader();
+  fetch('mkrs.json').then((resp) => resp.json()).then((json) => {
+    data = json;
+    const first = new Date(data.reduce((min, nft) => min < nft.last ? min : nft.last)).toLocaleString();
+    const last = new Date(data.reduce((max, nft) => max > nft.last ? max : nft.last)).toLocaleString();
+    get('metadata').innerHTML = `Metadata last updated between ${first} and ${last}.`;
+    updateTable();
+  });
 }
 
 function updateTable() {
-    loading(true);
-    setTimeout(populateTable, 10);
+  loading(true);
+  setTimeout(populateTable, 10);
 }
 
 function populateTable() {
-    // delete all table rows
-    if (get('rows')) {
-        get('rows').remove();
+  // delete all table rows
+  if (get('rows')) {
+    get('rows').remove();
+  }
+
+  // get and persist state values
+  siblings = get('siblings').checked;
+  listed = get('listed').checked;
+  card = get('card').checked;
+  filter = get('search').value;
+
+  // clean up advanced searches
+  let search = [];
+  if (filter.length > 0) {
+    search = filter.trim().split(' ');
+    for (let i = 0; i < search.length; i++) {
+      const term = search[i];
+      if (term.indexOf('=') > 0) {
+        const key = term.substring(0, term.indexOf('='));
+        const value = term.substring(term.indexOf('=') + 1);
+        search[i] = {
+          key: fixTraitCase(key, data[0]),
+          value
+        };
+      }
     }
+  }
 
-    // get and persist state values
-    siblings = get('siblings').checked;
-    listed = get('listed').checked;
-    card = get('card').checked;
-    filter = get('search').value;
+  const state = { siblings, listed, card, filter };
+  localStorage.setItem('state', JSON.stringify(state));
+  window.location.hash = stateToHash(state);
+  amplitude.getInstance().logEvent(`table populate - siblings:${siblings}, listed:${listed}, card:${card}, filter:${filter}`);
 
-    // clean up advanced searches
-    let search = [];
-    if (filter.length > 0) {
-        search = filter.trim().split(' ');
-        for (let i = 0; i < search.length; i++) {
-            const term = search[i];
-            if (term.indexOf('=') > 0) {
-                const key = term.substring(0, term.indexOf('='));
-                const value = term.substring(term.indexOf('=') + 1);
-                search[i] = {
-                    key: fixTraitCase(key, data[0]),
-                    value
-                };
-            }
-        }
+  // filter matching results
+  let filtered = data.filter(m => {
+    if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None')
+      || listed && !m.price || card && m.Headwear.indexOf(' of ') < 0 && m.Headwear.indexOf('Joker') < 0) {
+      return false;
+    } else if (search.length > 0) {
+      return filterRow(m, search);
     }
+    return true;
+  });
 
-    const state = { siblings, listed, card, filter };
-    localStorage.setItem('state', JSON.stringify(state));
-    window.location.hash = stateToHash(state);
-    amplitude.getInstance().logEvent(`table populate - siblings:${siblings}, listed:${listed}, card:${card}, filter:${filter}`);
+  // truncate results for page performance
+  let count = filtered.length;
+  let truncated = false;
+  if (filtered.length > maxRows) {
+    filtered = filtered.slice(0, maxRows);
+    truncated = true;
+  }
 
-    // filter matching results
-    let filtered = data.filter(m => {
-        if (siblings && (!m.Twins || m.Twins.length === 0 || m.Twins === 'None')
-            || listed && !m.price || card && m.Headwear.indexOf(' of ') < 0 && m.Headwear.indexOf('Joker') < 0) {
-            return false;
-        } else if (search.length > 0) {
-            return filterRow(m, search);
-        }
-        return true;
-    });
-
-    // truncate results for page performance
-    let count = filtered.length;
-    let truncated = false;
-    if (filtered.length > maxRows) {
-        filtered = filtered.slice(0, maxRows);
-        truncated = true;
-    }
-
-    // render results with cell highlighting
-    const rows = document.createElement('tbody');
-    rows.id = 'rows';
-    for (let item of filtered) {
-        const row = rows.insertRow(-1);
-        row.dataset.id = item.mint;
-        row.addEventListener('click', showDetails);
-        for (let i = 0; i < columns.length; i++) {
-            const cell = row.insertCell(i);
-            if (columns[i] === 'Owner') {
-                cell.innerHTML = mask(item.owner);
-            } else {
-                cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
-            }
-            if (search.length > 0) {
-                for (let term of search) {
-                    term = term.value ? term.value.toUpperCase() : term.toUpperCase();
-                    if (term.length > 0 && cell.textContent.toUpperCase().indexOf(term) > -1) {
-                        cell.style.backgroundColor = '#f8eb67';
-                    }
-                }
-            }
-        }
-    }
-
-    // add table footer message
+  // render results with cell highlighting
+  const rows = document.createElement('tbody');
+  rows.id = 'rows';
+  for (let item of filtered) {
     const row = rows.insertRow(-1);
-    const cell = row.insertCell(0);
-    cell.colSpan = columns.length;
-    if (truncated) {
-        cell.innerHTML = `Displaying ${filtered.length} of ${count} results. Change filter or sort to display additional results.`;
-    } else if (filtered.length > 0) {
-        cell.innerHTML = `Displaying ${filtered.length} matching results.`;
-    } else {
-        cell.innerHTML = 'No matching results found.';
+    row.dataset.id = item.mint;
+    row.addEventListener('click', showDetails);
+    for (let i = 0; i < columns.length; i++) {
+      const cell = row.insertCell(i);
+      if (columns[i] === 'Owner') {
+        cell.innerHTML = mask(item.owner);
+      } else {
+        cell.innerHTML = pretty(item.hasOwnProperty(columns[i]) ? item[columns[i]] : item[columns[i].toLowerCase()]);
+      }
+      if (search.length > 0) {
+        for (let term of search) {
+          term = term.value ? term.value.toUpperCase() : term.toUpperCase();
+          if (term.length > 0 && cell.textContent.toUpperCase().indexOf(term) > -1) {
+            cell.style.backgroundColor = '#f8eb67';
+          }
+        }
+      }
     }
+  }
 
-    // add rows to table DOM
-    const table = get('results');
-    table.appendChild(rows);
-    loading(false);
+  // add table footer message
+  const row = rows.insertRow(-1);
+  const cell = row.insertCell(0);
+  cell.colSpan = columns.length;
+  if (truncated) {
+    cell.innerHTML = `Displaying ${filtered.length} of ${count} results. Change filter or sort to display additional results.`;
+  } else if (filtered.length > 0) {
+    cell.innerHTML = `Displaying ${filtered.length} matching results.`;
+  } else {
+    cell.innerHTML = 'No matching results found.';
+  }
+
+  // add rows to table DOM
+  const table = get('results');
+  table.appendChild(rows);
+  loading(false);
 }
 
 function fixTraitCase(trait, item) {
-    if (!item[trait]) {
-        //special cases for traits with spaces
-        if (trait.toLowerCase() === 'split') {
-            return 'DNA Split';
-        } else if (trait.toLowerCase() === 'pass') {
-            return 'Based Pass';
-        }
-        for (const attr in item) {
-            if (attr.toLowerCase() === trait.toLowerCase()) {
-                return attr;
-            }
-        }
+  if (!item[trait]) {
+    for (const attr in item) {
+      if (attr.toLowerCase() === trait.toLowerCase()) {
+        return attr;
+      }
     }
-    console.log('could not match', trait);
-    return trait;
+  }
+  console.log('could not match', trait);
+  return trait;
 }
 
 function filterRow(row, search) {
-    let include = false;
-    for (const term of search) {
-        if (term.key) {
-            if (!matchSearch(`${row[term.key]}`, term.value)) {
-                return false;
-            } else {
-                include = true;
-            }
-        } else {
-            for (const cell in row) {
-                include = include || matchSearch(`${row[cell]}`, term);
-            }
-        }
+  let include = false;
+  for (const term of search) {
+    if (term.key) {
+      if (!matchSearch(`${row[term.key]}`, term.value)) {
+        return false;
+      } else {
+        include = true;
+      }
+    } else {
+      for (const cell in row) {
+        include = include || matchSearch(`${row[cell]}`, term);
+      }
     }
-    return include;
+  }
+  return include;
 }
 
 function matchSearch(value, search) {
-    if (!value || value.length === 0 || !search || search.length === 0) {
-        return false;
-    } else {
-        value = value.trim().toUpperCase();
-        search = search.trim().toUpperCase();
-        return value.indexOf(search) > -1;
-    }
+  if (!value || value.length === 0 || !search || search.length === 0) {
+    return false;
+  } else {
+    value = value.trim().toUpperCase();
+    search = search.trim().toUpperCase();
+    return value.indexOf(search) > -1;
+  }
 }
 
 function populateHeader() {
-    const header = get('header');
-    const row = header.insertRow(-1);
-    for (let col of columns) {
-        const th = document.createElement('th');
-        th.addEventListener('click', function (event) {
-            toggleArrow(event);
-        });
-        const div = document.createElement('div');
-        div.id = col;
-        div.innerHTML = col;
-        const caret = document.createElement('i');
-        caret.className = 'caret fa fa-sort';
-        div.appendChild(caret);
-        th.appendChild(div);
-        row.appendChild(th);
-    }
+  const header = get('header');
+  const row = header.insertRow(-1);
+  for (let col of columns) {
+    const th = document.createElement('th');
+    th.addEventListener('click', function (event) {
+      toggleArrow(event);
+    });
+    const div = document.createElement('div');
+    div.id = col;
+    div.innerHTML = col;
+    const caret = document.createElement('i');
+    caret.className = 'caret fa fa-sort';
+    div.appendChild(caret);
+    th.appendChild(div);
+    row.appendChild(th);
+  }
 }
 
 function toggleArrow(event) {
-    const element = event.target;
-    let caret, field, reverse;
-    if (element.tagName === 'I') {
-        caret = element;
-        field = element.parentElement.id;
-    } else {
-        caret = element.getElementsByClassName('caret')[0];
-        field = element.id;
-    }
+  const element = event.target;
+  let caret, field, reverse;
+  if (element.tagName === 'I') {
+    caret = element;
+    field = element.parentElement.id;
+  } else {
+    caret = element.getElementsByClassName('caret')[0];
+    field = element.id;
+  }
 
-    const sortUp = 'fa fa-caret-up';
-    const sortDown = 'fa fa-caret-down';
-    const showing = caret.className;
-    clearArrow();
-    if (showing.includes(sortUp)) {
-        caret.className = `caret ${sortDown}`;
-        reverse = false;
-    } else {
-        caret.className = `caret ${sortUp}`;
-        reverse = true;
-    }
+  const sortUp = 'fa fa-caret-up';
+  const sortDown = 'fa fa-caret-down';
+  const showing = caret.className;
+  clearArrow();
+  if (showing.includes(sortUp)) {
+    caret.className = `caret ${sortDown}`;
+    reverse = false;
+  } else {
+    caret.className = `caret ${sortUp}`;
+    reverse = true;
+  }
 
-    amplitude.getInstance().logEvent(`table sort - field:${field}, reverse:${reverse}`);
-    data.sort(sortBy(field, reverse));
-    updateTable();
+  amplitude.getInstance().logEvent(`table sort - field:${field}, reverse:${reverse}`);
+  data.sort(sortBy(field, reverse));
+  updateTable();
 }
 
 function clearArrow() {
-    let carets = document.getElementsByClassName('caret');
-    for (let caret of carets) {
-        caret.className = 'caret fa fa-sort';
-    }
+  let carets = document.getElementsByClassName('caret');
+  for (let caret of carets) {
+    caret.className = 'caret fa fa-sort';
+  }
 }
 
 const sortBy = (field, reverse) => {
-    reverse = reverse ? 1 : -1;
-    return function (a, b) {
-        let x, y;
-        if (a.hasOwnProperty(field)) {
-            x = a[field];
-            y = b[field];
-        } else {
-            x = a[field.toLowerCase()];
-            y = b[field.toLowerCase()];
-        }
-        return reverse * ((x > y) - (y > x));
-    };
+  reverse = reverse ? 1 : -1;
+  return function (a, b) {
+    let x, y;
+    if (a.hasOwnProperty(field)) {
+      x = a[field];
+      y = b[field];
+    } else {
+      x = a[field.toLowerCase()];
+      y = b[field.toLowerCase()];
+    }
+    return reverse * ((x > y) - (y > x));
+  };
 };
 
 function setState(state) {
-    let updated = false;
-    if (state && (siblings != state.siblings || listed != state.listed || card != state.card || filter != state.filter)) {
-        siblings = state.siblings;
-        listed = state.listed;
-        card = state.card;
-        filter = state.filter;
-        get('siblings').checked = siblings;
-        get('listed').checked = listed;
-        get('card').checked = card;
-        get('search').value = filter;
-        updated = true;
-    }
-    return updated;
+  let updated = false;
+  if (state && (siblings != state.siblings || listed != state.listed || card != state.card || filter != state.filter)) {
+    siblings = state.siblings;
+    listed = state.listed;
+    card = state.card;
+    filter = state.filter;
+    get('siblings').checked = siblings;
+    get('listed').checked = listed;
+    get('card').checked = card;
+    get('search').value = filter;
+    updated = true;
+  }
+  return updated;
 }
 
 function stateToHash(state) {
-    const params = [];
-    if (state.siblings) {
-        params.push('s');
-    }
-    if (state.listed) {
-        params.push('l');
-    }
-    if (state.card) {
-        params.push('c');
-    }
-    if (state.filter.trim().length > 0) {
-        params.push('f=' + encodeURIComponent(state.filter.trim()));
-    }
-    return params.join('&');
+  const params = [];
+  if (state.siblings) {
+    params.push('s');
+  }
+  if (state.listed) {
+    params.push('l');
+  }
+  if (state.card) {
+    params.push('c');
+  }
+  if (state.filter.trim().length > 0) {
+    params.push('f=' + encodeURIComponent(state.filter.trim()));
+  }
+  return params.join('&');
 }
 
 function hashToState(hash) {
-    hash = hash.startsWith('#') ? hash.substring(1) : hash;
-    const params = hash.split('&');
-    const state = {};
-    state.siblings = params.includes('s');
-    state.listed = params.includes('l');
-    state.card = params.includes('c');
-    if (params.length > 0 && params[params.length - 1].startsWith('f=')) {
-        state.filter = decodeURIComponent(params[params.length - 1].substring(2));
-    } else {
-        state.filter = '';
-    }
-    return state;
+  hash = hash.startsWith('#') ? hash.substring(1) : hash;
+  const params = hash.split('&');
+  const state = {};
+  state.siblings = params.includes('s');
+  state.listed = params.includes('l');
+  state.card = params.includes('c');
+  if (params.length > 0 && params[params.length - 1].startsWith('f=')) {
+    state.filter = decodeURIComponent(params[params.length - 1].substring(2));
+  } else {
+    state.filter = '';
+  }
+  return state;
 }
 
 window.onpopstate = function (event) {
-    if (setState(hashToState(window.location.hash))) {
-        updateTable();
-    }
+  if (setState(hashToState(window.location.hash))) {
+    updateTable();
+  }
 };
 
 get('search').addEventListener('keyup', updateTable);

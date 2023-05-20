@@ -4,7 +4,7 @@ const { increment, progress, clear, log, elapsed } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
 const common = ['mint', 'name', 'image', 'rank', 'owner', 'owns', 'ownerAlt', 'siblings', 'last', 'price', 'Traits'];
-const twinTraits = ['Background', 'Clothing', 'DNA', 'DNA Split', 'Eyes', 'Hair', 'Mouth', 'Teardrop', 'Twins'];
+const twinTraits = ['Background', 'Clothing', 'DNA', 'Split', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
 const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
 const exchange = 'FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu';
 const magiceden = '1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix';
@@ -35,7 +35,7 @@ exports.loadNFTs = async function () {
     progress(i / wallets.length, 'wallets');
   }
   clear();
-  console.log('wallets', wallets.length, 'mkrs', nfts.length, elapsed(Date.now() - started));
+  console.log('wallets', wallets.length, ' mkrs', nfts.length, elapsed(Date.now() - started));
 
   started = Date.now();
   const remaining = Array.from(lookup.keys());
@@ -69,6 +69,8 @@ function normalize(nft) {
     owner: nft.owner,
     price: nft.price,
     updateAuthority: nft.updateAuthority,
+    delegate: nft.delegate,
+    collection: nft.collection,
     last: Date.now(),
     ...attributes
   };
