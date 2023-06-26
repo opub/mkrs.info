@@ -24,7 +24,6 @@ exports.loadNFTs = async function () {
 
   const nfts = [];
   const wallets = [...new Set(cached.filter(nft => nft.owns > 1).map(nft => nft.owner))];
-  // const wallets = [...new Set(cached.map(nft => nft.owner))];
   for (let i = 0; i < wallets.length; i++) {
     const loaded = await loadWallet(wallets[i]);
     for (let j = 0; j < loaded.length; j++) {
@@ -60,7 +59,7 @@ exports.loadNFTs = async function () {
   return nfts;
 }
 
-function normalize(nft) {
+function normalize (nft) {
   const attributes = flatten(nft.attributes);
   return {
     mint: nft.mintAddress,
@@ -69,14 +68,13 @@ function normalize(nft) {
     owner: nft.owner,
     price: nft.price,
     updateAuthority: nft.updateAuthority,
-    delegate: nft.delegate,
     collection: nft.collection,
     last: Date.now(),
     ...attributes
   };
 }
 
-function flatten(attributes) {
+function flatten (attributes) {
   if (attributes && attributes.length) {
     const attrs = [];
     for (const trait of attributes) {
@@ -86,7 +84,7 @@ function flatten(attributes) {
   }
 }
 
-function countTraits(nfts) {
+function countTraits (nfts) {
   // collect all attribute trait types
   const types = [];
   nfts.forEach(nft => {
@@ -118,7 +116,7 @@ function countTraits(nfts) {
 }
 
 // get official ranks from HowRare
-async function loadRanks(nfts) {
+async function loadRanks (nfts) {
   log('loading ranks');
   const ranks = await getRanks();
   nfts.forEach(nft => { nft.rank = ranks.get(nft.mint) });
@@ -127,7 +125,7 @@ async function loadRanks(nfts) {
 
 // get the currently listed price on ME if available
 // listed items will have owner=magiceden so set real owner now
-async function loadPrices(nfts) {
+async function loadPrices (nfts) {
   log('loading prices');
   const prices = await getPrices();
   nfts.forEach(nft => {
@@ -141,7 +139,7 @@ async function loadPrices(nfts) {
 }
 
 // get number owned
-function countOwners(nfts) {
+function countOwners (nfts) {
   log('counting owners');
   const owned = new Map();
   nfts.forEach(nft => {
@@ -167,7 +165,7 @@ function countOwners(nfts) {
 }
 
 // determine nfts that have identical attributes
-function findSiblings(nfts) {
+function findSiblings (nfts) {
   log('finding siblings');
   const siblings = new Map();
   nfts.forEach(nft => {
@@ -187,7 +185,7 @@ function findSiblings(nfts) {
 }
 
 // generates trait signature to determine siblings
-function signature(nft) {
+function signature (nft) {
   const filtered = {};
   twinTraits.forEach(t => filtered[t] = nft[t]);
   return JSON.stringify(filtered);
