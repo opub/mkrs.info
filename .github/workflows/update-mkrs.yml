@@ -3,7 +3,7 @@ name: Update MKRS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  
+    - cron: '0 */4 * * *'  
   push:
     branches:
       - main
@@ -30,7 +30,7 @@ jobs:
           npm install
       
       - name: Run Program
-        timeout-minutes: 50
+        timeout-minutes: 110
         run: |
           cd update
           node index.js
