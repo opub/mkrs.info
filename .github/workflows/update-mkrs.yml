@@ -44,6 +44,12 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+          echo "################### SIZE"
+          ls -hal
+          echo "################### HEAD"
+          head -n100 mkrs.json
+          echo "################### TAIL"
+          tail -n100 mkrs.json
           git add .
           git commit -m "updated $(date)"
           git pull --rebase --strategy-option=ours
