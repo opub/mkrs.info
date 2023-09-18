@@ -30,7 +30,7 @@
                     }
                 }
                 ; var i = t.getElementsByTagName("script")[0]; i.parentNode.insertBefore(r, i)
-                ; function s(e, t) {
+                ; function s (e, t) {
                     e.prototype[t] = function () {
                         this._q.push([t].concat(Array.prototype.slice.call(arguments, 0))); return this
                     }
@@ -39,13 +39,13 @@
                 ; var a = ["add", "append", "clearAll", "prepend", "set", "setOnce", "unset", "preInsert", "postInsert", "remove"]
                 ; for (var c = 0; c < a.length; c++) { s(o, a[c]) } n.Identify = o; var u = function () {
                     this._q = []
-                    ; return this
+                        ; return this
                 }
                 ; var l = ["setProductId", "setQuantity", "setPrice", "setRevenueType", "setEventProperties"]
                 ; for (var p = 0; p < l.length; p++) { s(u, l[p]) } n.Revenue = u
                 ; var d = ["init", "logEvent", "logRevenue", "setUserId", "setUserProperties", "setOptOut", "setVersionName", "setDomain", "setDeviceId", "enableTracking", "setGlobalUserProperties", "identify", "clearUserProperties", "setGroup", "logRevenueV2", "regenerateDeviceId", "groupIdentify", "onInit", "logEventWithTimestamp", "logEventWithGroups", "setSessionId", "resetSessionId"]
-                ; function v(e) {
-                    function t(t) {
+                ; function v (e) {
+                    function t (t) {
                         e[t] = function () {
                             e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)))
                         }
@@ -67,9 +67,7 @@
     <div class="scroll">
         <div id="banner">
             <span id="title">MKRS Info</span>
-            <a href="twins.html" title="Twin View"><i id="twinlink" class="fa-solid fa-people-group"></i></a>
             <span id="controls">
-                <span class="control">Siblings: <input type="checkbox" id="siblings"></span>
                 <span class="control">Listed: <input type="checkbox" id="listed"></span>
                 <span class="control">Card: <input type="checkbox" id="card"></span>
                 <span class="control">Filter: <input type="text" id="search"></span>

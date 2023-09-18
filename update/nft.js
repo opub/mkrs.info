@@ -4,9 +4,7 @@ const { increment, progress, clear, log, elapsed } = require('./common/util');
 const hashList = require('./data/hash-list.json');
 
 const common = ['mint', 'name', 'image', 'rank', 'owner', 'owns', 'ownerAlt', 'siblings', 'last', 'price', 'Traits'];
-const twinTraits = ['Background', 'Clothing', 'DNA', 'Split', 'Eyes', 'Hair', 'Mouth', 'Teardrop'];
-const treasury = '6Kxyza4XQ63aiEnpzJy9h7eqzdPqsZZinRFk1NPiExek';
-const exchange = 'FoeRYSmfasEUfdf1FfYg5f4PsQVtsCeKGhrNkCZu4sRu';
+const treasury = 'J5u2FCqJWmSsC9pFcpvq8X9eG27W8tAbm96bPYVwNth2';
 const magiceden = '1BWutmTvYPwDtmw9abTkS4Ssr8no61spGAvW1X6NDix';
 const cacheFile = '../mkrs.json';
 
@@ -54,7 +52,6 @@ exports.loadNFTs = async function () {
   await loadRanks(nfts);
   await loadPrices(nfts);
   await countOwners(nfts);
-  findSiblings(nfts);
 
   return nfts;
 }
@@ -146,10 +143,7 @@ function countOwners (nfts) {
     const owner = nft.owner;
     if (owner) {
       let ownerAlt;
-      if (owner === exchange) {
-        ownerAlt = 'exchange';
-      }
-      else if (owner === treasury) {
+      if (owner === treasury) {
         ownerAlt = 'treasury';
       }
       else if (owner === magiceden || nft.price.length > 0) {
@@ -164,29 +158,3 @@ function countOwners (nfts) {
   nfts.forEach(nft => { nft.owns = owned.has(nft.owner) ? owned.get(nft.owner) : nft.owns });
 }
 
-// determine nfts that have identical attributes
-function findSiblings (nfts) {
-  log('finding siblings');
-  const siblings = new Map();
-  nfts.forEach(nft => {
-    const key = signature(nft);
-    if (!siblings.has(key)) {
-      siblings.set(key, []);
-    }
-    const found = siblings.get(key);
-    found.push(nft.mint);
-    siblings.set(key, found);
-  });
-
-  nfts.forEach(nft => {
-    const key = signature(nft);
-    nft.siblings = siblings.get(key).filter(sib => sib != nft.mint);
-  });
-}
-
-// generates trait signature to determine siblings
-function signature (nft) {
-  const filtered = {};
-  twinTraits.forEach(t => filtered[t] = nft[t]);
-  return JSON.stringify(filtered);
-}
