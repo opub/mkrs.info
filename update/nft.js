@@ -12,7 +12,8 @@ const cacheFile = '../mkrs.json';
 exports.loadNFTs = async function () {
   let started = Date.now();
 
-  const cached = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
+  const loaded = fs.existsSync(cacheFile) ? JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) : [];
+  const cached = loaded.filter(m => m.mint && m.name !== 'Based');
   const lookup = new Map(cached.map(nft => [nft.mint, nft]));
   hashList.forEach(hash => {
     if (!lookup.has(hash)) {
@@ -26,7 +27,9 @@ exports.loadNFTs = async function () {
     const loaded = await loadWallet(wallets[i]);
     for (let j = 0; j < loaded.length; j++) {
       const nft = normalize(loaded[j]);
-      nfts.push(nft);
+      if (nft.name !== 'Based') {
+        nfts.push(nft);
+      }
       lookup.delete(nft.mint);
     }
     progress(i / wallets.length, 'wallets');
@@ -40,7 +43,9 @@ exports.loadNFTs = async function () {
     const loaded = await loadToken(remaining[i]);
     if (loaded) {
       const nft = normalize(loaded);
-      nfts.push(nft);
+      if (nft.name !== 'Based') {
+        nfts.push(nft);
+      }
       lookup.delete(nft.mint);
       progress(i / remaining.length, 'remaining');
     }
