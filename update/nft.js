@@ -162,4 +162,3 @@ function countOwners (nfts) {
   });
   nfts.forEach(nft => { nft.owns = owned.has(nft.owner) ? owned.get(nft.owner) : nft.owns });
 }
-
