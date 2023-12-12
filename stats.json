@@ -34,7 +34,7 @@
     "Taped Rainbow": 50,
     "Devil Purple": 209,
     "Sky Storm": 168,
-    "Crystal Emerald": 181,
+    "Crystal Emerald": 180,
     "Devil Green LDZ": 119,
     "Bad Frens Pink": 143,
     "Crystal Ruby LDZ": 55,
@@ -44,11 +44,11 @@
     "Taped Rainbow LDZ": 41,
     "Painted Mono LDZ": 10,
     "Pixel Fire": 9,
-    "Pixel Rainbow": 1,
-    "None": 127
+    "None": 128,
+    "Pixel Rainbow": 1
   },
   "Split": {
-    "None": 5639,
+    "None": 5640,
     "Bad Frens Blue Split": 19,
     "Taped Caution": 16,
     "Taped Rainbow": 12,
@@ -58,7 +58,7 @@
     "Pixel Fire Split": 6,
     "Bad Frens Mono Split": 22,
     "Flowers Vintage Split": 12,
-    "Taped Caution Split": 17,
+    "Taped Caution Split": 16,
     "Flowers Mono Split": 11,
     "Flowers Rainbow Split": 5,
     "Painted Mono": 5,
@@ -93,7 +93,7 @@
     "Yellow Overalls": 48,
     "Sand T-Shirt": 52,
     "Black Holy T-Shirt": 58,
-    "Light Grey Hoodie": 57,
+    "Light Grey Hoodie": 56,
     "Brand MKRS Lavender Holy T-Shirt": 27,
     "White Tank": 34,
     "White Overalls": 46,
@@ -162,7 +162,7 @@
     "Black Jumpsuit": 19,
     "Black Pit": 31,
     "Stretched MKRS Dark Grey Holy T-Shirt": 15,
-    "None": 149,
+    "None": 150,
     "Black Turtleneck": 34,
     "Yellow T-Shirt": 48,
     "Dark Grey Hoodie": 35,
@@ -258,7 +258,7 @@
   },
   "Eyes": {
     "Wide Green": 86,
-    "None": 1046,
+    "None": 1047,
     "Nah Clear": 97,
     "Side BLue": 73,
     "Big Clear": 53,
@@ -290,7 +290,7 @@
     "Roll Black": 69,
     "Wink Clear": 40,
     "Sly Black": 44,
-    "Side Black": 80,
+    "Side Black": 79,
     "Wide Clear": 63,
     "Wide Black": 90,
     "Oh_ Green": 38,
@@ -514,7 +514,7 @@
     "Beanie Dark Grey": 46,
     "9 of Hearts Black": 8,
     "Locks Blue": 40,
-    "Chad Red": 45,
+    "Chad Red": 44,
     "7 of Diamonds Red": 14,
     "8 of Spades White": 9,
     "Five Panel Pink": 21,
@@ -612,7 +612,7 @@
     "Ace of Hearts Mint": 2,
     "Mess Green": 17,
     "Queen of Clubs Red": 3,
-    "None": 128,
+    "None": 129,
     "2 of Spades Red": 6,
     "2 of Clubs Black": 16,
     "7 of Hearts Black": 11,
@@ -733,7 +733,7 @@
     "8 of Spades Mint": 1
   },
   "Pass": {
-    "White Pass Maker": 262,
+    "White Pass Maker": 261,
     "Blue Pass Lapel": 147,
     "Pink Pass Maker": 282,
     "Dark Grey Pass Maker": 306,
@@ -801,7 +801,7 @@
     "Blue Pass Builder": 27,
     "Onyx Pass Builder": 5,
     "Lavender Pass Cozy": 8,
-    "None": 129,
+    "None": 130,
     "Cloud Pass Maker": 27,
     "Dark Grey Pass Cozy": 3,
     "Yellow Pass Puff": 14,
@@ -854,8 +854,8 @@
     "Lavender Pass Rizz": 3
   },
   "Mouth": {
-    "SUS": 822,
-    "None": 1046,
+    "SUS": 821,
+    "None": 1047,
     "Stoic": 832,
     "Maroon Sus": 82,
     "Maroon Smirk": 73,
@@ -899,10 +899,10 @@
     "Half Full": 1
   },
   "Background": {
-    "MKRS": 5115,
+    "MKRS": 5114,
     "Purple": 141,
     "Red": 444,
     "Blue": 14,
-    "None": 127
+    "None": 128
   }
 }
