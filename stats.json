@@ -44,8 +44,8 @@
     "Pixel Static": 19,
     "Painted Mono LDZ": 10,
     "Pixel Fire": 9,
-    "None": 130,
-    "Pixel Rainbow": 1
+    "Pixel Rainbow": 1,
+    "None": 130
   },
   "Split": {
     "None": 5640,
@@ -494,8 +494,8 @@
     "Queen of Diamonds Black": 4,
     "3 of Hearts Red": 4,
     "3 of Hearts Black": 10,
-    "59MKRS Red": 53,
     "8 of Spades Red": 11,
+    "59MKRS Red": 53,
     "Jack of Hearts White": 8,
     "Dad Black": 48,
     "Cans Red": 41,
