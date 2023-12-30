@@ -8,7 +8,7 @@ body,
 html {
     height: 100vh;
     width: 100vw;
-    font-family: sans-serif;
+    font-family: 'Consolas', 'Monaco', monospace;
     color: #222222;
     background-color: #eeeeee;
 }
@@ -43,6 +43,7 @@ li {
 }
 
 #banner {
+    font-family: sans-serif;
     padding: 10px;
 }
 
@@ -65,17 +66,10 @@ li {
     width: 400px;
 }
 
-#twinlink,
+#ranklink,
 #tablelink {
     font-size: 30px;
     margin: 15px;
-}
-
-#twinlink {
-    color: #ff0000;
-}
-
-#tablelink {
     color: #222222;
     background-color: #ffff99;
 }

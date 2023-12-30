@@ -1,6 +1,6 @@
 /*
  * MKRS.info
- * Copyright (C) 2022 Ted O'Connor
+ * Copyright (C) 2024 Ted O'Connor
  *
  * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -37,11 +37,6 @@ function pageSetup () {
     get('metadata').innerHTML = `Metadata last updated between ${first} and ${last}.`;
     updateTable();
   });
-}
-
-function updateTable () {
-  loading(true);
-  setTimeout(populateTable, 10);
 }
 
 function populateTable () {
@@ -177,75 +172,6 @@ function matchSearch (value, search) {
     return value.indexOf(search) > -1;
   }
 }
-
-function populateHeader () {
-  const header = get('header');
-  const row = header.insertRow(-1);
-  for (let col of columns) {
-    const th = document.createElement('th');
-    th.addEventListener('click', function (event) {
-      toggleArrow(event);
-    });
-    const div = document.createElement('div');
-    div.id = col;
-    div.innerHTML = col;
-    const caret = document.createElement('i');
-    caret.className = 'caret fa fa-sort';
-    div.appendChild(caret);
-    th.appendChild(div);
-    row.appendChild(th);
-  }
-}
-
-function toggleArrow (event) {
-  const element = event.target;
-  let caret, field, reverse;
-  if (element.tagName === 'I') {
-    caret = element;
-    field = element.parentElement.id;
-  } else {
-    caret = element.getElementsByClassName('caret')[0];
-    field = element.id;
-  }
-
-  const sortUp = 'fa fa-caret-up';
-  const sortDown = 'fa fa-caret-down';
-  const showing = caret.className;
-  clearArrow();
-  if (showing.includes(sortUp)) {
-    caret.className = `caret ${sortDown}`;
-    reverse = false;
-  } else {
-    caret.className = `caret ${sortUp}`;
-    reverse = true;
-  }
-
-  amplitude.getInstance().logEvent(`table sort - field:${field}, reverse:${reverse}`);
-  data.sort(sortBy(field, reverse));
-  updateTable();
-}
-
-function clearArrow () {
-  let carets = document.getElementsByClassName('caret');
-  for (let caret of carets) {
-    caret.className = 'caret fa fa-sort';
-  }
-}
-
-const sortBy = (field, reverse) => {
-  reverse = reverse ? 1 : -1;
-  return function (a, b) {
-    let x, y;
-    if (a.hasOwnProperty(field)) {
-      x = a[field];
-      y = b[field];
-    } else {
-      x = a[field.toLowerCase()];
-      y = b[field.toLowerCase()];
-    }
-    return reverse * ((x > y) - (y > x));
-  };
-};
 
 function setState (state) {
   let updated = false;

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>MKRS Info</title>
+    <title>MKRS XP Ranks</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -66,13 +66,8 @@
 <body>
     <div class="scroll">
         <div id="banner">
-            <span id="title">MKRS Info</span>
-            <a href="ranks.html" title="XP Ranks"><i id="ranklink" class="fa-solid fa-crown"></i></a>
-            <span id="controls">
-                <span class="control">Listed: <input type="checkbox" id="listed"></span>
-                <span class="control">Card: <input type="checkbox" id="card"></span>
-                <span class="control">Filter: <input type="text" id="search"></span>
-            </span>
+            <span id="title">MKRS XP Ranks</span>
+            <a href="/" title="Table View"><i id="tablelink" class="fa-solid fa-table-cells"></i></a>
         </div>
         <div id="loader">
             <i class="fa-solid fa-cog fa-spin"></i>
@@ -85,13 +80,7 @@
             <div id="metadata"></div>
         </div>
     </div>
-    <div id="details" style="display: none;">
-        <h2 id="details-name"></h2>
-        <i class="close fa-solid fa-xmark" onclick="hideDetails()"></i>
-        <a id="details-image-link" href="" target="_blank"><img id="details-image" src="" height="400" width="400"></a>
-        <div id="details-traits"></div>
-    </div>
-    <script src="./js/main.js"></script>
+    <script src="/js/ranks.js"></script>
 </body>
 
 </html>
