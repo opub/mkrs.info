@@ -44,8 +44,8 @@
     "Taped Rainbow": 47,
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 11,
-    "None": 570,
-    "Pixel Fire": 9
+    "Pixel Fire": 9,
+    "None": 570
   },
   "Split": {
     "Painted Vintage": 3,
@@ -699,7 +699,6 @@
     "Chad Blue": 41,
     "Trapper Plaid Red": 9,
     "Bucket Sand": 10,
-    "None": 571,
     "Hitchhiker Green & Green": 23,
     "Dust Up White": 21,
     "Mess Pink": 46,
@@ -726,6 +725,7 @@
     "Chad Red": 43,
     "Five Panel Dark Grey": 44,
     "Locks Red": 33,
+    "None": 571,
     "Tape Purple": 40,
     "Andre Black": 19,
     "Dad Sand": 46
@@ -837,7 +837,6 @@
     "Blue Pass Puff": 16,
     "Grey Pass Devs": 22,
     "Yellow Pass Devs": 21,
-    "None": 572,
     "Grey Pass Puff": 11,
     "Red Pass Devs": 21,
     "Blue Pass Devs": 13,
@@ -846,7 +845,8 @@
     "White Pass Puff": 18,
     "White Pass Devs": 16,
     "Sand Pass Puff": 21,
-    "Lavender Pass Puff": 14
+    "Lavender Pass Puff": 14,
+    "None": 572
   },
   "Mouth": {
     "Maroon Pick": 68,
