@@ -13,7 +13,7 @@
     "Robot Light LDZ": 181,
     "Painted Vintage LDZ": 9,
     "Painted Mono LDZ": 10,
-    "Robot Light": 327,
+    "Robot Light": 326,
     "Flowers Vintage": 52,
     "Crystal Emerald": 168,
     "Taped Caution LDZ": 51,
@@ -45,7 +45,7 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 11,
     "Pixel Fire": 9,
-    "None": 570
+    "None": 571
   },
   "Split": {
     "Painted Vintage": 3,
@@ -143,7 +143,7 @@
     "Pink Blazer": 25,
     "Green Hoodie": 23,
     "Red Turtleneck": 24,
-    "Racer on White Tank": 10,
+    "Racer on White Tank": 9,
     "Brand MKRS Blue T-Shirt": 20,
     "Yellow Holy T-Shirt": 19,
     "Yellow Crewneck": 43,
@@ -152,7 +152,7 @@
     "Rainbow Sand T-Shirt": 22,
     "Blue Overalls": 72,
     "Rainbow Based Hoodie": 19,
-    "None": 591,
+    "None": 592,
     "Brand MKRS Dark Grey T-Shirt": 15,
     "Pocket MKRS Pink T-Shirt": 13,
     "Lavender Turtleneck": 25,
@@ -265,7 +265,7 @@
     "IYKYK Clear": 35,
     "Side Green": 76,
     "Nope Clear": 39,
-    "None": 1420,
+    "None": 1421,
     "MKRS Green": 38,
     "Side Black": 77,
     "Nope Red": 32,
@@ -309,7 +309,7 @@
     "Nah Green": 72,
     "Nah Red": 74,
     "Roll Green": 73,
-    "Roll Blue": 60,
+    "Roll Blue": 59,
     "Wide Black": 88,
     "Shiner Blue": 71,
     "Open Green": 67,
@@ -712,7 +712,7 @@
     "Trapper Sand": 19,
     "Locks Green": 27,
     "Chad White": 34,
-    "Andre Yellow": 18,
+    "None": 572,
     "Mess Red": 34,
     "Mess Blue": 37,
     "Pan Sand": 29,
@@ -724,8 +724,8 @@
     "Beanie Dark Grey": 44,
     "Chad Red": 43,
     "Five Panel Dark Grey": 44,
+    "Andre Yellow": 17,
     "Locks Red": 33,
-    "None": 571,
     "Tape Purple": 40,
     "Andre Black": 19,
     "Dad Sand": 46
@@ -746,7 +746,7 @@
     "Gold Pass Builder": 2,
     "Lavender Pass Builder": 24,
     "White Pass Lapel": 111,
-    "Dark Grey Pass Lapel": 135,
+    "Dark Grey Pass Lapel": 134,
     "Grey Pass Lapel": 131,
     "Lavender Pass Maker": 255,
     "Sand Pass Lapel": 124,
@@ -842,20 +842,20 @@
     "Blue Pass Devs": 13,
     "Red Pass Puff": 12,
     "Pink Pass Devs": 18,
+    "None": 573,
     "White Pass Puff": 18,
     "White Pass Devs": 16,
     "Sand Pass Puff": 21,
-    "Lavender Pass Puff": 14,
-    "None": 572
+    "Lavender Pass Puff": 14
   },
   "Mouth": {
     "Maroon Pick": 68,
     "Red Pick": 84,
-    "SUS": 759,
+    "SUS": 758,
     "White Smirk": 76,
     "Red Sus": 72,
     "IYKYK": 737,
-    "None": 1418,
+    "None": 1419,
     "Pink Pick": 75,
     "This": 770,
     "Maroon Sus": 76,
@@ -896,8 +896,8 @@
   "Background": {
     "Blue": 14,
     "Purple": 132,
-    "MKRS": 4709,
+    "MKRS": 4708,
     "Red": 417,
-    "None": 570
+    "None": 571
   }
 }
