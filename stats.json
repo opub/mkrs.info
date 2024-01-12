@@ -712,7 +712,6 @@
     "Trapper Sand": 19,
     "Locks Green": 27,
     "Chad White": 34,
-    "None": 572,
     "Mess Red": 34,
     "Mess Blue": 37,
     "Pan Sand": 29,
@@ -726,6 +725,7 @@
     "Five Panel Dark Grey": 44,
     "Andre Yellow": 17,
     "Locks Red": 33,
+    "None": 572,
     "Tape Purple": 40,
     "Andre Black": 19,
     "Dad Sand": 46
@@ -842,11 +842,11 @@
     "Blue Pass Devs": 13,
     "Red Pass Puff": 12,
     "Pink Pass Devs": 18,
-    "None": 573,
     "White Pass Puff": 18,
     "White Pass Devs": 16,
     "Sand Pass Puff": 21,
-    "Lavender Pass Puff": 14
+    "Lavender Pass Puff": 14,
+    "None": 573
   },
   "Mouth": {
     "Maroon Pick": 68,
