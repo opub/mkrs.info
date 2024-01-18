@@ -44,8 +44,8 @@
     "Taped Rainbow": 47,
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 11,
-    "None": 575,
-    "Pixel Fire": 9
+    "Pixel Fire": 9,
+    "None": 575
   },
   "Split": {
     "Painted Vintage": 3,
@@ -687,7 +687,6 @@
     "6 of Diamonds White": 11,
     "7 of Hearts White": 15,
     "7 of Spades Black": 10,
-    "None": 576,
     "5 of Hearts White": 11,
     "Trucker Dark Grey": 10,
     "6 of Clubs White": 15,
@@ -726,6 +725,7 @@
     "Five Panel Dark Grey": 44,
     "Andre Yellow": 17,
     "Locks Red": 33,
+    "None": 576,
     "Tape Purple": 40,
     "Andre Black": 19,
     "Dad Sand": 46
@@ -833,7 +833,6 @@
     "Yellow Pass Builder": 18,
     "Cloud Pass Devs": 5,
     "Pink Pass Puff": 14,
-    "None": 577,
     "Cloud Pass Maker": 26,
     "Blue Pass Puff": 16,
     "Grey Pass Devs": 22,
@@ -846,7 +845,8 @@
     "White Pass Puff": 18,
     "White Pass Devs": 16,
     "Sand Pass Puff": 21,
-    "Lavender Pass Puff": 14
+    "Lavender Pass Puff": 14,
+    "None": 577
   },
   "Mouth": {
     "Maroon Pick": 68,
