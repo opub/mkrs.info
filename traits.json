@@ -1,12 +1,13 @@
 {
   "GNTS": {
     "Background": [
-      "Blue",
       "MKRS",
+      "Blue",
       "Purple",
       "Red"
     ],
     "Clothing": [
+      "None",
       "BSD Holy T-Shirt",
       "BSD Hoodie",
       "BSD White T-Shirt",
@@ -145,8 +146,7 @@
       "Yellow Hoodie",
       "Yellow Overalls",
       "Yellow T-Shirt",
-      "Yellow Turtleneck",
-      "None"
+      "Yellow Turtleneck"
     ],
     "DNA": [
       "Bad Frens Blue",
@@ -178,6 +178,7 @@
       "Taped Rainbow"
     ],
     "Eyes": [
+      "None",
       "Closed Up",
       "Nah Black",
       "Nah Blue",
@@ -218,10 +219,10 @@
       "Wide Blue",
       "Wide Clear",
       "Wide Green",
-      "Wide Red",
-      "None"
+      "Wide Red"
     ],
     "Headwear": [
+      "None",
       "59MKRS Blue",
       "59MKRS Dark Grey",
       "59MKRS Green",
@@ -341,17 +342,17 @@
       "Trucker Dark Grey",
       "Trucker Pink",
       "Trucker Red",
-      "Trucker Yellow",
-      "None"
+      "Trucker Yellow"
     ],
     "Mouth": [
+      "None",
       "IYKYK",
       "SUS",
       "Stoic",
-      "This",
-      "None"
+      "This"
     ],
     "Pass": [
+      "None",
       "Blue Pass Devs",
       "Blue Pass Driver",
       "Blue Pass Lapel",
@@ -426,10 +427,10 @@
       "Yellow Pass Driver",
       "Yellow Pass Lapel",
       "Yellow Pass Maker",
-      "Yellow Pass Puff",
-      "None"
+      "Yellow Pass Puff"
     ],
     "Split": [
+      "None",
       "Bad Frens Blue Split",
       "Bad Frens Mono Split",
       "Bad Frens Pink Split",
@@ -441,32 +442,32 @@
       "Pixel Rainbow Split",
       "Taped Caution Split",
       "Taped Mono Split",
-      "Taped Rainbow Split",
-      "None"
+      "Taped Rainbow Split"
     ],
     "Teardrop": [
+      "None",
       "Detox Teardrop",
       "Joy Blue Teardrop",
-      "Something In My Eye Clear Teardrop",
-      "None"
+      "Something In My Eye Clear Teardrop"
     ],
     "Treats": [
+      "None",
       "Mod Blue",
       "Mod Mint",
       "Mod Monarch",
       "Mod Purple",
-      "Mod Red",
-      "None"
+      "Mod Red"
     ]
   },
   "LDZ": {
     "Background": [
-      "Blue",
       "MKRS",
+      "Blue",
       "Purple",
       "Red"
     ],
     "Clothing": [
+      "None",
       "Army Liner",
       "BSD White Crewneck",
       "BSD Yellow T-Shirt",
@@ -554,8 +555,7 @@
       "Yellow Overalls",
       "Yellow T-Shirt",
       "Yellow Trainer",
-      "Yellow Varsity",
-      "None"
+      "Yellow Varsity"
     ],
     "DNA": [
       "Crystal Diamond LDZ",
@@ -578,6 +578,7 @@
       "Taped Rainbow LDZ"
     ],
     "Eyes": [
+      "None",
       "Big Black",
       "Big Blue",
       "Big Clear",
@@ -617,10 +618,10 @@
       "Wink Blue",
       "Wink Clear",
       "Wink Green",
-      "Wink Red",
-      "None"
+      "Wink Red"
     ],
     "Hair": [
+      "None",
       "Bangs Blue",
       "Bangs Green",
       "Bangs Grey",
@@ -684,10 +685,10 @@
       "Side Shave Red",
       "Side Shave Sand",
       "Side Shave White",
-      "Side Shave Yellow",
-      "None"
+      "Side Shave Yellow"
     ],
     "Headwear": [
+      "None",
       "10 of Clubs Black",
       "10 of Clubs Mint",
       "10 of Clubs Red",
@@ -903,10 +904,10 @@
       "Queen of Spades Mint",
       "Queen of Spades Red",
       "Queen of Spades White",
-      "Quen of Hearts Mint",
-      "None"
+      "Quen of Hearts Mint"
     ],
     "Mouth": [
+      "None",
       "Maroon Lips",
       "Maroon Pick",
       "Maroon Smirk",
@@ -925,10 +926,10 @@
       "Yellow Lips",
       "Yellow Pick",
       "Yellow Smirk",
-      "Yellow Sus",
-      "None"
+      "Yellow Sus"
     ],
     "Pass": [
+      "None",
       "Blue Pass Basic",
       "Blue Pass Builder",
       "Blue Pass Cozy",
@@ -1018,32 +1019,31 @@
       "Yellow Pass Cozy",
       "Yellow Pass Lapel",
       "Yellow Pass Play",
-      "Yellow Pass Rizz",
-      "None"
+      "Yellow Pass Rizz"
     ],
     "Split": [
+      "None",
       "Painted Mono",
       "Painted Rainbow",
       "Painted Vintage",
       "Taped Caution",
       "Taped Mono",
-      "Taped Rainbow",
-      "None"
+      "Taped Rainbow"
     ],
     "Teardrop": [
+      "None",
       "Just a Sparkle",
       "Not Crying Blue Teardrop",
       "Not Crying Clear Teardrop",
-      "Not Crying Green Teardrop",
-      "None"
+      "Not Crying Green Teardrop"
     ],
     "Treats": [
+      "None",
       "Mod Blue",
       "Mod Mint",
       "Mod Monarch",
       "Mod Purple",
-      "Mod Red",
-      "None"
+      "Mod Red"
     ]
   }
 }
