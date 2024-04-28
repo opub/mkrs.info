@@ -29,7 +29,7 @@
     "Sky Clear": 108,
     "Crystal Ruby LDZ": 41,
     "Devil Green": 168,
-    "Spirit Neon": 145,
+    "Spirit Neon": 144,
     "Spirit Pink LDZ": 77,
     "Bad Frens Pink": 121,
     "Taped Caution": 95,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 2,
     "Flowers Vintage Split": 9,
-    "None": 5027,
+    "None": 5026,
     "Pixel Fire Split": 6,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -83,7 +83,7 @@
     "White Hoodie": 47,
     "Red Jumpsuit": 14,
     "Green Trainer": 17,
-    "Black Crewneck": 41,
+    "Black Crewneck": 40,
     "Rainbow Holy T-Shirt": 20,
     "Brand MKRS Lavender Holy T-Shirt": 25,
     "White Pit": 30,
@@ -289,7 +289,7 @@
     "OH_ Red": 20,
     "Sly Green": 26,
     "Wink Green": 37,
-    "Side BLue": 54,
+    "Side BLue": 53,
     "IYKYK Red": 23,
     "Big Blue": 26,
     "IYKYK Blue": 22,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 17,
-    "None": 3999,
+    "None": 3998,
     "Ramona Yellow": 16,
     "Bob White": 18,
     "Pony Blue": 32,
@@ -694,7 +694,7 @@
     "Mess Green": 15,
     "Chad Sand": 34,
     "Trapper Plaid Black": 6,
-    "Trucker Pink": 15,
+    "Trucker Pink": 14,
     "Dust Up Red": 16,
     "Tape Green": 11,
     "Dust Up Grey": 11,
@@ -762,7 +762,7 @@
     "Red Pass Basic": 48,
     "Grey Pass Rizz": 1,
     "Lavender Pass Lapel": 116,
-    "Blue Pass Maker": 203,
+    "Blue Pass Maker": 202,
     "Pink Pass Rizz": 1,
     "Pink Pass Builder": 16,
     "Sand Pass Builder": 11,
@@ -846,7 +846,7 @@
   },
   "Mouth": {
     "Red Pick": 75,
-    "SUS": 579,
+    "SUS": 578,
     "White Smirk": 62,
     "Red Sus": 57,
     "IYKYK": 561,
@@ -871,7 +871,7 @@
     "Yellow Lips": 57
   },
   "Teardrop": {
-    "None": 5114,
+    "None": 5113,
     "Something In My Eye Clear Teardrop": 17,
     "Not Crying Blue Teardrop": 11,
     "Just a Sparkle": 8,
@@ -881,7 +881,7 @@
     "Joy Blue Teardrop": 12
   },
   "Treats": {
-    "None": 5144,
+    "None": 5143,
     "Mod Monarch": 4,
     "Mod Blue": 24,
     "Mod Red": 9,
@@ -890,7 +890,7 @@
   },
   "Background": {
     "Purple": 118,
-    "MKRS": 3652,
+    "MKRS": 3651,
     "Blue": 13,
     "Red": 395,
     "None": 1012
