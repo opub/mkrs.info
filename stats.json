@@ -45,12 +45,12 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 12,
     "Pixel Fire": 8,
-    "None": 1027
+    "None": 1026
   },
   "Split": {
     "Painted Vintage": 2,
     "Flowers Vintage Split": 9,
-    "None": 5027,
+    "None": 5026,
     "Pixel Fire Split": 6,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -148,7 +148,7 @@
     "Rainbow Sand T-Shirt": 17,
     "Blue Overalls": 59,
     "Rainbow Based Hoodie": 18,
-    "None": 1049,
+    "None": 1048,
     "Brand MKRS Dark Grey T-Shirt": 12,
     "Pocket MKRS Pink T-Shirt": 10,
     "Lavender Turtleneck": 20,
@@ -264,7 +264,7 @@
     "IYKYK Clear": 30,
     "Side Green": 50,
     "Nope Clear": 30,
-    "None": 1776,
+    "None": 1775,
     "MKRS Green": 28,
     "Side Black": 55,
     "Nope Red": 28,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 17,
-    "None": 4000,
+    "None": 3999,
     "Ramona Yellow": 16,
     "Bob White": 18,
     "Pony Blue": 32,
@@ -674,7 +674,7 @@
     "7 of Hearts White": 12,
     "Trucker Dark Grey": 10,
     "7 of Spades Black": 6,
-    "None": 1029,
+    "None": 1028,
     "8 of Hearts White": 12,
     "8 of Spades Black": 10,
     "6 of Clubs White": 13,
@@ -752,7 +752,7 @@
     "Sand Pass Basic": 58,
     "Red Pass Lapel": 89,
     "Lavender Pass Basic": 50,
-    "None": 1031,
+    "None": 1030,
     "Grey Pass Maker": 199,
     "White Pass Basic": 52,
     "Cloud Pass Lapel": 8,
@@ -851,7 +851,7 @@
     "Red Sus": 57,
     "IYKYK": 557,
     "Maroon Pick": 58,
-    "None": 1774,
+    "None": 1773,
     "Pink Pick": 59,
     "This": 587,
     "Maroon Sus": 60,
@@ -871,7 +871,7 @@
     "Yellow Lips": 57
   },
   "Teardrop": {
-    "None": 5114,
+    "None": 5113,
     "Something In My Eye Clear Teardrop": 17,
     "Not Crying Blue Teardrop": 11,
     "Just a Sparkle": 8,
@@ -881,7 +881,7 @@
     "Joy Blue Teardrop": 12
   },
   "Treats": {
-    "None": 5144,
+    "None": 5143,
     "Mod Monarch": 4,
     "Mod Blue": 24,
     "Mod Red": 9,
@@ -893,6 +893,6 @@
     "MKRS": 3641,
     "Blue": 13,
     "Red": 391,
-    "None": 1027
+    "None": 1026
   }
 }
