@@ -5,7 +5,7 @@
     "Devil Green LDZ": 86,
     "Devil Purple LDZ": 90,
     "Spirit Clear LDZ": 91,
-    "Crystal Ruby": 104,
+    "Crystal Ruby": 105,
     "Robot Gold LDZ": 101,
     "Flowers Mono": 30,
     "Robot Dark LDZ": 127,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 2,
     "Flowers Vintage Split": 9,
-    "None": 5026,
+    "None": 5027,
     "Pixel Fire Split": 6,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -84,7 +84,7 @@
     "Red Jumpsuit": 14,
     "Green Trainer": 17,
     "Black Crewneck": 41,
-    "Rainbow Holy T-Shirt": 19,
+    "Rainbow Holy T-Shirt": 20,
     "Brand MKRS Lavender Holy T-Shirt": 25,
     "White Pit": 30,
     "Yellow T-Shirt": 39,
@@ -283,7 +283,7 @@
     "Shiner Clear": 67,
     "Wide Blue": 50,
     "Sus Blue": 51,
-    "Not Winking Clear": 51,
+    "Not Winking Clear": 52,
     "Oh_ Black": 27,
     "MKRS Red": 14,
     "OH_ Red": 20,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 17,
-    "None": 3999,
+    "None": 4000,
     "Ramona Yellow": 16,
     "Bob White": 18,
     "Pony Blue": 32,
@@ -490,7 +490,7 @@
     "Locks White": 28,
     "59MKRS Lavender": 26,
     "Bucket Dark Grey": 26,
-    "Andre Blue": 18,
+    "Andre Blue": 19,
     "Mess Sand": 43,
     "Hitchhiker White & White": 17,
     "59MKRS Red": 46,
@@ -742,7 +742,7 @@
     "Gold Pass Builder": 2,
     "Lavender Pass Builder": 22,
     "White Pass Lapel": 90,
-    "Dark Grey Pass Lapel": 105,
+    "Dark Grey Pass Lapel": 106,
     "Grey Pass Lapel": 110,
     "Lavender Pass Maker": 197,
     "Sand Pass Lapel": 107,
@@ -858,7 +858,7 @@
     "White Lips": 57,
     "Pink Sus": 63,
     "White Pick": 56,
-    "Stoic": 609,
+    "Stoic": 610,
     "Maroon Smirk": 51,
     "Red Smirk": 43,
     "Pink Lips": 56,
@@ -871,7 +871,7 @@
     "Yellow Lips": 57
   },
   "Teardrop": {
-    "None": 5113,
+    "None": 5114,
     "Something In My Eye Clear Teardrop": 17,
     "Not Crying Blue Teardrop": 11,
     "Just a Sparkle": 8,
@@ -881,7 +881,7 @@
     "Joy Blue Teardrop": 12
   },
   "Treats": {
-    "None": 5143,
+    "None": 5144,
     "Mod Monarch": 4,
     "Mod Blue": 24,
     "Mod Red": 9,
@@ -890,7 +890,7 @@
   },
   "Background": {
     "Purple": 118,
-    "MKRS": 3640,
+    "MKRS": 3641,
     "Blue": 13,
     "Red": 391,
     "None": 1027
