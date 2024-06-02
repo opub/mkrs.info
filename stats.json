@@ -16,7 +16,7 @@
     "Flowers Vintage": 44,
     "Crystal Emerald": 119,
     "Taped Caution LDZ": 43,
-    "Sky Storm": 123,
+    "Sky Storm": 122,
     "Taped Mono LDZ": 29,
     "Bad Frens Blue": 98,
     "Taped Mono": 57,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 9,
-    "None": 5036,
+    "None": 5035,
     "Pixel Fire Split": 6,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -185,7 +185,7 @@
     "Sand T-Shirt": 40,
     "Denim on Black T-Shirt": 20,
     "Blue Puffer": 30,
-    "Denim on Black Tank": 38,
+    "Denim on Black Tank": 37,
     "Light Grey Short Tank": 9,
     "Light Grey Hoodie": 28,
     "Black Tux": 8,
@@ -297,7 +297,7 @@
     "MKRS Clear": 22,
     "Big Red": 27,
     "Wink Red": 29,
-    "Wide Green": 55,
+    "Wide Green": 54,
     "Not Winking Red": 58,
     "Sus Green": 54,
     "Nope Black": 19,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 15,
-    "None": 4089,
+    "None": 4088,
     "Ramona Yellow": 16,
     "Bob White": 18,
     "Pony Blue": 30,
@@ -494,7 +494,7 @@
     "Mess Sand": 39,
     "Hitchhiker White & White": 16,
     "59MKRS Red": 40,
-    "Trucker Yellow": 16,
+    "Trucker Yellow": 15,
     "Five Panel Yellow": 17,
     "Cans Red": 26,
     "9 of Spades Red": 1,
@@ -788,7 +788,7 @@
     "Green Pass Rizz": 1,
     "Rainbow Pass Basic": 1,
     "Green Pass Puff": 11,
-    "Yellow Pass Maker": 175,
+    "Yellow Pass Maker": 174,
     "Dark Grey Pass Devs": 14,
     "Red Pass Maker": 205,
     "White Pass Driver": 1,
@@ -855,7 +855,7 @@
     "White Lips": 54,
     "Pink Sus": 54,
     "White Pick": 51,
-    "Stoic": 565,
+    "Stoic": 564,
     "Maroon Smirk": 48,
     "Red Smirk": 41,
     "Pink Lips": 51,
@@ -868,7 +868,7 @@
     "Yellow Lips": 53
   },
   "Teardrop": {
-    "None": 5116,
+    "None": 5115,
     "Something In My Eye Clear Teardrop": 16,
     "Not Crying Blue Teardrop": 11,
     "Just a Sparkle": 8,
@@ -878,7 +878,7 @@
     "Joy Blue Teardrop": 12
   },
   "Treats": {
-    "None": 5146,
+    "None": 5145,
     "Mod Monarch": 4,
     "Mod Blue": 23,
     "Mod Red": 9,
@@ -887,7 +887,7 @@
   },
   "Background": {
     "Purple": 108,
-    "MKRS": 3371,
+    "MKRS": 3370,
     "Blue": 13,
     "Red": 360,
     "None": 1338
