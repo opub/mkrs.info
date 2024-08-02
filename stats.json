@@ -44,8 +44,8 @@
     "Taped Rainbow": 39,
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 12,
-    "None": 1414,
-    "Pixel Fire": 7
+    "Pixel Fire": 7,
+    "None": 1414
   },
   "Split": {
     "Painted Vintage": 1,
@@ -670,9 +670,9 @@
     "5 of Diamonds Black": 4,
     "Trucker Dark Grey": 7,
     "7 of Spades Black": 6,
-    "None": 1416,
     "8 of Hearts Black": 4,
     "5 of Clubs Red": 9,
+    "None": 1416,
     "8 of Hearts White": 12,
     "8 of Spades Black": 10,
     "6 of Clubs White": 12,
