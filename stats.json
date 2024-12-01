@@ -22,7 +22,7 @@
     "Spirit Pink": 122,
     "Devil Red": 150,
     "Devil Red LDZ": 77,
-    "Crystal Diamond": 125,
+    "Crystal Diamond": 126,
     "Crystal Emerald LDZ": 54,
     "Spirit Neon LDZ": 66,
     "Sky Clear": 87,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 8,
-    "None": 5050,
+    "None": 5051,
     "Pixel Fire Split": 5,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -248,7 +248,7 @@
     "Black Overalls": 25,
     "Lavender Coveralls": 18,
     "BSD Hoodie": 9,
-    "Green Pit": 25,
+    "Green Pit": 26,
     "Green Vest on White Crewneck": 18,
     "Pink Crewneck": 18,
     "Red Crewneck": 10,
@@ -338,11 +338,11 @@
     "Open Blue": 52,
     "Roll Black": 42,
     "Shiner Black": 44,
-    "Sus Black": 43
+    "Sus Black": 44
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4207,
+    "None": 4208,
     "Bob White": 16,
     "Pony Blue": 29,
     "Bob Yellow": 17,
@@ -508,7 +508,7 @@
     "8 of Spades Mint": 1,
     "Five Panel Black": 31,
     "Jack of Diamonds Mint": 1,
-    "Beanie Sand": 39,
+    "Beanie Sand": 40,
     "Cans Pink": 27,
     "9 of Hearts Mint": 1,
     "6 of Hearts Mint": 1,
@@ -780,7 +780,7 @@
     "Green Pass Basic": 44,
     "Blue Pass Builder": 14,
     "Green Pass Play": 1,
-    "Sand Pass Maker": 174,
+    "Sand Pass Maker": 175,
     "Green Pass Rizz": 1,
     "Rainbow Pass Basic": 1,
     "Green Pass Puff": 9,
@@ -853,7 +853,7 @@
     "White Lips": 45,
     "Pink Sus": 51,
     "White Pick": 41,
-    "Stoic": 506,
+    "Stoic": 507,
     "Maroon Smirk": 41,
     "Red Smirk": 37,
     "Yellow Pick": 42,
@@ -866,7 +866,7 @@
     "Yellow Lips": 47
   },
   "Teardrop": {
-    "None": 5122,
+    "None": 5123,
     "Something In My Eye Clear Teardrop": 15,
     "Just a Sparkle": 7,
     "Not Crying Blue Teardrop": 10,
@@ -876,7 +876,7 @@
     "Joy Blue Teardrop": 10
   },
   "Treats": {
-    "None": 5145,
+    "None": 5146,
     "Mod Monarch": 4,
     "Mod Blue": 22,
     "Mod Red": 8,
@@ -885,7 +885,7 @@
   },
   "Background": {
     "Purple": 88,
-    "MKRS": 3010,
+    "MKRS": 3011,
     "Blue": 13,
     "Red": 311,
     "None": 1765
