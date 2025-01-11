@@ -45,12 +45,12 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 10,
     "Pixel Fire": 4,
-    "None": 1995
+    "None": 1996
   },
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 7,
-    "None": 5062,
+    "None": 5063,
     "Pixel Fire Split": 3,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -144,7 +144,7 @@
     "Sand Vest on White Crewneck": 20,
     "Rainbow Sand T-Shirt": 10,
     "Rainbow Based Hoodie": 12,
-    "None": 2011,
+    "None": 2012,
     "Brand MKRS Dark Grey T-Shirt": 8,
     "Pocket MKRS Pink T-Shirt": 9,
     "Lavender Turtleneck": 16,
@@ -235,6 +235,7 @@
     "Black Tank": 27,
     "BSD Holy T-Shirt": 14,
     "Sand Crewneck": 10,
+    "Stretched MKRS Hoodie": 14,
     "Lavender Hoodie": 10,
     "White Coveralls": 18,
     "BSD White T-Shirt": 10,
@@ -250,7 +251,6 @@
     "Green Vest on White Crewneck": 18,
     "Pink Crewneck": 17,
     "Red Crewneck": 10,
-    "Stretched MKRS Hoodie": 14,
     "Sand Coveralls": 19,
     "Green Pit": 21,
     "Pink Pit": 20,
@@ -263,7 +263,7 @@
     "IYKYK Clear": 26,
     "Side Green": 41,
     "Nope Clear": 23,
-    "None": 2566,
+    "None": 2567,
     "MKRS Green": 23,
     "Side Black": 43,
     "Nope Red": 23,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4262,
+    "None": 4263,
     "Bob White": 16,
     "Pony Blue": 28,
     "Bob Yellow": 16,
@@ -667,7 +667,7 @@
     "7 of Spades Black": 5,
     "8 of Hearts Black": 4,
     "5 of Clubs Red": 9,
-    "None": 1997,
+    "None": 1998,
     "5 of Diamonds Red": 3,
     "8 of Hearts White": 10,
     "8 of Spades Black": 10,
@@ -747,7 +747,7 @@
     "Sand Pass Basic": 46,
     "Red Pass Lapel": 66,
     "Lavender Pass Basic": 40,
-    "None": 1999,
+    "None": 2000,
     "Grey Pass Maker": 152,
     "White Pass Basic": 42,
     "Dark Grey Pass Puff": 11,
@@ -844,7 +844,7 @@
     "Red Sus": 38,
     "IYKYK": 447,
     "Maroon Pick": 41,
-    "None": 2564,
+    "None": 2565,
     "Pink Pick": 50,
     "This": 440,
     "Maroon Sus": 50,
@@ -864,7 +864,7 @@
     "Yellow Lips": 44
   },
   "Teardrop": {
-    "None": 5131,
+    "None": 5132,
     "Something In My Eye Clear Teardrop": 13,
     "Just a Sparkle": 6,
     "Not Crying Blue Teardrop": 10,
@@ -874,7 +874,7 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5149,
+    "None": 5150,
     "Mod Monarch": 4,
     "Mod Blue": 21,
     "Mod Red": 7,
@@ -886,6 +886,6 @@
     "MKRS": 2804,
     "Blue": 13,
     "Red": 290,
-    "None": 1995
+    "None": 1996
   }
 }
