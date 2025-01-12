@@ -16,7 +16,7 @@
     "Flowers Vintage": 36,
     "Crystal Emerald": 95,
     "Taped Caution LDZ": 37,
-    "Sky Storm": 98,
+    "Sky Storm": 97,
     "Taped Mono LDZ": 27,
     "Taped Mono": 47,
     "Spirit Pink": 114,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 7,
-    "None": 5063,
+    "None": 5062,
     "Pixel Fire Split": 3,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -252,7 +252,7 @@
     "Pink Crewneck": 17,
     "Red Crewneck": 10,
     "Sand Coveralls": 19,
-    "Green Pit": 21,
+    "Green Pit": 20,
     "Pink Pit": 20,
     "NKD Blue Overalls": 7
   },
@@ -338,11 +338,11 @@
     "Open Blue": 50,
     "Shiner Black": 41,
     "Roll Black": 39,
-    "Sus Black": 43
+    "Sus Black": 42
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4263,
+    "None": 4262,
     "Bob White": 16,
     "Pony Blue": 28,
     "Bob Yellow": 16,
@@ -485,7 +485,7 @@
     "Ace of Clubs White": 8,
     "59MKRS Lavender": 21,
     "Bucket Dark Grey": 18,
-    "Andre Blue": 16,
+    "Andre Blue": 15,
     "Hitchhiker White & White": 14,
     "59MKRS Red": 31,
     "Trucker Yellow": 12,
@@ -754,7 +754,7 @@
     "Sand Pass Devs": 11,
     "Green Pass Cozy": 2,
     "Red Pass Basic": 35,
-    "Lavender Pass Lapel": 84,
+    "Lavender Pass Lapel": 83,
     "Blue Pass Maker": 150,
     "Sand Pass Builder": 10,
     "Onyx Pass Play": 1,
@@ -851,7 +851,7 @@
     "White Lips": 42,
     "Pink Sus": 47,
     "White Pick": 38,
-    "Stoic": 469,
+    "Stoic": 468,
     "Maroon Smirk": 37,
     "Red Smirk": 37,
     "Yellow Pick": 41,
@@ -864,7 +864,7 @@
     "Yellow Lips": 44
   },
   "Teardrop": {
-    "None": 5132,
+    "None": 5131,
     "Something In My Eye Clear Teardrop": 13,
     "Just a Sparkle": 6,
     "Not Crying Blue Teardrop": 10,
@@ -874,7 +874,7 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5150,
+    "None": 5149,
     "Mod Monarch": 4,
     "Mod Blue": 21,
     "Mod Red": 7,
@@ -883,7 +883,7 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2804,
+    "MKRS": 2803,
     "Blue": 13,
     "Red": 290,
     "None": 1996
