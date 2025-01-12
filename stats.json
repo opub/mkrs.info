@@ -16,7 +16,7 @@
     "Flowers Vintage": 36,
     "Crystal Emerald": 95,
     "Taped Caution LDZ": 37,
-    "Sky Storm": 97,
+    "Sky Storm": 98,
     "Taped Mono LDZ": 27,
     "Taped Mono": 47,
     "Spirit Pink": 114,
@@ -45,7 +45,7 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 10,
     "Pixel Fire": 4,
-    "None": 1996
+    "None": 1995
   },
   "Split": {
     "Painted Vintage": 1,
@@ -144,7 +144,7 @@
     "Sand Vest on White Crewneck": 20,
     "Rainbow Sand T-Shirt": 10,
     "Rainbow Based Hoodie": 12,
-    "None": 2012,
+    "None": 2011,
     "Brand MKRS Dark Grey T-Shirt": 8,
     "Pocket MKRS Pink T-Shirt": 9,
     "Lavender Turtleneck": 16,
@@ -252,7 +252,7 @@
     "Pink Crewneck": 17,
     "Red Crewneck": 10,
     "Sand Coveralls": 19,
-    "Green Pit": 20,
+    "Green Pit": 21,
     "Pink Pit": 20,
     "NKD Blue Overalls": 7
   },
@@ -263,7 +263,7 @@
     "IYKYK Clear": 26,
     "Side Green": 41,
     "Nope Clear": 23,
-    "None": 2567,
+    "None": 2566,
     "MKRS Green": 23,
     "Side Black": 43,
     "Nope Red": 23,
@@ -338,7 +338,7 @@
     "Open Blue": 50,
     "Shiner Black": 41,
     "Roll Black": 39,
-    "Sus Black": 42
+    "Sus Black": 43
   },
   "Hair": {
     "Bangs Yellow": 13,
@@ -485,7 +485,7 @@
     "Ace of Clubs White": 8,
     "59MKRS Lavender": 21,
     "Bucket Dark Grey": 18,
-    "Andre Blue": 15,
+    "Andre Blue": 16,
     "Hitchhiker White & White": 14,
     "59MKRS Red": 31,
     "Trucker Yellow": 12,
@@ -667,7 +667,7 @@
     "7 of Spades Black": 5,
     "8 of Hearts Black": 4,
     "5 of Clubs Red": 9,
-    "None": 1998,
+    "None": 1997,
     "5 of Diamonds Red": 3,
     "8 of Hearts White": 10,
     "8 of Spades Black": 10,
@@ -747,14 +747,14 @@
     "Sand Pass Basic": 46,
     "Red Pass Lapel": 66,
     "Lavender Pass Basic": 40,
-    "None": 2000,
+    "None": 1999,
     "Grey Pass Maker": 152,
     "White Pass Basic": 42,
     "Dark Grey Pass Puff": 11,
     "Sand Pass Devs": 11,
     "Green Pass Cozy": 2,
     "Red Pass Basic": 35,
-    "Lavender Pass Lapel": 83,
+    "Lavender Pass Lapel": 84,
     "Blue Pass Maker": 150,
     "Sand Pass Builder": 10,
     "Onyx Pass Play": 1,
@@ -844,14 +844,14 @@
     "Red Sus": 38,
     "IYKYK": 447,
     "Maroon Pick": 41,
-    "None": 2565,
+    "None": 2564,
     "Pink Pick": 50,
     "This": 440,
     "Maroon Sus": 50,
     "White Lips": 42,
     "Pink Sus": 47,
     "White Pick": 38,
-    "Stoic": 468,
+    "Stoic": 469,
     "Maroon Smirk": 37,
     "Red Smirk": 37,
     "Yellow Pick": 41,
@@ -883,9 +883,9 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2803,
+    "MKRS": 2804,
     "Blue": 13,
     "Red": 290,
-    "None": 1996
+    "None": 1995
   }
 }
