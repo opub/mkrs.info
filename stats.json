@@ -21,7 +21,7 @@
     "Taped Mono": 46,
     "Spirit Pink": 114,
     "Devil Red": 139,
-    "Devil Red LDZ": 72,
+    "Devil Red LDZ": 71,
     "Crystal Diamond": 116,
     "Crystal Emerald LDZ": 47,
     "Spirit Neon LDZ": 63,
@@ -44,13 +44,13 @@
     "Taped Rainbow": 37,
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 10,
-    "Pixel Fire": 4,
-    "None": 2005
+    "None": 2005,
+    "Pixel Fire": 4
   },
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 7,
-    "None": 5063,
+    "None": 5062,
     "Pixel Fire Split": 3,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -165,7 +165,7 @@
     "Light Grey Pit": 17,
     "Yellow Turtleneck": 22,
     "Black Vest on White T-Shirt": 19,
-    "Dark Grey T-Shirt": 43,
+    "Dark Grey T-Shirt": 42,
     "Light Grey Overalls": 18,
     "Blue Vest on White T-Shirt": 17,
     "Pocket MKRS Yellow T-Shirt": 22,
@@ -289,7 +289,7 @@
     "Side BLue": 41,
     "Wide Blue": 40,
     "IYKYK Blue": 16,
-    "Big Clear": 24,
+    "Big Clear": 23,
     "MKRS Clear": 18,
     "Big Red": 20,
     "Wink Red": 25,
@@ -357,7 +357,7 @@
     "Ramona Green": 12,
     "Side Shave Sand": 17,
     "Pixie Sand": 11,
-    "Side Shave Grey": 18,
+    "Side Shave Grey": 17,
     "Bob Pink": 19,
     "Pixie Yellow": 15,
     "Pixie Pink": 16,
@@ -636,7 +636,7 @@
     "Ace of Hearts Red": 4,
     "Dad Light Grey": 20,
     "6 of Spades Black": 3,
-    "6 of Hearts Red": 5,
+    "6 of Hearts Red": 4,
     "10 of Clubs Black": 4,
     "3 of Hearts Black": 5,
     "10 of Hearts White": 4,
@@ -744,7 +744,7 @@
     "Rainbow Pass Maker": 2,
     "Gold Pass Basic": 1,
     "Yellow Pass Lapel": 66,
-    "Sand Pass Basic": 46,
+    "Sand Pass Basic": 45,
     "Red Pass Lapel": 66,
     "Lavender Pass Basic": 40,
     "None": 2009,
@@ -838,7 +838,7 @@
     "Grey Pass Devs": 16
   },
   "Mouth": {
-    "Red Pick": 59,
+    "Red Pick": 58,
     "SUS": 431,
     "White Smirk": 53,
     "Red Sus": 38,
@@ -864,7 +864,7 @@
     "Yellow Lips": 44
   },
   "Teardrop": {
-    "None": 5132,
+    "None": 5131,
     "Something In My Eye Clear Teardrop": 13,
     "Just a Sparkle": 6,
     "Not Crying Blue Teardrop": 10,
@@ -874,7 +874,7 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5150,
+    "None": 5149,
     "Mod Monarch": 4,
     "Mod Blue": 21,
     "Mod Red": 7,
@@ -883,7 +883,7 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2795,
+    "MKRS": 2794,
     "Blue": 13,
     "Red": 290,
     "None": 2005
