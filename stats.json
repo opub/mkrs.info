@@ -30,7 +30,7 @@
     "Devil Green": 131,
     "Spirit Neon": 107,
     "Spirit Pink LDZ": 62,
-    "Bad Frens Pink": 80,
+    "Bad Frens Pink": 79,
     "Taped Caution": 78,
     "Crystal Diamond LDZ": 45,
     "Flowers Rainbow": 16,
@@ -45,7 +45,7 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 10,
     "Pixel Fire": 4,
-    "None": 2019
+    "None": 2020
   },
   "Split": {
     "Painted Vintage": 1,
@@ -144,7 +144,7 @@
     "Sand Vest on White Crewneck": 20,
     "Rainbow Sand T-Shirt": 10,
     "Rainbow Based Hoodie": 12,
-    "None": 2035,
+    "None": 2036,
     "Brand MKRS Dark Grey T-Shirt": 8,
     "Pocket MKRS Pink T-Shirt": 9,
     "Lavender Turtleneck": 15,
@@ -168,7 +168,7 @@
     "Dark Grey T-Shirt": 42,
     "Light Grey Overalls": 18,
     "Blue Vest on White T-Shirt": 17,
-    "Pocket MKRS Yellow T-Shirt": 22,
+    "Pocket MKRS Yellow T-Shirt": 21,
     "White Vest on White T-Shirt": 26,
     "Stretched MKRS Black Crewneck": 7,
     "Yellow Hoodie": 19,
@@ -523,7 +523,7 @@
     "Five Panel Red": 25,
     "Chad Pink": 17,
     "Beanie Blue": 34,
-    "Mess Sand": 32,
+    "Mess Sand": 31,
     "Dad Pink": 27,
     "Joker Mint": 2,
     "Joker Black": 1,
@@ -667,7 +667,7 @@
     "7 of Spades Black": 5,
     "8 of Hearts Black": 4,
     "5 of Clubs Red": 9,
-    "None": 2021,
+    "None": 2022,
     "5 of Diamonds Red": 3,
     "8 of Hearts White": 10,
     "8 of Spades Black": 10,
@@ -747,14 +747,14 @@
     "Sand Pass Basic": 45,
     "Red Pass Lapel": 66,
     "Lavender Pass Basic": 40,
-    "None": 2023,
+    "None": 2024,
     "Grey Pass Maker": 149,
     "White Pass Basic": 42,
     "Dark Grey Pass Puff": 11,
     "Sand Pass Devs": 11,
     "Green Pass Cozy": 2,
     "Red Pass Basic": 35,
-    "Lavender Pass Lapel": 84,
+    "Lavender Pass Lapel": 83,
     "Blue Pass Maker": 150,
     "Sand Pass Builder": 10,
     "Onyx Pass Play": 1,
@@ -874,18 +874,18 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5149,
+    "None": 5150,
     "Mod Monarch": 4,
-    "Mod Blue": 21,
+    "Mod Blue": 20,
     "Mod Red": 7,
     "Mod Mint": 3,
     "Mod Purple": 5
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2780,
+    "MKRS": 2779,
     "Blue": 13,
     "Red": 290,
-    "None": 2019
+    "None": 2020
   }
 }
