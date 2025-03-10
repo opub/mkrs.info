@@ -28,7 +28,7 @@
     "Sky Clear": 76,
     "Crystal Ruby LDZ": 32,
     "Devil Green": 130,
-    "Spirit Neon": 107,
+    "Spirit Neon": 106,
     "Spirit Pink LDZ": 61,
     "Bad Frens Pink": 80,
     "Taped Caution": 78,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 7,
-    "None": 5064,
+    "None": 5063,
     "Pixel Fire Split": 3,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -228,7 +228,6 @@
     "Rainbow Based Crewneck": 10,
     "Dark Grey Hoodie": 18,
     "Stretched MKRS Crewneck": 15,
-    "Brand MKRS Lavender Crewneck": 16,
     "White Tank": 20,
     "Black Tank": 27,
     "BSD Holy T-Shirt": 14,
@@ -247,6 +246,7 @@
     "Black Overalls": 24,
     "Lavender Coveralls": 17,
     "BSD Hoodie": 9,
+    "Brand MKRS Lavender Crewneck": 15,
     "Green Vest on White Crewneck": 18,
     "Pink Turtleneck": 17,
     "Pink Crewneck": 16,
@@ -316,7 +316,7 @@
     "Side Black": 42,
     "Big Green": 22,
     "Shiner Red": 43,
-    "Sus Red": 38,
+    "Sus Red": 37,
     "Sly Blue": 26,
     "IYKYK Red": 20,
     "Side Red": 48,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4276,
+    "None": 4275,
     "Bob White": 16,
     "Pony Blue": 25,
     "Bob Yellow": 15,
@@ -681,7 +681,7 @@
     "Dust Up White": 13,
     "Mess Pink": 31,
     "Hitchhiker Green & Green": 12,
-    "Chad Green": 5,
+    "Chad Green": 4,
     "Mess Green": 12,
     "Pan Blue": 21,
     "Chad Sand": 30,
@@ -788,7 +788,7 @@
     "Yellow Pass Basic": 43,
     "Glitch Pass Driver": 1,
     "Pink Pass Lapel": 70,
-    "Dark Grey Pass Maker": 167,
+    "Dark Grey Pass Maker": 166,
     "Yellow Pass Maker": 141,
     "Grey Pass Play": 2,
     "Cloud Pass Puff": 1,
@@ -838,7 +838,7 @@
   },
   "Mouth": {
     "Red Pick": 56,
-    "SUS": 423,
+    "SUS": 422,
     "White Smirk": 52,
     "Red Sus": 37,
     "IYKYK": 438,
@@ -863,7 +863,7 @@
     "Yellow Lips": 42
   },
   "Teardrop": {
-    "None": 5132,
+    "None": 5131,
     "Something In My Eye Clear Teardrop": 13,
     "Just a Sparkle": 6,
     "Not Crying Blue Teardrop": 10,
@@ -873,7 +873,7 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5150,
+    "None": 5149,
     "Mod Monarch": 4,
     "Mod Blue": 21,
     "Mod Red": 7,
@@ -882,7 +882,7 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2756,
+    "MKRS": 2755,
     "Blue": 13,
     "Red": 289,
     "None": 2045
