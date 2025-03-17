@@ -1,6 +1,6 @@
 {
   "DNA": {
-    "Taped Rainbow LDZ": 32,
+    "Taped Rainbow LDZ": 31,
     "Spirit Clear": 105,
     "Devil Purple LDZ": 64,
     "Spirit Clear LDZ": 72,
@@ -45,7 +45,7 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 10,
     "Pixel Fire": 4,
-    "None": 2043
+    "None": 2044
   },
   "Split": {
     "Painted Vintage": 1,
@@ -73,7 +73,7 @@
     "Dark Grey Holy T-Shirt": 26,
     "White T-Shirt": 33,
     "Blue Hoodie": 30,
-    "White Puffer": 25,
+    "White Puffer": 24,
     "Brand MKRS Yellow Holy T-Shirt": 6,
     "Black Holy T-Shirt": 32,
     "Pink Jumpsuit": 10,
@@ -143,7 +143,7 @@
     "Sand Vest on White Crewneck": 20,
     "Rainbow Sand T-Shirt": 10,
     "Rainbow Based Hoodie": 12,
-    "None": 2059,
+    "None": 2060,
     "Pocket MKRS Pink T-Shirt": 9,
     "Lavender Turtleneck": 15,
     "Biker on White Tank": 12,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4274,
+    "None": 4275,
     "Bob White": 16,
     "Pony Blue": 25,
     "Bob Yellow": 15,
@@ -385,7 +385,7 @@
     "Bob Sand": 11,
     "Pixie Blue": 14,
     "Buns Blue": 13,
-    "Pony Yellow": 12,
+    "Pony Yellow": 11,
     "Part White": 16,
     "Side Shave Pink": 11,
     "Side Shave Green": 17,
@@ -452,7 +452,7 @@
     "Queen of Diamond White": 14,
     "King of Hearts White": 10,
     "59MKRS White": 5,
-    "2 of Hearts Black": 8,
+    "2 of Hearts Black": 7,
     "Mess Grey": 32,
     "Pan Dark Grey": 18,
     "7 of Diamonds Black": 10,
@@ -667,7 +667,7 @@
     "7 of Spades Black": 5,
     "8 of Hearts Black": 4,
     "5 of Clubs Red": 9,
-    "None": 2045,
+    "None": 2046,
     "5 of Diamonds Red": 3,
     "8 of Hearts White": 10,
     "8 of Spades Black": 10,
@@ -746,7 +746,7 @@
     "Sand Pass Basic": 44,
     "Red Pass Lapel": 64,
     "Lavender Pass Basic": 40,
-    "None": 2047,
+    "None": 2048,
     "Grey Pass Maker": 149,
     "White Pass Basic": 42,
     "Dark Grey Pass Puff": 10,
@@ -762,7 +762,7 @@
     "White Pass Maker": 149,
     "Rainbow Pass Builder": 1,
     "Sand Pass Play": 1,
-    "Grey Pass Cozy": 7,
+    "Grey Pass Cozy": 6,
     "Yellow Pass Puff": 4,
     "Dark Grey Pass Basic": 35,
     "Green Pass Lapel": 61,
@@ -882,9 +882,9 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2756,
+    "MKRS": 2755,
     "Blue": 13,
     "Red": 289,
-    "None": 2043
+    "None": 2044
   }
 }
