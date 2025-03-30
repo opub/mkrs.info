@@ -1,6 +1,6 @@
 {
   "DNA": {
-    "Taped Rainbow LDZ": 30,
+    "Taped Rainbow LDZ": 31,
     "Spirit Clear": 105,
     "Devil Purple LDZ": 64,
     "Spirit Clear LDZ": 72,
@@ -45,12 +45,12 @@
     "Pixel Rainbow": 1,
     "Painted Rainbow LDZ": 10,
     "Pixel Fire": 4,
-    "None": 2057
+    "None": 2053
   },
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 7,
-    "None": 5063,
+    "None": 5060,
     "Pixel Fire Split": 3,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -143,7 +143,7 @@
     "Sand Vest on White Crewneck": 20,
     "Rainbow Sand T-Shirt": 10,
     "Rainbow Based Hoodie": 12,
-    "None": 2073,
+    "None": 2069,
     "Pocket MKRS Pink T-Shirt": 9,
     "Lavender Turtleneck": 15,
     "Biker on White Tank": 12,
@@ -207,7 +207,7 @@
     "Focus Based T-Shirt": 4,
     "Dark Grey Trainer": 8,
     "Black Trainer": 11,
-    "Pink T-Shirt": 25,
+    "Pink T-Shirt": 26,
     "White Short Tank": 11,
     "Painted Tank": 23,
     "Green Short Tank": 9,
@@ -263,7 +263,7 @@
     "IYKYK Clear": 26,
     "Side Green": 39,
     "Nope Clear": 23,
-    "None": 2618,
+    "None": 2615,
     "MKRS Green": 23,
     "Nope Red": 21,
     "Sly Red": 26,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4284,
+    "None": 4280,
     "Bob White": 15,
     "Pony Blue": 25,
     "Bob Yellow": 15,
@@ -355,7 +355,7 @@
     "Ramona Grey": 9,
     "Pony Red": 21,
     "Ramona Green": 12,
-    "Side Shave Sand": 15,
+    "Side Shave Sand": 16,
     "Pixie Sand": 11,
     "Side Shave Grey": 16,
     "Bob Pink": 18,
@@ -666,12 +666,12 @@
     "7 of Spades Black": 5,
     "8 of Hearts Black": 4,
     "5 of Clubs Red": 9,
-    "None": 2059,
+    "None": 2055,
     "5 of Diamonds Red": 3,
     "8 of Hearts White": 10,
     "Jack of Hearts Black": 1,
     "8 of Spades Black": 10,
-    "6 of Clubs White": 8,
+    "6 of Clubs White": 9,
     "5 of Hearts White": 7,
     "Dad White": 5,
     "5 of Clubs White": 4,
@@ -746,7 +746,7 @@
     "Sand Pass Basic": 43,
     "Red Pass Lapel": 64,
     "Lavender Pass Basic": 40,
-    "None": 2061,
+    "None": 2057,
     "Grey Pass Maker": 149,
     "White Pass Basic": 41,
     "Dark Grey Pass Puff": 10,
@@ -764,7 +764,7 @@
     "Sand Pass Play": 1,
     "Grey Pass Cozy": 7,
     "Yellow Pass Puff": 4,
-    "Dark Grey Pass Basic": 34,
+    "Dark Grey Pass Basic": 35,
     "Green Pass Lapel": 61,
     "Onyx Pass Devs": 4,
     "Pink Pass Maker": 160,
@@ -843,7 +843,7 @@
     "Red Sus": 36,
     "IYKYK": 438,
     "Maroon Pick": 41,
-    "None": 2616,
+    "None": 2613,
     "Pink Pick": 50,
     "Maroon Sus": 49,
     "White Lips": 42,
@@ -863,7 +863,7 @@
     "Yellow Lips": 42
   },
   "Teardrop": {
-    "None": 5131,
+    "None": 5128,
     "Something In My Eye Clear Teardrop": 13,
     "Just a Sparkle": 6,
     "Not Crying Blue Teardrop": 10,
@@ -873,7 +873,7 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5149,
+    "None": 5146,
     "Mod Monarch": 4,
     "Mod Blue": 21,
     "Mod Red": 7,
@@ -882,9 +882,9 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2743,
+    "MKRS": 2744,
     "Blue": 13,
     "Red": 289,
-    "None": 2057
+    "None": 2053
   }
 }
