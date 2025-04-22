@@ -22,7 +22,7 @@
     "Spirit Pink": 110,
     "Devil Red": 136,
     "Devil Red LDZ": 70,
-    "Crystal Diamond": 114,
+    "Crystal Diamond": 113,
     "Crystal Emerald LDZ": 46,
     "Spirit Neon LDZ": 61,
     "Sky Clear": 76,
@@ -50,7 +50,7 @@
   "Split": {
     "Painted Vintage": 1,
     "Flowers Vintage Split": 7,
-    "None": 5063,
+    "None": 5062,
     "Pixel Fire Split": 3,
     "Pixel Mono Split": 5,
     "Painted Mono": 6,
@@ -252,7 +252,7 @@
     "Pink Crewneck": 16,
     "Red Crewneck": 10,
     "Sand Coveralls": 19,
-    "Green Pit": 21,
+    "Green Pit": 20,
     "Pink Pit": 19,
     "NKD Blue Overalls": 7
   },
@@ -278,7 +278,7 @@
     "Brow Green": 17,
     "Open Clear": 36,
     "Open Black": 40,
-    "Shiner Clear": 48,
+    "Shiner Clear": 47,
     "Sus Blue": 38,
     "Not Winking Clear": 48,
     "Oh_ Black": 19,
@@ -342,7 +342,7 @@
   },
   "Hair": {
     "Bangs Yellow": 13,
-    "None": 4283,
+    "None": 4282,
     "Bob White": 15,
     "Pony Blue": 25,
     "Bob Yellow": 15,
@@ -510,7 +510,7 @@
     "Cans Pink": 26,
     "9 of Hearts Mint": 1,
     "6 of Hearts Mint": 1,
-    "Pan Green": 23,
+    "Pan Green": 22,
     "Tape Black": 29,
     "Tape Yellow": 22,
     "Dust Up Sand": 12,
@@ -754,7 +754,7 @@
     "Green Pass Cozy": 2,
     "Red Pass Basic": 34,
     "Lavender Pass Lapel": 84,
-    "Blue Pass Maker": 147,
+    "Blue Pass Maker": 146,
     "Sand Pass Builder": 10,
     "Onyx Pass Play": 1,
     "Onyx Pass Basic": 9,
@@ -849,7 +849,7 @@
     "White Lips": 42,
     "Pink Sus": 46,
     "White Pick": 36,
-    "This": 430,
+    "This": 429,
     "Stoic": 461,
     "Maroon Smirk": 37,
     "Red Smirk": 36,
@@ -863,7 +863,7 @@
     "Yellow Lips": 42
   },
   "Teardrop": {
-    "None": 5131,
+    "None": 5130,
     "Something In My Eye Clear Teardrop": 13,
     "Just a Sparkle": 5,
     "Not Crying Blue Teardrop": 10,
@@ -873,7 +873,7 @@
     "Joy Blue Teardrop": 9
   },
   "Treats": {
-    "None": 5148,
+    "None": 5147,
     "Mod Monarch": 4,
     "Mod Blue": 21,
     "Mod Red": 7,
@@ -882,7 +882,7 @@
   },
   "Background": {
     "Purple": 87,
-    "MKRS": 2732,
+    "MKRS": 2731,
     "Blue": 13,
     "Red": 282,
     "None": 2074
